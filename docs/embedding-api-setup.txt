@@ -1,0 +1,186 @@
+AgentDNS 向量 API 接入火山方舟 Doubao-embedding-vision 完整指南
+一、前置准备（火山方舟控制台操作）
+登录 火山方舟控制台
+进入 模型推理 → 在线推理
+开通 Doubao-embedding-vision 模型
+为该模型 创建推理接入点，记录下接入点 ID（格式：ep-xxxxxxxxxxxxxx）
+创建 API Key，记录下 Key 值
+二、需要修改的文件清单
+共修改 3 个文件：
+
+文件路径	修改内容
+agentdns-backend/.env	配置 API Key、接入点 ID
+agentdns-backend/app/core/config.py	向量维度、默认模型名
+agentdns-backend/app/services/embedding_service.py	改用多模态 API 端点
+三、各文件详细修改内容
+文件 1：agentdns-backend/.env
+修改位置：第 14 行、第 22-24 行
+
+# Milvus vector database configuration
+MILVUS_HOST=localhost
+MILVUS_PORT=19530
+MILVUS_COLLECTION_NAME=agentdns_services
+MILVUS_DIMENSION=2048          ← 从 2560 改为 2048
+
+# OpenAI API Configuration
+OPENAI_API_KEY=你的API_KEY       ← 填入你的真实 API Key
+OPENAI_BASE_URL=https://ark.cn-beijing.volces.com/api/v3
+OPENAI_EMBEDDING_MODEL=你的接入点ID  ← 填入你的接入点 ID，如 ep-20260403194159-ld5zp
+OPENAI_MAX_TOKENS=4096
+说明：
+
+MILVUS_DIMENSION 必须改为 2048，因为 Doubao-embedding-vision 输出的是 2048 维向量
+OPENAI_EMBEDDING_MODEL 填的是接入点 ID，不是模型名称
+文件 2：agentdns-backend/app/core/config.py
+修改位置：第 15 行、第 35 行
+
+    # Milvus Vector Database
+    MILVUS_HOST: str = "localhost"
+    MILVUS_PORT: int = 19530
+    MILVUS_COLLECTION_NAME: str = "agentdns_services"
+    MILVUS_DIMENSION: int = 2048  # doubao-embedding-vision outputs 2048-dim vectors  ← 从 2560 改为 2048
+
+    ...
+
+    # OpenAI Embedding (custom configuration)
+    OPENAI_BASE_URL: str = "https://ark.cn-beijing.volces.com/api/v3"
+    OPENAI_EMBEDDING_MODEL: str = "ep-20260403194159-ld5zp"  ← 改为你的接入点 ID
+    OPENAI_MAX_TOKENS: int = 4096
+文件 3：agentdns-backend/app/services/embedding_service.py
+这是最关键的修改，因为 Doubao-embedding-vision 使用的是多模态 API（/embeddings/multimodal），请求格式和响应格式都与标准 OpenAI 接口不同。
+
+3.1 修改 _get_embedding 方法（约第 112-171 行）
+替换为以下代码：
+
+    def _get_embedding(self, text: str, retries: int = 3) -> List[float]:
+        """
+        Call Volcengine Ark multimodal embedding API
+        Uses /embeddings/multimodal endpoint with text-only input
+        """
+        import time
+        import requests
+        
+        for attempt in range(retries):
+            try:
+                url = f"{settings.OPENAI_BASE_URL}/embeddings/multimodal"
+                headers = {
+                    "Authorization": f"Bearer {settings.OPENAI_API_KEY}",
+                    "Content-Type": "application/json",
+                }
+                data = {
+                    "model": self.model,
+                    "input": [
+                        {
+                            "type": "text",
+                            "text": text
+                        }
+                    ]
+                }
+                
+                response = requests.post(url, headers=headers, json=data, timeout=30.0)
+                
+                if response.status_code != 200:
+                    raise Exception(f"HTTP {response.status_code}: {response.text}")
+                
+                result = response.json()
+                
+                # Parse response: {"data": {"embedding": [...]}}
+                data_obj = result.get("data", {})
+                if isinstance(data_obj, list):
+                    embedding = data_obj[0].get("embedding", [])
+                else:
+                    embedding = data_obj.get("embedding", [])
+                
+                if not embedding:
+                    raise Exception("Empty embedding returned from API")
+                
+                # Validate vector dimension
+                if len(embedding) != self.dimension:
+                    logger.warning(
+                        f"Expected dimension {self.dimension}, got {len(embedding)}"
+                    )
+                
+                logger.debug(f"Generated embedding for text: {text[:100]}...")
+                return embedding
+                
+            except Exception as e:
+                logger.error(f"Volcengine Ark API error (attempt {attempt + 1}): {e}")
+                if attempt < retries - 1:
+                    time.sleep(1)
+                else:
+                    logger.error(f"Failed to get embedding after {retries} attempts: {e}")
+                    raise Exception("Embedding service temporarily unavailable, please try again later")
+        
+        return []
+3.2 修改 batch_create_embeddings 方法（约第 226-277 行）
+替换为以下代码：
+
+    def batch_create_embeddings(self, texts: List[str]) -> List[List[float]]:
+        """
+        Batch create embeddings using Volcengine Ark multimodal API
+        """
+        import requests
+        
+        embeddings = []
+        truncated_texts = [self._truncate_text(text) for text in texts]
+        
+        try:
+            url = f"{settings.OPENAI_BASE_URL}/embeddings/multimodal"
+            headers = {
+                "Authorization": f"Bearer {settings.OPENAI_API_KEY}",
+                "Content-Type": "application/json",
+            }
+            data = {
+                "model": self.model,
+                "input": [
+                    {"type": "text", "text": t} for t in truncated_texts
+                ]
+            }
+            
+            response = requests.post(url, headers=headers, json=data, timeout=60.0)
+            
+            if response.status_code != 200:
+                raise Exception(f"HTTP {response.status_code}: {response.text}")
+            
+            result = response.json()
+            data_obj = result.get("data", {})
+            
+            if isinstance(data_obj, list):
+                for item in data_obj:
+                    embeddings.append(item.get("embedding", [0.0] * self.dimension))
+            else:
+                # Single response fallback
+                embeddings.append(data_obj.get("embedding", [0.0] * self.dimension))
+            
+            logger.info(f"Generated {len(embeddings)} embeddings in batch")
+            return embeddings
+            
+        except Exception as e:
+            logger.error(f"Batch embedding error: {e}")
+            # Fallback to single processing
+            for text in truncated_texts:
+                try:
+                    embedding = self._get_embedding(text)
+                    embeddings.append(embedding)
+                except Exception as single_error:
+                    logger.error(f"Failed to get embedding for text: {single_error}")
+                    embeddings.append([0.0] * self.dimension)
+            
+            return embeddings
+四、核心变更总结
+变更项	原始值	修改后
+API 端点	/api/v3/embeddings（标准 OpenAI）	/api/v3/embeddings/multimodal（多模态）
+请求体格式	{"model": "...", "input": "text"}	{"model": "...", "input": [{"type": "text", "text": "..."}]}
+响应解析	response.data[0].embedding	result["data"]["embedding"] 或 result["data"][0]["embedding"]
+向量维度	2560	2048
+HTTP 客户端	openai.OpenAI SDK	requests 库直接调用
+五、验证方法
+运行测试脚本验证 API 是否连通：
+
+cd agentdns-backend
+python test_embedding_api.py
+预期输出：
+
+[SUCCESS] API 连接成功!
+[SUCCESS] 向量维度: 2048
+[SUCCESS] 维度匹配: YES
