@@ -1,0 +1,16 @@
+version: 1
+plans:
+  debug:
+    per_template: 2
+    scenario_targets:
+      office_study: 4
+      information_processing: 4
+      complex_agent: 4
+      constrained_tasks: 4
+  formal:
+    per_template: 6
+    scenario_targets:
+      office_study: 12
+      information_processing: 12
+      complex_agent: 12
+      constrained_tasks: 12

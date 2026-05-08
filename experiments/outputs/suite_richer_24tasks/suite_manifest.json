@@ -1,0 +1,85 @@
+{
+  "suite_run_id": "local_http_suite_20260420T014721Z",
+  "generated_at": "2026-04-20T02:19:05.830112+00:00",
+  "max_tasks": 24,
+  "groups": [
+    {
+      "file": "直接通用服务组_local_http_runs.jsonl",
+      "total_tasks": 24,
+      "success_tasks": 24,
+      "failed_tasks": 0,
+      "success_rate": 1.0,
+      "avg_total_cost": 0.078638,
+      "avg_total_latency_ms": 12990.54,
+      "avg_steps": 4.38,
+      "review_success_count": 105,
+      "review_failure_count": 0,
+      "group_name": "直接通用服务组"
+    },
+    {
+      "file": "简单规则路由组_local_http_runs.jsonl",
+      "total_tasks": 24,
+      "success_tasks": 24,
+      "failed_tasks": 0,
+      "success_rate": 1.0,
+      "avg_total_cost": 0.091037,
+      "avg_total_latency_ms": 12747.92,
+      "avg_steps": 4.38,
+      "review_success_count": 105,
+      "review_failure_count": 0,
+      "group_name": "简单规则路由组"
+    },
+    {
+      "file": "基础解析组_local_http_runs.jsonl",
+      "total_tasks": 24,
+      "success_tasks": 24,
+      "failed_tasks": 0,
+      "success_rate": 1.0,
+      "avg_total_cost": 0.257475,
+      "avg_total_latency_ms": 13034.67,
+      "avg_steps": 4.38,
+      "review_success_count": 105,
+      "review_failure_count": 0,
+      "group_name": "基础解析组"
+    },
+    {
+      "file": "向量召回增强组_local_http_runs.jsonl",
+      "total_tasks": 24,
+      "success_tasks": 24,
+      "failed_tasks": 0,
+      "success_rate": 1.0,
+      "avg_total_cost": 0.257475,
+      "avg_total_latency_ms": 12958.17,
+      "avg_steps": 4.38,
+      "review_success_count": 105,
+      "review_failure_count": 0,
+      "group_name": "向量召回增强组"
+    },
+    {
+      "file": "信任反馈闭环组_local_http_runs.jsonl",
+      "total_tasks": 24,
+      "success_tasks": 24,
+      "failed_tasks": 0,
+      "success_rate": 1.0,
+      "avg_total_cost": 0.160875,
+      "avg_total_latency_ms": 12767.83,
+      "avg_steps": 4.38,
+      "review_success_count": 105,
+      "review_failure_count": 0,
+      "group_name": "信任反馈闭环组"
+    },
+    {
+      "file": "完整多步协同组_local_http_runs.jsonl",
+      "total_tasks": 24,
+      "success_tasks": 24,
+      "failed_tasks": 0,
+      "success_rate": 1.0,
+      "avg_total_cost": 0.091037,
+      "avg_total_latency_ms": 13196.62,
+      "avg_steps": 4.38,
+      "review_success_count": 105,
+      "review_failure_count": 0,
+      "group_name": "完整多步协同组"
+    }
+  ]
+}

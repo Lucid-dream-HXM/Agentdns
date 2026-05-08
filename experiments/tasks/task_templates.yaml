@@ -1,0 +1,383 @@
+version: 1
+templates:
+- template_id: office_summary_001
+  template_name: 长文整理并生成结构化摘要
+  scenario_family: office_study
+  complexity_level: L2
+  task_goal: 对给定长文进行摘要并抽取关键要点，最终输出为表格。
+  step_chain:
+  - 分类路由判断类
+  - 文本摘要类
+  - 结构化抽取类
+  - 聚合最终生成类
+  required_service_categories:
+  - routing_classification
+  - text_summary
+  - structured_extraction
+  - aggregation
+  input_requirements:
+  - 长文本
+  constraints:
+  - 输出需结构化
+  - 保持信息完整
+  oracle_expectations:
+  - 最终结果可表格化
+  - 要点覆盖率较高
+- template_id: office_notes_002
+  template_name: 多段材料整理为会议纪要
+  scenario_family: office_study
+  complexity_level: L2
+  task_goal: 对多段材料进行整合、归纳并输出纪要。
+  step_chain:
+  - 分类路由判断类
+  - 文本摘要类
+  - 聚合最终生成类
+  required_service_categories:
+  - routing_classification
+  - text_summary
+  - aggregation
+  input_requirements:
+  - 多段文本
+  constraints:
+  - 语言简洁
+  - 结构清晰
+  oracle_expectations:
+  - 摘要完整
+  - 纪要格式合理
+- template_id: info_extract_003
+  template_name: 长文本事件抽取并输出 JSON
+  scenario_family: information_processing
+  complexity_level: L2
+  task_goal: 从文本中抽取事件要素并输出为 JSON。
+  step_chain:
+  - 分类路由判断类
+  - 结构化抽取类
+  - 格式转换类
+  - 校验纠错类
+  required_service_categories:
+  - routing_classification
+  - structured_extraction
+  - format_conversion
+  - validation_correction
+  input_requirements:
+  - 长文本
+  constraints:
+  - 必须输出合法 JSON
+  oracle_expectations:
+  - 字段齐全
+  - 格式正确
+- template_id: info_merge_004
+  template_name: 多来源文本合并并结构化输出
+  scenario_family: information_processing
+  complexity_level: L3
+  task_goal: 对多个来源文本进行信息抽取、去重并汇总输出。
+  step_chain:
+  - 检索信息获取类
+  - 结构化抽取类
+  - 格式转换类
+  - 校验纠错类
+  - 聚合最终生成类
+  required_service_categories:
+  - retrieval
+  - structured_extraction
+  - format_conversion
+  - validation_correction
+  - aggregation
+  input_requirements:
+  - 多来源文本
+  constraints:
+  - 去重
+  - 结构统一
+  oracle_expectations:
+  - 冲突信息被处理
+  - 结果可消费
+- template_id: agent_plan_005
+  template_name: 复杂任务拆分后多步执行
+  scenario_family: complex_agent
+  complexity_level: L3
+  task_goal: 先规划步骤，再调用多个服务完成复杂任务并汇总结果。
+  step_chain:
+  - 规划拆分类
+  - 分类路由判断类
+  - 检索信息获取类
+  - 结构化抽取类
+  - 文本摘要类
+  - 聚合最终生成类
+  required_service_categories:
+  - planning
+  - routing_classification
+  - retrieval
+  - structured_extraction
+  - text_summary
+  - aggregation
+  input_requirements:
+  - 复杂任务描述
+  constraints:
+  - 步骤逻辑合理
+  - 最终输出可执行
+  oracle_expectations:
+  - 步骤拆分正确
+  - 中间结果可流转
+- template_id: agent_multidoc_006
+  template_name: 多文档处理后生成综合结论
+  scenario_family: complex_agent
+  complexity_level: L3
+  task_goal: 处理多文档内容后给出综合结论与建议。
+  step_chain:
+  - 规划拆分类
+  - 检索信息获取类
+  - 文本摘要类
+  - 聚合最终生成类
+  - 校验纠错类
+  required_service_categories:
+  - planning
+  - retrieval
+  - text_summary
+  - aggregation
+  - validation_correction
+  input_requirements:
+  - 多文档内容
+  constraints:
+  - 结论完整
+  - 逻辑一致
+  oracle_expectations:
+  - 聚合质量高
+  - 结论可靠
+- template_id: constrained_json_007
+  template_name: 在预算约束下完成结构化输出
+  scenario_family: constrained_tasks
+  complexity_level: L2
+  task_goal: 在成本受限条件下完成信息抽取并输出结构化结果。
+  step_chain:
+  - 分类路由判断类
+  - 结构化抽取类
+  - 格式转换类
+  - 校验纠错类
+  required_service_categories:
+  - routing_classification
+  - structured_extraction
+  - format_conversion
+  - validation_correction
+  input_requirements:
+  - 长文本
+  constraints:
+  - 预算受限
+  - JSON 输出
+  oracle_expectations:
+  - 成本可控
+  - 格式正确
+- template_id: constrained_latency_008
+  template_name: 在时延约束下完成多步整理任务
+  scenario_family: constrained_tasks
+  complexity_level: L3
+  task_goal: 在响应时间约束下完成摘要、抽取和最终聚合。
+  step_chain:
+  - 分类路由判断类
+  - 文本摘要类
+  - 结构化抽取类
+  - 聚合最终生成类
+  required_service_categories:
+  - routing_classification
+  - text_summary
+  - structured_extraction
+  - aggregation
+  input_requirements:
+  - 长文本
+  constraints:
+  - 低时延
+  - 输出结构清晰
+  oracle_expectations:
+  - 总时延达标
+  - 输出仍可消费
+- template_id: office_table_009
+  template_name: 资料整理后生成对比表
+  scenario_family: office_study
+  complexity_level: L2
+  task_goal: 对多段资料进行摘要和抽取，最终生成对比表。
+  step_chain:
+  - 分类路由判断类
+  - 文本摘要类
+  - 结构化抽取类
+  - 格式转换类
+  - 聚合最终生成类
+  required_service_categories:
+  - routing_classification
+  - text_summary
+  - structured_extraction
+  - format_conversion
+  - aggregation
+  input_requirements:
+  - 多段文本
+  constraints:
+  - 输出为表格
+  oracle_expectations:
+  - 对比字段齐全
+  - 输出结构清晰
+- template_id: office_multilang_010
+  template_name: 外文资料翻译整理并输出摘要
+  scenario_family: office_study
+  complexity_level: L3
+  task_goal: 先完成翻译，再做摘要与重点提取，最终输出中文结果。
+  step_chain:
+  - 分类路由判断类
+  - 翻译类
+  - 文本摘要类
+  - 结构化抽取类
+  - 聚合最终生成类
+  required_service_categories:
+  - routing_classification
+  - translation
+  - text_summary
+  - structured_extraction
+  - aggregation
+  input_requirements:
+  - 外文长文本
+  constraints:
+  - 输出中文
+  - 重点明确
+  oracle_expectations:
+  - 翻译正确
+  - 摘要完整
+- template_id: info_reformat_011
+  template_name: 非结构化文本转模板并校验
+  scenario_family: information_processing
+  complexity_level: L2
+  task_goal: 从非结构化文本中抽取字段，转换为模板并进行校验。
+  step_chain:
+  - 分类路由判断类
+  - 结构化抽取类
+  - 格式转换类
+  - 校验纠错类
+  required_service_categories:
+  - routing_classification
+  - structured_extraction
+  - format_conversion
+  - validation_correction
+  input_requirements:
+  - 长文本
+  constraints:
+  - 模板字段完整
+  oracle_expectations:
+  - 字段正确
+  - 格式可消费
+- template_id: info_crosslang_012
+  template_name: 跨语言材料抽取并统一结构输出
+  scenario_family: information_processing
+  complexity_level: L3
+  task_goal: 先翻译多语材料，再完成抽取、格式转换和校验。
+  step_chain:
+  - 翻译类
+  - 结构化抽取类
+  - 格式转换类
+  - 校验纠错类
+  - 聚合最终生成类
+  required_service_categories:
+  - translation
+  - structured_extraction
+  - format_conversion
+  - validation_correction
+  - aggregation
+  input_requirements:
+  - 多语文本
+  constraints:
+  - 统一输出格式
+  oracle_expectations:
+  - 翻译后抽取正确
+  - 结构统一
+- template_id: agent_nested_013
+  template_name: 复杂子任务嵌套处理后生成最终答案
+  scenario_family: complex_agent
+  complexity_level: L3
+  task_goal: 进行子任务规划、信息检索、抽取与聚合，支持实验层嵌套调用。
+  step_chain:
+  - 规划拆分类
+  - 分类路由判断类
+  - 检索信息获取类
+  - 结构化抽取类
+  - 聚合最终生成类
+  - 校验纠错类
+  required_service_categories:
+  - planning
+  - routing_classification
+  - retrieval
+  - structured_extraction
+  - aggregation
+  - validation_correction
+  input_requirements:
+  - 复杂任务描述
+  constraints:
+  - 步骤依赖正确
+  oracle_expectations:
+  - 中间结果可流转
+  - 最终输出可靠
+- template_id: agent_translate_014
+  template_name: 跨语言多文档代理处理任务
+  scenario_family: complex_agent
+  complexity_level: L3
+  task_goal: 对跨语言多文档内容进行规划、翻译、检索、抽取和汇总。
+  step_chain:
+  - 规划拆分类
+  - 翻译类
+  - 检索信息获取类
+  - 结构化抽取类
+  - 聚合最终生成类
+  required_service_categories:
+  - planning
+  - translation
+  - retrieval
+  - structured_extraction
+  - aggregation
+  input_requirements:
+  - 多语言多文档
+  constraints:
+  - 最终结果统一语言
+  oracle_expectations:
+  - 聚合质量高
+  - 步骤顺序合理
+- template_id: constrained_budget_015
+  template_name: 预算受限下完成多步结构化任务
+  scenario_family: constrained_tasks
+  complexity_level: L2
+  task_goal: 在总成本约束下完成摘要、抽取和模板化输出。
+  step_chain:
+  - 分类路由判断类
+  - 文本摘要类
+  - 结构化抽取类
+  - 格式转换类
+  - 校验纠错类
+  required_service_categories:
+  - routing_classification
+  - text_summary
+  - structured_extraction
+  - format_conversion
+  - validation_correction
+  input_requirements:
+  - 长文本
+  constraints:
+  - 低成本
+  - 结果可消费
+  oracle_expectations:
+  - 成本可控
+  - 字段不缺失
+- template_id: constrained_latency_016
+  template_name: 严格时延约束下的代理处理任务
+  scenario_family: constrained_tasks
+  complexity_level: L3
+  task_goal: 在严格时延约束下完成多步处理和最终生成。
+  step_chain:
+  - 分类路由判断类
+  - 检索信息获取类
+  - 文本摘要类
+  - 聚合最终生成类
+  required_service_categories:
+  - routing_classification
+  - retrieval
+  - text_summary
+  - aggregation
+  input_requirements:
+  - 多段材料
+  constraints:
+  - 总时延受限
+  oracle_expectations:
+  - 总时延达标
+  - 最终结果基本正确

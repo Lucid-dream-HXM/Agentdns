@@ -1,0 +1,13 @@
+group_name,round_index,phase_name,task_count,task_success_rate,avg_oracle_utility,avg_total_cost,group_id,experiment_id
+基础解析组,1,冷启动,8,0.75,0.8064,0.4399,basic_resolution,lifecycle
+基础解析组,2,短期预热,8,0.875,0.8038,0.4731,basic_resolution,lifecycle
+基础解析组,3,中期运行,8,1.0,0.8171,0.511,basic_resolution,lifecycle
+基础解析组,4,持续运行,8,0.875,0.8092,0.4679,basic_resolution,lifecycle
+信任反馈闭环组,1,冷启动,8,0.875,0.8038,0.4731,trust_feedback,lifecycle
+信任反馈闭环组,2,短期预热,8,1.0,0.8171,0.511,trust_feedback,lifecycle
+信任反馈闭环组,3,中期运行,8,0.875,0.8092,0.4679,trust_feedback,lifecycle
+信任反馈闭环组,4,持续运行,8,1.0,0.8164,0.5023,trust_feedback,lifecycle
+完整多步协同组,1,冷启动,8,1.0,0.8171,0.511,full_multi_step,lifecycle
+完整多步协同组,2,短期预热,8,0.875,0.8092,0.4679,full_multi_step,lifecycle
+完整多步协同组,3,中期运行,8,1.0,0.8164,0.5023,full_multi_step,lifecycle
+完整多步协同组,4,持续运行,8,0.875,0.8103,0.4692,full_multi_step,lifecycle

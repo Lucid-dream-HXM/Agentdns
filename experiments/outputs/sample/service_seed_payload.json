@@ -1,0 +1,786 @@
+[
+  {
+    "service_key": "svc_text_summary_001",
+    "name": "摘要基础服务01",
+    "category": "text_summary",
+    "category_name": "文本摘要类",
+    "description": "摘要基础服务01，属于文本摘要类，画像为低价基础型。成本低但质量与稳定性一般的服务画像。",
+    "price": 0.019,
+    "tags": [
+      "文本摘要类",
+      "低价基础型",
+      "长文摘要",
+      "要点提取",
+      "纪要整理"
+    ],
+    "profile_name": "低价基础型",
+    "mock_behavior": {
+      "base_latency_ms": 717,
+      "latency_jitter_ms": 107,
+      "quality_range": [
+        0.56,
+        0.72
+      ],
+      "format_stability": 0.7982,
+      "consumability": 0.6688,
+      "failure_probability": 0.08,
+      "drift_probability": 0.03
+    }
+  },
+  {
+    "service_key": "svc_text_summary_002",
+    "name": "摘要通用服务02",
+    "category": "text_summary",
+    "category_name": "文本摘要类",
+    "description": "摘要通用服务02，属于文本摘要类，画像为平衡实用型。综合表现均衡的主流服务画像。",
+    "price": 0.0743,
+    "tags": [
+      "文本摘要类",
+      "平衡实用型",
+      "长文摘要",
+      "要点提取",
+      "纪要整理"
+    ],
+    "profile_name": "平衡实用型",
+    "mock_behavior": {
+      "base_latency_ms": 899,
+      "latency_jitter_ms": 134,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.9042,
+      "consumability": 0.9042,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03
+    }
+  },
+  {
+    "service_key": "svc_text_summary_003",
+    "name": "摘要平衡服务03",
+    "category": "text_summary",
+    "category_name": "文本摘要类",
+    "description": "摘要平衡服务03，属于文本摘要类，画像为平衡实用型。综合表现均衡的主流服务画像。",
+    "price": 0.0653,
+    "tags": [
+      "文本摘要类",
+      "平衡实用型",
+      "长文摘要",
+      "要点提取",
+      "纪要整理"
+    ],
+    "profile_name": "平衡实用型",
+    "mock_behavior": {
+      "base_latency_ms": 1203,
+      "latency_jitter_ms": 180,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.9089,
+      "consumability": 0.8815,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03
+    }
+  },
+  {
+    "service_key": "svc_text_summary_004",
+    "name": "摘要经济服务04",
+    "category": "text_summary",
+    "category_name": "文本摘要类",
+    "description": "摘要经济服务04，属于文本摘要类，画像为低价基础型。成本低但质量与稳定性一般的服务画像。",
+    "price": 0.0192,
+    "tags": [
+      "文本摘要类",
+      "低价基础型",
+      "长文摘要",
+      "要点提取",
+      "纪要整理"
+    ],
+    "profile_name": "低价基础型",
+    "mock_behavior": {
+      "base_latency_ms": 874,
+      "latency_jitter_ms": 131,
+      "quality_range": [
+        0.56,
+        0.72
+      ],
+      "format_stability": 0.7515,
+      "consumability": 0.73,
+      "failure_probability": 0.08,
+      "drift_probability": 0.03
+    }
+  },
+  {
+    "service_key": "svc_text_summary_005",
+    "name": "摘要通用服务05",
+    "category": "text_summary",
+    "category_name": "文本摘要类",
+    "description": "摘要通用服务05，属于文本摘要类，画像为平衡实用型。综合表现均衡的主流服务画像。",
+    "price": 0.0415,
+    "tags": [
+      "文本摘要类",
+      "平衡实用型",
+      "长文摘要",
+      "要点提取",
+      "纪要整理"
+    ],
+    "profile_name": "平衡实用型",
+    "mock_behavior": {
+      "base_latency_ms": 1333,
+      "latency_jitter_ms": 199,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.8907,
+      "consumability": 0.8618,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03
+    }
+  },
+  {
+    "service_key": "svc_structured_extraction_006",
+    "name": "抽取平衡服务06",
+    "category": "structured_extraction",
+    "category_name": "结构化抽取类",
+    "description": "抽取平衡服务06，属于结构化抽取类，画像为平衡实用型。综合表现均衡的主流服务画像。",
+    "price": 0.0536,
+    "tags": [
+      "结构化抽取类",
+      "平衡实用型",
+      "字段抽取",
+      "JSON输出",
+      "表格抽取"
+    ],
+    "profile_name": "平衡实用型",
+    "mock_behavior": {
+      "base_latency_ms": 862,
+      "latency_jitter_ms": 129,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.8244,
+      "consumability": 0.8954,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03
+    }
+  },
+  {
+    "service_key": "svc_structured_extraction_007",
+    "name": "抽取全能服务07",
+    "category": "structured_extraction",
+    "category_name": "结构化抽取类",
+    "description": "抽取全能服务07，属于结构化抽取类，画像为旗舰通用型。质量高、能力全、成本高、延迟偏高的通用高性能服务。",
+    "price": 0.1574,
+    "tags": [
+      "结构化抽取类",
+      "旗舰通用型",
+      "字段抽取",
+      "JSON输出",
+      "表格抽取"
+    ],
+    "profile_name": "旗舰通用型",
+    "mock_behavior": {
+      "base_latency_ms": 1815,
+      "latency_jitter_ms": 272,
+      "quality_range": [
+        0.88,
+        0.96
+      ],
+      "format_stability": 0.9236,
+      "consumability": 0.9159,
+      "failure_probability": 0.01,
+      "drift_probability": 0.01
+    }
+  },
+  {
+    "service_key": "svc_structured_extraction_008",
+    "name": "抽取专业服务08",
+    "category": "structured_extraction",
+    "category_name": "结构化抽取类",
+    "description": "抽取专业服务08，属于结构化抽取类，画像为旗舰通用型。质量高、能力全、成本高、延迟偏高的通用高性能服务。",
+    "price": 0.1473,
+    "tags": [
+      "结构化抽取类",
+      "旗舰通用型",
+      "字段抽取",
+      "JSON输出",
+      "表格抽取"
+    ],
+    "profile_name": "旗舰通用型",
+    "mock_behavior": {
+      "base_latency_ms": 2482,
+      "latency_jitter_ms": 372,
+      "quality_range": [
+        0.88,
+        0.96
+      ],
+      "format_stability": 0.9045,
+      "consumability": 0.9454,
+      "failure_probability": 0.01,
+      "drift_probability": 0.01
+    }
+  },
+  {
+    "service_key": "svc_structured_extraction_009",
+    "name": "抽取旗舰服务09",
+    "category": "structured_extraction",
+    "category_name": "结构化抽取类",
+    "description": "抽取旗舰服务09，属于结构化抽取类，画像为旗舰通用型。质量高、能力全、成本高、延迟偏高的通用高性能服务。",
+    "price": 0.1221,
+    "tags": [
+      "结构化抽取类",
+      "旗舰通用型",
+      "字段抽取",
+      "JSON输出",
+      "表格抽取"
+    ],
+    "profile_name": "旗舰通用型",
+    "mock_behavior": {
+      "base_latency_ms": 1806,
+      "latency_jitter_ms": 270,
+      "quality_range": [
+        0.88,
+        0.96
+      ],
+      "format_stability": 0.97,
+      "consumability": 0.9135,
+      "failure_probability": 0.01,
+      "drift_probability": 0.01
+    }
+  },
+  {
+    "service_key": "svc_structured_extraction_010",
+    "name": "抽取全能服务10",
+    "category": "structured_extraction",
+    "category_name": "结构化抽取类",
+    "description": "抽取全能服务10，属于结构化抽取类，画像为旗舰通用型。质量高、能力全、成本高、延迟偏高的通用高性能服务。",
+    "price": 0.1677,
+    "tags": [
+      "结构化抽取类",
+      "旗舰通用型",
+      "字段抽取",
+      "JSON输出",
+      "表格抽取"
+    ],
+    "profile_name": "旗舰通用型",
+    "mock_behavior": {
+      "base_latency_ms": 2319,
+      "latency_jitter_ms": 347,
+      "quality_range": [
+        0.88,
+        0.96
+      ],
+      "format_stability": 0.9666,
+      "consumability": 0.9364,
+      "failure_probability": 0.01,
+      "drift_probability": 0.01
+    }
+  },
+  {
+    "service_key": "svc_routing_classification_011",
+    "name": "路由基础服务11",
+    "category": "routing_classification",
+    "category_name": "分类路由判断类",
+    "description": "路由基础服务11，属于分类路由判断类，画像为低价基础型。成本低但质量与稳定性一般的服务画像。",
+    "price": 0.028,
+    "tags": [
+      "分类路由判断类",
+      "低价基础型",
+      "任务分类",
+      "路由判断",
+      "类型识别"
+    ],
+    "profile_name": "低价基础型",
+    "mock_behavior": {
+      "base_latency_ms": 1044,
+      "latency_jitter_ms": 156,
+      "quality_range": [
+        0.56,
+        0.72
+      ],
+      "format_stability": 0.8119,
+      "consumability": 0.7984,
+      "failure_probability": 0.08,
+      "drift_probability": 0.03
+    }
+  },
+  {
+    "service_key": "svc_routing_classification_012",
+    "name": "路由领域服务12",
+    "category": "routing_classification",
+    "category_name": "分类路由判断类",
+    "description": "路由领域服务12，属于分类路由判断类，画像为领域专精型。在特定任务类别上表现突出的专精服务画像。",
+    "price": 0.0523,
+    "tags": [
+      "分类路由判断类",
+      "领域专精型",
+      "任务分类",
+      "路由判断",
+      "类型识别"
+    ],
+    "profile_name": "领域专精型",
+    "mock_behavior": {
+      "base_latency_ms": 1373,
+      "latency_jitter_ms": 205,
+      "quality_range": [
+        0.8,
+        0.92
+      ],
+      "format_stability": 0.8611,
+      "consumability": 0.8523,
+      "failure_probability": 0.03,
+      "drift_probability": 0.02
+    }
+  },
+  {
+    "service_key": "svc_routing_classification_013",
+    "name": "路由不稳服务13",
+    "category": "routing_classification",
+    "category_name": "分类路由判断类",
+    "description": "路由不稳服务13，属于分类路由判断类，画像为漂移波动型。表现波动较大、可能随时间漂移的服务画像。",
+    "price": 0.0609,
+    "tags": [
+      "分类路由判断类",
+      "漂移波动型",
+      "任务分类",
+      "路由判断",
+      "类型识别"
+    ],
+    "profile_name": "漂移波动型",
+    "mock_behavior": {
+      "base_latency_ms": 792,
+      "latency_jitter_ms": 118,
+      "quality_range": [
+        0.55,
+        0.9
+      ],
+      "format_stability": 0.6985,
+      "consumability": 0.8525,
+      "failure_probability": 0.08,
+      "drift_probability": 0.18
+    }
+  },
+  {
+    "service_key": "svc_routing_classification_014",
+    "name": "路由实用服务14",
+    "category": "routing_classification",
+    "category_name": "分类路由判断类",
+    "description": "路由实用服务14，属于分类路由判断类，画像为平衡实用型。综合表现均衡的主流服务画像。",
+    "price": 0.0596,
+    "tags": [
+      "分类路由判断类",
+      "平衡实用型",
+      "任务分类",
+      "路由判断",
+      "类型识别"
+    ],
+    "profile_name": "平衡实用型",
+    "mock_behavior": {
+      "base_latency_ms": 1006,
+      "latency_jitter_ms": 150,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.838,
+      "consumability": 0.9009,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03
+    }
+  },
+  {
+    "service_key": "svc_format_conversion_015",
+    "name": "格式脆弱服务15",
+    "category": "format_conversion",
+    "category_name": "格式转换类",
+    "description": "格式脆弱服务15，属于格式转换类，画像为故障脆弱型。易失败、易输出坏格式或超时的服务画像。",
+    "price": 0.0618,
+    "tags": [
+      "格式转换类",
+      "故障脆弱型",
+      "Markdown转JSON",
+      "表格化输出",
+      "模板填充"
+    ],
+    "profile_name": "故障脆弱型",
+    "mock_behavior": {
+      "base_latency_ms": 1589,
+      "latency_jitter_ms": 238,
+      "quality_range": [
+        0.45,
+        0.75
+      ],
+      "format_stability": 0.5998,
+      "consumability": 0.4832,
+      "failure_probability": 0.18,
+      "drift_probability": 0.05
+    }
+  },
+  {
+    "service_key": "svc_format_conversion_016",
+    "name": "格式经济服务16",
+    "category": "format_conversion",
+    "category_name": "格式转换类",
+    "description": "格式经济服务16，属于格式转换类，画像为低价基础型。成本低但质量与稳定性一般的服务画像。",
+    "price": 0.0186,
+    "tags": [
+      "格式转换类",
+      "低价基础型",
+      "Markdown转JSON",
+      "表格化输出",
+      "模板填充"
+    ],
+    "profile_name": "低价基础型",
+    "mock_behavior": {
+      "base_latency_ms": 816,
+      "latency_jitter_ms": 122,
+      "quality_range": [
+        0.56,
+        0.72
+      ],
+      "format_stability": 0.7828,
+      "consumability": 0.7317,
+      "failure_probability": 0.08,
+      "drift_probability": 0.03
+    }
+  },
+  {
+    "service_key": "svc_validation_correction_017",
+    "name": "校验故障敏感服务17",
+    "category": "validation_correction",
+    "category_name": "校验纠错类",
+    "description": "校验故障敏感服务17，属于校验纠错类，画像为故障脆弱型。易失败、易输出坏格式或超时的服务画像。",
+    "price": 0.077,
+    "tags": [
+      "校验纠错类",
+      "故障脆弱型",
+      "格式校验",
+      "错误修正",
+      "字段核验"
+    ],
+    "profile_name": "故障脆弱型",
+    "mock_behavior": {
+      "base_latency_ms": 1339,
+      "latency_jitter_ms": 200,
+      "quality_range": [
+        0.45,
+        0.75
+      ],
+      "format_stability": 0.4543,
+      "consumability": 0.687,
+      "failure_probability": 0.18,
+      "drift_probability": 0.05
+    }
+  },
+  {
+    "service_key": "svc_validation_correction_018",
+    "name": "校验快响服务18",
+    "category": "validation_correction",
+    "category_name": "校验纠错类",
+    "description": "校验快响服务18，属于校验纠错类，画像为低时延响应型。响应快但不一定高质量的服务画像。",
+    "price": 0.0517,
+    "tags": [
+      "校验纠错类",
+      "低时延响应型",
+      "格式校验",
+      "错误修正",
+      "字段核验"
+    ],
+    "profile_name": "低时延响应型",
+    "mock_behavior": {
+      "base_latency_ms": 469,
+      "latency_jitter_ms": 70,
+      "quality_range": [
+        0.6,
+        0.78
+      ],
+      "format_stability": 0.7599,
+      "consumability": 0.7271,
+      "failure_probability": 0.05,
+      "drift_probability": 0.02
+    }
+  },
+  {
+    "service_key": "svc_retrieval_019",
+    "name": "检索全能服务19",
+    "category": "retrieval",
+    "category_name": "检索信息获取类",
+    "description": "检索全能服务19，属于检索信息获取类，画像为旗舰通用型。质量高、能力全、成本高、延迟偏高的通用高性能服务。",
+    "price": 0.1323,
+    "tags": [
+      "检索信息获取类",
+      "旗舰通用型",
+      "信息筛选",
+      "材料召回",
+      "片段匹配"
+    ],
+    "profile_name": "旗舰通用型",
+    "mock_behavior": {
+      "base_latency_ms": 2057,
+      "latency_jitter_ms": 308,
+      "quality_range": [
+        0.88,
+        0.96
+      ],
+      "format_stability": 0.9301,
+      "consumability": 0.9425,
+      "failure_probability": 0.01,
+      "drift_probability": 0.01
+    }
+  },
+  {
+    "service_key": "svc_retrieval_020",
+    "name": "检索快响服务20",
+    "category": "retrieval",
+    "category_name": "检索信息获取类",
+    "description": "检索快响服务20，属于检索信息获取类，画像为低时延响应型。响应快但不一定高质量的服务画像。",
+    "price": 0.0431,
+    "tags": [
+      "检索信息获取类",
+      "低时延响应型",
+      "信息筛选",
+      "材料召回",
+      "片段匹配"
+    ],
+    "profile_name": "低时延响应型",
+    "mock_behavior": {
+      "base_latency_ms": 663,
+      "latency_jitter_ms": 99,
+      "quality_range": [
+        0.6,
+        0.78
+      ],
+      "format_stability": 0.7539,
+      "consumability": 0.7331,
+      "failure_probability": 0.05,
+      "drift_probability": 0.02
+    }
+  },
+  {
+    "service_key": "svc_retrieval_021",
+    "name": "检索故障敏感服务21",
+    "category": "retrieval",
+    "category_name": "检索信息获取类",
+    "description": "检索故障敏感服务21，属于检索信息获取类，画像为故障脆弱型。易失败、易输出坏格式或超时的服务画像。",
+    "price": 0.0618,
+    "tags": [
+      "检索信息获取类",
+      "故障脆弱型",
+      "信息筛选",
+      "材料召回",
+      "片段匹配"
+    ],
+    "profile_name": "故障脆弱型",
+    "mock_behavior": {
+      "base_latency_ms": 1051,
+      "latency_jitter_ms": 157,
+      "quality_range": [
+        0.45,
+        0.75
+      ],
+      "format_stability": 0.4836,
+      "consumability": 0.7194,
+      "failure_probability": 0.18,
+      "drift_probability": 0.05
+    }
+  },
+  {
+    "service_key": "svc_planning_022",
+    "name": "规划表面优服务22",
+    "category": "planning",
+    "category_name": "规划拆分类",
+    "description": "规划表面优服务22，属于规划拆分类，画像为诱骗失真型。表面便宜快，但可消费性和真实效果较差的诱骗型服务画像。",
+    "price": 0.025,
+    "tags": [
+      "规划拆分类",
+      "诱骗失真型",
+      "任务拆分",
+      "步骤规划",
+      "调用编排"
+    ],
+    "profile_name": "诱骗失真型",
+    "mock_behavior": {
+      "base_latency_ms": 694,
+      "latency_jitter_ms": 104,
+      "quality_range": [
+        0.5,
+        0.78
+      ],
+      "format_stability": 0.7818,
+      "consumability": 0.677,
+      "failure_probability": 0.1,
+      "drift_probability": 0.08
+    }
+  },
+  {
+    "service_key": "svc_planning_023",
+    "name": "规划脆弱服务23",
+    "category": "planning",
+    "category_name": "规划拆分类",
+    "description": "规划脆弱服务23，属于规划拆分类，画像为故障脆弱型。易失败、易输出坏格式或超时的服务画像。",
+    "price": 0.0794,
+    "tags": [
+      "规划拆分类",
+      "故障脆弱型",
+      "任务拆分",
+      "步骤规划",
+      "调用编排"
+    ],
+    "profile_name": "故障脆弱型",
+    "mock_behavior": {
+      "base_latency_ms": 911,
+      "latency_jitter_ms": 136,
+      "quality_range": [
+        0.45,
+        0.75
+      ],
+      "format_stability": 0.6538,
+      "consumability": 0.4797,
+      "failure_probability": 0.18,
+      "drift_probability": 0.05
+    }
+  },
+  {
+    "service_key": "svc_planning_024",
+    "name": "规划表面优服务24",
+    "category": "planning",
+    "category_name": "规划拆分类",
+    "description": "规划表面优服务24，属于规划拆分类，画像为诱骗失真型。表面便宜快，但可消费性和真实效果较差的诱骗型服务画像。",
+    "price": 0.0253,
+    "tags": [
+      "规划拆分类",
+      "诱骗失真型",
+      "任务拆分",
+      "步骤规划",
+      "调用编排"
+    ],
+    "profile_name": "诱骗失真型",
+    "mock_behavior": {
+      "base_latency_ms": 727,
+      "latency_jitter_ms": 109,
+      "quality_range": [
+        0.5,
+        0.78
+      ],
+      "format_stability": 0.683,
+      "consumability": 0.5968,
+      "failure_probability": 0.1,
+      "drift_probability": 0.08
+    }
+  },
+  {
+    "service_key": "svc_aggregation_025",
+    "name": "聚合实用服务25",
+    "category": "aggregation",
+    "category_name": "聚合最终生成类",
+    "description": "聚合实用服务25，属于聚合最终生成类，画像为平衡实用型。综合表现均衡的主流服务画像。",
+    "price": 0.0596,
+    "tags": [
+      "聚合最终生成类",
+      "平衡实用型",
+      "结果汇总",
+      "最终回答",
+      "结论整合"
+    ],
+    "profile_name": "平衡实用型",
+    "mock_behavior": {
+      "base_latency_ms": 1275,
+      "latency_jitter_ms": 191,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.8836,
+      "consumability": 0.884,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03
+    }
+  },
+  {
+    "service_key": "svc_aggregation_026",
+    "name": "聚合低延迟服务26",
+    "category": "aggregation",
+    "category_name": "聚合最终生成类",
+    "description": "聚合低延迟服务26，属于聚合最终生成类，画像为低时延响应型。响应快但不一定高质量的服务画像。",
+    "price": 0.084,
+    "tags": [
+      "聚合最终生成类",
+      "低时延响应型",
+      "结果汇总",
+      "最终回答",
+      "结论整合"
+    ],
+    "profile_name": "低时延响应型",
+    "mock_behavior": {
+      "base_latency_ms": 351,
+      "latency_jitter_ms": 52,
+      "quality_range": [
+        0.6,
+        0.78
+      ],
+      "format_stability": 0.8437,
+      "consumability": 0.7753,
+      "failure_probability": 0.05,
+      "drift_probability": 0.02
+    }
+  },
+  {
+    "service_key": "svc_aggregation_027",
+    "name": "聚合经济服务27",
+    "category": "aggregation",
+    "category_name": "聚合最终生成类",
+    "description": "聚合经济服务27，属于聚合最终生成类，画像为低价基础型。成本低但质量与稳定性一般的服务画像。",
+    "price": 0.0168,
+    "tags": [
+      "聚合最终生成类",
+      "低价基础型",
+      "结果汇总",
+      "最终回答",
+      "结论整合"
+    ],
+    "profile_name": "低价基础型",
+    "mock_behavior": {
+      "base_latency_ms": 1022,
+      "latency_jitter_ms": 153,
+      "quality_range": [
+        0.56,
+        0.72
+      ],
+      "format_stability": 0.721,
+      "consumability": 0.7884,
+      "failure_probability": 0.08,
+      "drift_probability": 0.03
+    }
+  },
+  {
+    "service_key": "svc_aggregation_028",
+    "name": "聚合经济服务28",
+    "category": "aggregation",
+    "category_name": "聚合最终生成类",
+    "description": "聚合经济服务28，属于聚合最终生成类，画像为低价基础型。成本低但质量与稳定性一般的服务画像。",
+    "price": 0.0239,
+    "tags": [
+      "聚合最终生成类",
+      "低价基础型",
+      "结果汇总",
+      "最终回答",
+      "结论整合"
+    ],
+    "profile_name": "低价基础型",
+    "mock_behavior": {
+      "base_latency_ms": 748,
+      "latency_jitter_ms": 112,
+      "quality_range": [
+        0.56,
+        0.72
+      ],
+      "format_stability": 0.7008,
+      "consumability": 0.7919,
+      "failure_probability": 0.08,
+      "drift_probability": 0.03
+    }
+  }
+]

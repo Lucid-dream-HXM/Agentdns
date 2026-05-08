@@ -1,0 +1,30 @@
+version: 1
+scenarios:
+  - scenario_id: office_study
+    scenario_name: 办公学习整理类
+    description: 围绕资料整理、重点提取、纪要生成、表格化输出等日常办公学习任务。
+    recommended_complexity: [L1, L2]
+    typical_service_chain: [分类路由判断类, 文本摘要类, 结构化抽取类, 聚合最终生成类]
+    main_metrics: [任务成功率, 最终综合效用, 输出格式合格率]
+    example_task_types: [长文摘要, 学习笔记整理, 多段材料纪要生成]
+  - scenario_id: information_processing
+    scenario_name: 信息处理与结构化加工类
+    description: 围绕抽取、格式转换、校验、重组输出等信息处理任务。
+    recommended_complexity: [L2, L3]
+    typical_service_chain: [分类路由判断类, 结构化抽取类, 格式转换类, 校验纠错类, 聚合最终生成类]
+    main_metrics: [步骤成功率, 中间结果可消费率, 最终综合效用]
+    example_task_types: [事件抽取, JSON输出, 模板化汇总]
+  - scenario_id: complex_agent
+    scenario_name: 复杂代理任务类
+    description: 需要任务拆分、服务编排、多步串联和结果聚合的复杂代理任务。
+    recommended_complexity: [L2, L3]
+    typical_service_chain: [规划拆分类, 分类路由判断类, 检索信息获取类, 结构化抽取类, 文本摘要类, 聚合最终生成类]
+    main_metrics: [任务成功率, 步骤成功率, 级联失败率, 最终综合效用]
+    example_task_types: [先规划再执行, 多文档处理, 跨服务聚合]
+  - scenario_id: constrained_tasks
+    scenario_name: 多约束任务类
+    description: 同时受到成本、时延、格式和质量约束的任务场景。
+    recommended_complexity: [L2, L3]
+    typical_service_chain: [分类路由判断类, 检索信息获取类, 文本摘要类, 格式转换类, 校验纠错类, 聚合最终生成类]
+    main_metrics: [综合效用, 平均总成本, 平均总时延, 输出格式合格率]
+    example_task_types: [预算受限结构化输出, 时延受限任务, 多约束综合生成]

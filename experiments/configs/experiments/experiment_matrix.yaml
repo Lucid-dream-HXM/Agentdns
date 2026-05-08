@@ -1,0 +1,34 @@
+version: 1
+experiments:
+  - experiment_id: overall_effectiveness
+    experiment_name: 整体有效性实验
+    group_ids: [direct_general_service, simple_rule_routing, basic_resolution, full_multi_step]
+    scenario_families: [office_study, information_processing, complex_agent, constrained_tasks]
+    primary_metrics: [task_success_rate, avg_oracle_utility, avg_total_cost, avg_total_latency_ms]
+    debug_task_count: 16
+    formal_task_count: 48
+    repeats: 3
+  - experiment_id: mechanism_ablation
+    experiment_name: 关键机制消融实验
+    group_ids: [basic_resolution, vector_enhanced, trust_feedback, full_multi_step]
+    scenario_families: [information_processing, complex_agent, constrained_tasks]
+    primary_metrics: [task_success_rate, avg_oracle_utility, avg_selection_regret, avg_step_consumability]
+    debug_task_count: 12
+    formal_task_count: 36
+    repeats: 3
+  - experiment_id: robustness
+    experiment_name: 复杂市场鲁棒性实验
+    group_ids: [simple_rule_routing, vector_enhanced, trust_feedback, full_multi_step]
+    scenario_families: [information_processing, complex_agent, constrained_tasks]
+    primary_metrics: [task_success_rate, avg_oracle_utility, fault_avoidance_rate, cascading_failure_rate]
+    debug_task_count: 12
+    formal_task_count: 32
+    repeats: 3
+  - experiment_id: lifecycle
+    experiment_name: 冷启动预热持续运行实验
+    group_ids: [basic_resolution, trust_feedback, full_multi_step]
+    scenario_families: [office_study, complex_agent, constrained_tasks]
+    primary_metrics: [task_success_rate, avg_oracle_utility, avg_total_cost, trust_stability]
+    debug_task_count: 12
+    formal_task_count: 24
+    repeats: 4

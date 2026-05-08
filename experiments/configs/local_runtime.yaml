@@ -1,0 +1,19 @@
+version: 1
+runtime:
+  base_url: http://127.0.0.1:8000/api/v1
+  request_timeout_sec: 180
+  search_top_k: 10
+  default_headers:
+    Content-Type: application/json
+  endpoint_paths:
+    discovery_search: /client/discovery/search
+    service_call: /client/services/call
+    submit_review: /reviews/
+    trust_summary: /reviews/services/{service_id}/summary
+  agents:
+    - agent_name: quality-agent-01
+      api_key: agent_exp_quality_01
+      profile: quality_first
+    - agent_name: cost-agent-01
+      api_key: agent_exp_cost_01
+      profile: cost_first

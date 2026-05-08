@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>图5.3 服务注册接口测试结果图</title>
+  <style>
+    :root {
+      color: #172033;
+      background: #f6f8fb;
+      font-family: "Inter", "Segoe UI", "Microsoft YaHei", Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f6f8fb; }
+    .page { width: 1440px; min-height: 920px; padding: 44px 54px; }
+    .titlebar { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 26px; border-bottom: 2px solid #d9e1ec; padding-bottom: 18px; }
+    h1 { margin: 0; font-size: 34px; letter-spacing: 0; color: #152238; }
+    .subtitle { margin-top: 8px; font-size: 18px; color: #53627a; }
+    .chip { border: 1px solid #bfd0e5; background: #fff; border-radius: 6px; padding: 8px 12px; font-size: 16px; color: #41516b; }
+    .panel { background: #fff; border: 1px solid #d8e0ec; border-radius: 8px; box-shadow: 0 10px 26px rgba(26, 47, 75, .08); padding: 22px; margin-bottom: 22px; }
+    .panel-head { display: flex; justify-content: space-between; gap: 22px; align-items: flex-start; margin-bottom: 18px; }
+    h2 { margin: 0 0 10px; font-size: 24px; letter-spacing: 0; color: #1c2a44; }
+    h3 { margin: 0 0 9px; font-size: 16px; letter-spacing: 0; color: #40506a; font-weight: 700; }
+    .endpoint { display: flex; align-items: center; gap: 10px; font-family: "Cascadia Mono", "JetBrains Mono", Consolas, monospace; color: #2f425f; font-size: 16px; }
+    .method { min-width: 58px; text-align: center; color: #fff; border-radius: 4px; padding: 5px 8px; font-weight: 800; font-size: 14px; }
+    .post { background: #2f855a; } .get { background: #2563a8; } .put { background: #8a5b12; } .delete { background: #b83232; }
+    .status { flex: 0 0 auto; background: #e8f6ef; color: #176447; border: 1px solid #b7e2cc; border-radius: 6px; padding: 8px 12px; font-weight: 800; font-size: 16px; }
+    .grid { display: grid; gap: 18px; }
+    .two { grid-template-columns: 1fr 1fr; }
+    pre { margin: 0; min-height: 250px; max-height: 560px; overflow: hidden; white-space: pre-wrap; word-break: break-word; background: #0f172a; color: #e6edf7; border-radius: 7px; padding: 18px; font: 15px/1.46 "Cascadia Mono", "JetBrains Mono", Consolas, monospace; }
+    .meta { margin-top: 12px; font-size: 15px; color: #4a5a73; }
+    code { font-family: "Cascadia Mono", "JetBrains Mono", Consolas, monospace; background: #eef3f9; color: #21324d; padding: 2px 5px; border-radius: 4px; }
+    .note { color: #5a6b82; font-size: 15px; margin-top: 10px; }
+    .wide pre { max-height: 690px; }
+    </style>
+</head>
+<body>
+  <main class="page">
+    <header class="titlebar">
+      <div>
+        <h1>图5.3 服务注册接口测试结果图</h1>
+        <div class="subtitle">服务注册 -&gt; AgentDNS URI 生成 -&gt; 返回服务基础信息</div>
+      </div>
+      <div class="chip">AgentDNS / FastAPI / API v1</div>
+    </header>
+    
+    <section class="panel">
+      <div class="panel-head">
+        <div>
+          <h2>服务注册接口测试结果</h2>
+          <div class="endpoint"><span class="method post">POST</span><span>/api/v1/services/?organization_id=5</span></div>
+        </div>
+        <div class="status">200 Created/OK</div>
+      </div>
+      <div class="grid two">
+        <div>
+          <h3>请求参数</h3>
+          <pre>{
+  &quot;organization_id&quot;: 5,
+  &quot;service&quot;: {
+    &quot;name&quot;: &quot;TextTranslateAgent&quot;,
+    &quot;category&quot;: &quot;nlp&quot;,
+    &quot;description&quot;: &quot;Text translation service for LLM multi-agent workflows. Supports translate language conversion summary.&quot;,
+    &quot;endpoint_url&quot;: &quot;http://127.0.0.1:8011/translate&quot;,
+    &quot;protocol&quot;: &quot;HTTP&quot;,
+    &quot;http_method&quot;: &quot;POST&quot;,
+    &quot;http_mode&quot;: &quot;sync&quot;,
+    &quot;price_per_unit&quot;: 0.0,
+    &quot;agentdns_path&quot;: &quot;thesis-ai-1777181730/nlp/translate&quot;,
+    &quot;organization_id&quot;: 5
+  }
+}</pre>
+        </div>
+        <div>
+          <h3>真实响应</h3>
+          <pre>{
+  &quot;id&quot;: 5,
+  &quot;name&quot;: &quot;TextTranslateAgent&quot;,
+  &quot;category&quot;: &quot;nlp&quot;,
+  &quot;agentdns_uri&quot;: &quot;agentdns://thesis-ai-1777181730/nlp/translate&quot;,
+  &quot;protocol&quot;: &quot;HTTP&quot;,
+  &quot;http_method&quot;: &quot;POST&quot;,
+  &quot;http_mode&quot;: &quot;sync&quot;,
+  &quot;price_per_unit&quot;: 0.0,
+  &quot;organization_id&quot;: 5,
+  &quot;created_at&quot;: &quot;2026-04-26T05:35:30&quot;
+}</pre>
+          
+        </div>
+      </div>
+    </section>
+    
+  </main>
+</body>
+</html>

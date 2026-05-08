@@ -1,0 +1,1204 @@
+{
+  "tasks": [
+    {
+      "task_id": "b2h_translation_001",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "将这段中文翻译成英文，并保持术语一致：人工智能正在改变软件系统的设计方式。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_002",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "将这段英文翻译成中文：Trust-aware routing can improve service selection quality.",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_003",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "请将下列技术说明翻译为英文，并保持术语一致。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_004",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "将以下中文会议纪要要点翻译为英文：系统稳定性、服务发现、信任反馈。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_005",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "请把下面这句产品说明翻译成英文，要求自然流畅。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_006",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "请把以下英文实验描述翻译成中文，并保留专业术语。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_007",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "将以下中文研发说明翻译为英文：该系统支持同步、流式与异步调用。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_008",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "请把这句英文会议结论翻译为中文：The trust signal should not dominate semantic relevance.",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_009",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "将以下中文接口说明翻译为英文，并保留 API 术语。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_010",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "请将这段英文项目说明翻译为中文，保持技术语气。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_011",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "将这段中文翻译成英文，并保持术语一致：人工智能正在改变软件系统的设计方式。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_012",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "将这段英文翻译成中文：Trust-aware routing can improve service selection quality.",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_013",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "请将下列技术说明翻译为英文，并保持术语一致。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_014",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "将以下中文会议纪要要点翻译为英文：系统稳定性、服务发现、信任反馈。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_015",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "请把下面这句产品说明翻译成英文，要求自然流畅。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_016",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "请把以下英文实验描述翻译成中文，并保留专业术语。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_017",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "将以下中文研发说明翻译为英文：该系统支持同步、流式与异步调用。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_018",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "请把这句英文会议结论翻译为中文：The trust signal should not dominate semantic relevance.",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_019",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "将以下中文接口说明翻译为英文，并保留 API 术语。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_020",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "请将这段英文项目说明翻译为中文，保持技术语气。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_021",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "将这段中文翻译成英文，并保持术语一致：人工智能正在改变软件系统的设计方式。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_022",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "将这段英文翻译成中文：Trust-aware routing can improve service selection quality.",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_023",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "请将下列技术说明翻译为英文，并保持术语一致。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_024",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "将以下中文会议纪要要点翻译为英文：系统稳定性、服务发现、信任反馈。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_025",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "请把下面这句产品说明翻译成英文，要求自然流畅。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_026",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "请把以下英文实验描述翻译成中文，并保留专业术语。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_027",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "将以下中文研发说明翻译为英文：该系统支持同步、流式与异步调用。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_028",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "请把这句英文会议结论翻译为中文：The trust signal should not dominate semantic relevance.",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_029",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "将以下中文接口说明翻译为英文，并保留 API 术语。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_030",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "请将这段英文项目说明翻译为中文，保持技术语气。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_031",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "将这段中文翻译成英文，并保持术语一致：人工智能正在改变软件系统的设计方式。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_032",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "将这段英文翻译成中文：Trust-aware routing can improve service selection quality.",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_033",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "请将下列技术说明翻译为英文，并保持术语一致。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_034",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "将以下中文会议纪要要点翻译为英文：系统稳定性、服务发现、信任反馈。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_035",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "请把下面这句产品说明翻译成英文，要求自然流畅。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_036",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "请把以下英文实验描述翻译成中文，并保留专业术语。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_037",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "将以下中文研发说明翻译为英文：该系统支持同步、流式与异步调用。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_038",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "请把这句英文会议结论翻译为中文：The trust signal should not dominate semantic relevance.",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_039",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "将以下中文接口说明翻译为英文，并保留 API 术语。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_translation_040",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "请将这段英文项目说明翻译为中文，保持技术语气。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_001",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请对以下长文本进行摘要，保留核心观点与结论。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_002",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请生成一段简洁摘要，突出任务目标、方法和结果。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_003",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "对这段描述生成摘要，要求语言简洁、信息密度高。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_004",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请把以下项目说明压缩成三句摘要。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_005",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请总结下面这段系统设计说明，突出模块关系。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_006",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请把以下研究背景压缩成一段摘要，要求保留问题与贡献。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_007",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请对以下的实验记录做摘要，重点突出对比结果。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_008",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请将以下服务描述压缩为两句，保留适用场景与限制。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_009",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请对以下会议纪要进行摘要，保留决策与待办事项。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_010",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请把下面这段产品说明压缩为一段简洁摘要。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_011",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请对以下长文本进行摘要，保留核心观点与结论。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_012",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请生成一段简洁摘要，突出任务目标、方法和结果。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_013",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "对这段描述生成摘要，要求语言简洁、信息密度高。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_014",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请把以下项目说明压缩成三句摘要。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_015",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请总结下面这段系统设计说明，突出模块关系。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_016",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请把以下研究背景压缩成一段摘要，要求保留问题与贡献。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_017",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请对以下的实验记录做摘要，重点突出对比结果。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_018",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请将以下服务描述压缩为两句，保留适用场景与限制。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_019",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请对以下会议纪要进行摘要，保留决策与待办事项。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_020",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请把下面这段产品说明压缩为一段简洁摘要。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_021",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请对以下长文本进行摘要，保留核心观点与结论。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_022",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请生成一段简洁摘要，突出任务目标、方法和结果。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_023",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "对这段描述生成摘要，要求语言简洁、信息密度高。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_024",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请把以下项目说明压缩成三句摘要。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_025",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请总结下面这段系统设计说明，突出模块关系。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_026",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请把以下研究背景压缩成一段摘要，要求保留问题与贡献。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_027",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请对以下的实验记录做摘要，重点突出对比结果。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_028",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请将以下服务描述压缩为两句，保留适用场景与限制。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_029",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请对以下会议纪要进行摘要，保留决策与待办事项。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_030",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请把下面这段产品说明压缩为一段简洁摘要。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_031",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请对以下长文本进行摘要，保留核心观点与结论。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_032",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请生成一段简洁摘要，突出任务目标、方法和结果。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_033",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "对这段描述生成摘要，要求语言简洁、信息密度高。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_034",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请把以下项目说明压缩成三句摘要。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_035",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请总结下面这段系统设计说明，突出模块关系。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_036",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请把以下研究背景压缩成一段摘要，要求保留问题与贡献。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_037",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请对以下的实验记录做摘要，重点突出对比结果。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_038",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请将以下服务描述压缩为两句，保留适用场景与限制。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_039",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请对以下会议纪要进行摘要，保留决策与待办事项。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_summary_040",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请把下面这段产品说明压缩为一段简洁摘要。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_001",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "从文本中抽取时间、地点、人物、事件，输出为结构化字段。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_002",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "识别文中的组织名、金额、日期和关键动作。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_003",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "从以下段落抽取会议主题、负责人和截止日期。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_004",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "请从文本中抽取研究对象、方法、结果和结论。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_005",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "请抽取工单中的问题类型、优先级、责任人和处理状态。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_006",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "从通知文本中抽取部门、时间、会议地点和参与对象。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_007",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "请抽取实验描述中的模型名称、数据集、指标和结论。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_008",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "从项目周报中抽取里程碑、延期原因、负责人和下一步计划。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_009",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "从服务说明中抽取功能、输入、输出和限制条件。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_010",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "请从会议纪要中抽取决议项、负责人、截止日期和风险点。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_011",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "从文本中抽取时间、地点、人物、事件，输出为结构化字段。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_012",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "识别文中的组织名、金额、日期和关键动作。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_013",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "从以下段落抽取会议主题、负责人和截止日期。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_014",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "请从文本中抽取研究对象、方法、结果和结论。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_015",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "请抽取工单中的问题类型、优先级、责任人和处理状态。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_016",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "从通知文本中抽取部门、时间、会议地点和参与对象。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_017",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "请抽取实验描述中的模型名称、数据集、指标和结论。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_018",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "从项目周报中抽取里程碑、延期原因、负责人和下一步计划。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_019",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "从服务说明中抽取功能、输入、输出和限制条件。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_020",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "请从会议纪要中抽取决议项、负责人、截止日期和风险点。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_021",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "从文本中抽取时间、地点、人物、事件，输出为结构化字段。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_022",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "识别文中的组织名、金额、日期和关键动作。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_023",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "从以下段落抽取会议主题、负责人和截止日期。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_024",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "请从文本中抽取研究对象、方法、结果和结论。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_025",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "请抽取工单中的问题类型、优先级、责任人和处理状态。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_026",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "从通知文本中抽取部门、时间、会议地点和参与对象。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_027",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "请抽取实验描述中的模型名称、数据集、指标和结论。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_028",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "从项目周报中抽取里程碑、延期原因、负责人和下一步计划。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_029",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "从服务说明中抽取功能、输入、输出和限制条件。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_030",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "请从会议纪要中抽取决议项、负责人、截止日期和风险点。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_031",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "从文本中抽取时间、地点、人物、事件，输出为结构化字段。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_032",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "识别文中的组织名、金额、日期和关键动作。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_033",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "从以下段落抽取会议主题、负责人和截止日期。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_034",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "请从文本中抽取研究对象、方法、结果和结论。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_035",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "请抽取工单中的问题类型、优先级、责任人和处理状态。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_036",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "从通知文本中抽取部门、时间、会议地点和参与对象。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_037",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "请抽取实验描述中的模型名称、数据集、指标和结论。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_038",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "从项目周报中抽取里程碑、延期原因、负责人和下一步计划。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_039",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "从服务说明中抽取功能、输入、输出和限制条件。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b2h_extract_040",
+      "scenario_family": "b2_hard",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "请从会议纪要中抽取决议项、负责人、截止日期和风险点。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    }
+  ]
+}

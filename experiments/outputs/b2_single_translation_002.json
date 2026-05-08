@@ -1,0 +1,12 @@
+{
+  "tasks": [
+    {
+      "task_id": "b2_translation_002",
+      "scenario_family": "b2_formal",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "将这段英文翻译成中文：Trust-aware routing can improve service selection quality.",
+      "required_service_categories": ["translation"]
+    }
+  ]
+}

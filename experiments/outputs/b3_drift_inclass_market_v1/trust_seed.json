@@ -1,0 +1,706 @@
+{
+  "market_name": "b3_drift_inclass_market_v1",
+  "service_count": 100,
+  "items": [
+    {
+      "service_key": "svc_translation_001",
+      "category": "translation",
+      "profile_name": "平衡实用型",
+      "trust_seed": 84.58,
+      "rating_count_seed": 6
+    },
+    {
+      "service_key": "svc_translation_002",
+      "category": "translation",
+      "profile_name": "平衡实用型",
+      "trust_seed": 85.02,
+      "rating_count_seed": 8
+    },
+    {
+      "service_key": "svc_translation_003",
+      "category": "translation",
+      "profile_name": "平衡实用型",
+      "trust_seed": 84.02,
+      "rating_count_seed": 8
+    },
+    {
+      "service_key": "svc_translation_004",
+      "category": "translation",
+      "profile_name": "平衡实用型",
+      "trust_seed": 84.79,
+      "rating_count_seed": 6
+    },
+    {
+      "service_key": "svc_translation_005",
+      "category": "translation",
+      "profile_name": "平衡实用型",
+      "trust_seed": 85.16,
+      "rating_count_seed": 7
+    },
+    {
+      "service_key": "svc_translation_006",
+      "category": "translation",
+      "profile_name": "平衡实用型",
+      "trust_seed": 84.77,
+      "rating_count_seed": 6
+    },
+    {
+      "service_key": "svc_translation_007",
+      "category": "translation",
+      "profile_name": "平衡实用型",
+      "trust_seed": 84.36,
+      "rating_count_seed": 8
+    },
+    {
+      "service_key": "svc_translation_008",
+      "category": "translation",
+      "profile_name": "平衡实用型",
+      "trust_seed": 85.37,
+      "rating_count_seed": 8
+    },
+    {
+      "service_key": "svc_translation_009",
+      "category": "translation",
+      "profile_name": "平衡实用型",
+      "trust_seed": 85.9,
+      "rating_count_seed": 5
+    },
+    {
+      "service_key": "svc_translation_010",
+      "category": "translation",
+      "profile_name": "平衡实用型",
+      "trust_seed": 84.54,
+      "rating_count_seed": 7
+    },
+    {
+      "service_key": "svc_translation_011",
+      "category": "translation",
+      "profile_name": "领域专精型",
+      "trust_seed": 87.15,
+      "rating_count_seed": 6
+    },
+    {
+      "service_key": "svc_translation_012",
+      "category": "translation",
+      "profile_name": "领域专精型",
+      "trust_seed": 87.61,
+      "rating_count_seed": 8
+    },
+    {
+      "service_key": "svc_translation_013",
+      "category": "translation",
+      "profile_name": "领域专精型",
+      "trust_seed": 87.45,
+      "rating_count_seed": 8
+    },
+    {
+      "service_key": "svc_translation_014",
+      "category": "translation",
+      "profile_name": "领域专精型",
+      "trust_seed": 87.79,
+      "rating_count_seed": 7
+    },
+    {
+      "service_key": "svc_translation_015",
+      "category": "translation",
+      "profile_name": "领域专精型",
+      "trust_seed": 87.71,
+      "rating_count_seed": 8
+    },
+    {
+      "service_key": "svc_translation_016",
+      "category": "translation",
+      "profile_name": "领域专精型",
+      "trust_seed": 86.67,
+      "rating_count_seed": 5
+    },
+    {
+      "service_key": "svc_translation_017",
+      "category": "translation",
+      "profile_name": "领域专精型",
+      "trust_seed": 86.71,
+      "rating_count_seed": 5
+    },
+    {
+      "service_key": "svc_translation_018",
+      "category": "translation",
+      "profile_name": "领域专精型",
+      "trust_seed": 87.4,
+      "rating_count_seed": 7
+    },
+    {
+      "service_key": "svc_translation_019",
+      "category": "translation",
+      "profile_name": "领域专精型",
+      "trust_seed": 87.88,
+      "rating_count_seed": 7
+    },
+    {
+      "service_key": "svc_translation_020",
+      "category": "translation",
+      "profile_name": "领域专精型",
+      "trust_seed": 86.61,
+      "rating_count_seed": 8
+    },
+    {
+      "service_key": "svc_translation_021",
+      "category": "translation",
+      "profile_name": "漂移波动型",
+      "trust_seed": 87.57,
+      "rating_count_seed": 2
+    },
+    {
+      "service_key": "svc_translation_022",
+      "category": "translation",
+      "profile_name": "漂移波动型",
+      "trust_seed": 86.46,
+      "rating_count_seed": 2
+    },
+    {
+      "service_key": "svc_translation_023",
+      "category": "translation",
+      "profile_name": "漂移波动型",
+      "trust_seed": 87.21,
+      "rating_count_seed": 1
+    },
+    {
+      "service_key": "svc_translation_024",
+      "category": "translation",
+      "profile_name": "漂移波动型",
+      "trust_seed": 86.27,
+      "rating_count_seed": 2
+    },
+    {
+      "service_key": "svc_translation_025",
+      "category": "translation",
+      "profile_name": "漂移波动型",
+      "trust_seed": 87.86,
+      "rating_count_seed": 1
+    },
+    {
+      "service_key": "svc_translation_026",
+      "category": "translation",
+      "profile_name": "漂移波动型",
+      "trust_seed": 86.87,
+      "rating_count_seed": 1
+    },
+    {
+      "service_key": "svc_translation_027",
+      "category": "translation",
+      "profile_name": "漂移波动型",
+      "trust_seed": 87.22,
+      "rating_count_seed": 2
+    },
+    {
+      "service_key": "svc_translation_028",
+      "category": "translation",
+      "profile_name": "漂移波动型",
+      "trust_seed": 87.35,
+      "rating_count_seed": 1
+    },
+    {
+      "service_key": "svc_translation_029",
+      "category": "translation",
+      "profile_name": "漂移波动型",
+      "trust_seed": 87.52,
+      "rating_count_seed": 1
+    },
+    {
+      "service_key": "svc_translation_030",
+      "category": "translation",
+      "profile_name": "漂移波动型",
+      "trust_seed": 87.36,
+      "rating_count_seed": 1
+    },
+    {
+      "service_key": "svc_text_summary_001",
+      "category": "text_summary",
+      "profile_name": "平衡实用型",
+      "trust_seed": 84.86,
+      "rating_count_seed": 5
+    },
+    {
+      "service_key": "svc_text_summary_002",
+      "category": "text_summary",
+      "profile_name": "平衡实用型",
+      "trust_seed": 85.29,
+      "rating_count_seed": 6
+    },
+    {
+      "service_key": "svc_text_summary_003",
+      "category": "text_summary",
+      "profile_name": "平衡实用型",
+      "trust_seed": 85.39,
+      "rating_count_seed": 7
+    },
+    {
+      "service_key": "svc_text_summary_004",
+      "category": "text_summary",
+      "profile_name": "平衡实用型",
+      "trust_seed": 84.62,
+      "rating_count_seed": 7
+    },
+    {
+      "service_key": "svc_text_summary_005",
+      "category": "text_summary",
+      "profile_name": "平衡实用型",
+      "trust_seed": 85.49,
+      "rating_count_seed": 8
+    },
+    {
+      "service_key": "svc_text_summary_006",
+      "category": "text_summary",
+      "profile_name": "平衡实用型",
+      "trust_seed": 84.79,
+      "rating_count_seed": 8
+    },
+    {
+      "service_key": "svc_text_summary_007",
+      "category": "text_summary",
+      "profile_name": "平衡实用型",
+      "trust_seed": 84.52,
+      "rating_count_seed": 8
+    },
+    {
+      "service_key": "svc_text_summary_008",
+      "category": "text_summary",
+      "profile_name": "平衡实用型",
+      "trust_seed": 85.31,
+      "rating_count_seed": 7
+    },
+    {
+      "service_key": "svc_text_summary_009",
+      "category": "text_summary",
+      "profile_name": "平衡实用型",
+      "trust_seed": 85.42,
+      "rating_count_seed": 8
+    },
+    {
+      "service_key": "svc_text_summary_010",
+      "category": "text_summary",
+      "profile_name": "平衡实用型",
+      "trust_seed": 85.21,
+      "rating_count_seed": 5
+    },
+    {
+      "service_key": "svc_text_summary_011",
+      "category": "text_summary",
+      "profile_name": "领域专精型",
+      "trust_seed": 86.87,
+      "rating_count_seed": 7
+    },
+    {
+      "service_key": "svc_text_summary_012",
+      "category": "text_summary",
+      "profile_name": "领域专精型",
+      "trust_seed": 87.11,
+      "rating_count_seed": 5
+    },
+    {
+      "service_key": "svc_text_summary_013",
+      "category": "text_summary",
+      "profile_name": "领域专精型",
+      "trust_seed": 87.05,
+      "rating_count_seed": 6
+    },
+    {
+      "service_key": "svc_text_summary_014",
+      "category": "text_summary",
+      "profile_name": "领域专精型",
+      "trust_seed": 86.45,
+      "rating_count_seed": 8
+    },
+    {
+      "service_key": "svc_text_summary_015",
+      "category": "text_summary",
+      "profile_name": "领域专精型",
+      "trust_seed": 86.45,
+      "rating_count_seed": 8
+    },
+    {
+      "service_key": "svc_text_summary_016",
+      "category": "text_summary",
+      "profile_name": "领域专精型",
+      "trust_seed": 86.38,
+      "rating_count_seed": 7
+    },
+    {
+      "service_key": "svc_text_summary_017",
+      "category": "text_summary",
+      "profile_name": "领域专精型",
+      "trust_seed": 87.43,
+      "rating_count_seed": 7
+    },
+    {
+      "service_key": "svc_text_summary_018",
+      "category": "text_summary",
+      "profile_name": "领域专精型",
+      "trust_seed": 88.0,
+      "rating_count_seed": 8
+    },
+    {
+      "service_key": "svc_text_summary_019",
+      "category": "text_summary",
+      "profile_name": "领域专精型",
+      "trust_seed": 87.74,
+      "rating_count_seed": 5
+    },
+    {
+      "service_key": "svc_text_summary_020",
+      "category": "text_summary",
+      "profile_name": "领域专精型",
+      "trust_seed": 86.19,
+      "rating_count_seed": 7
+    },
+    {
+      "service_key": "svc_text_summary_021",
+      "category": "text_summary",
+      "profile_name": "漂移波动型",
+      "trust_seed": 87.32,
+      "rating_count_seed": 1
+    },
+    {
+      "service_key": "svc_text_summary_022",
+      "category": "text_summary",
+      "profile_name": "漂移波动型",
+      "trust_seed": 86.27,
+      "rating_count_seed": 1
+    },
+    {
+      "service_key": "svc_text_summary_023",
+      "category": "text_summary",
+      "profile_name": "漂移波动型",
+      "trust_seed": 86.47,
+      "rating_count_seed": 2
+    },
+    {
+      "service_key": "svc_text_summary_024",
+      "category": "text_summary",
+      "profile_name": "漂移波动型",
+      "trust_seed": 86.04,
+      "rating_count_seed": 1
+    },
+    {
+      "service_key": "svc_text_summary_025",
+      "category": "text_summary",
+      "profile_name": "漂移波动型",
+      "trust_seed": 87.03,
+      "rating_count_seed": 1
+    },
+    {
+      "service_key": "svc_text_summary_026",
+      "category": "text_summary",
+      "profile_name": "漂移波动型",
+      "trust_seed": 86.77,
+      "rating_count_seed": 2
+    },
+    {
+      "service_key": "svc_text_summary_027",
+      "category": "text_summary",
+      "profile_name": "漂移波动型",
+      "trust_seed": 86.66,
+      "rating_count_seed": 2
+    },
+    {
+      "service_key": "svc_text_summary_028",
+      "category": "text_summary",
+      "profile_name": "漂移波动型",
+      "trust_seed": 86.74,
+      "rating_count_seed": 2
+    },
+    {
+      "service_key": "svc_text_summary_029",
+      "category": "text_summary",
+      "profile_name": "漂移波动型",
+      "trust_seed": 87.06,
+      "rating_count_seed": 1
+    },
+    {
+      "service_key": "svc_text_summary_030",
+      "category": "text_summary",
+      "profile_name": "漂移波动型",
+      "trust_seed": 87.24,
+      "rating_count_seed": 2
+    },
+    {
+      "service_key": "svc_structured_extraction_001",
+      "category": "structured_extraction",
+      "profile_name": "平衡实用型",
+      "trust_seed": 84.38,
+      "rating_count_seed": 8
+    },
+    {
+      "service_key": "svc_structured_extraction_002",
+      "category": "structured_extraction",
+      "profile_name": "平衡实用型",
+      "trust_seed": 85.09,
+      "rating_count_seed": 6
+    },
+    {
+      "service_key": "svc_structured_extraction_003",
+      "category": "structured_extraction",
+      "profile_name": "平衡实用型",
+      "trust_seed": 85.2,
+      "rating_count_seed": 6
+    },
+    {
+      "service_key": "svc_structured_extraction_004",
+      "category": "structured_extraction",
+      "profile_name": "平衡实用型",
+      "trust_seed": 84.2,
+      "rating_count_seed": 7
+    },
+    {
+      "service_key": "svc_structured_extraction_005",
+      "category": "structured_extraction",
+      "profile_name": "平衡实用型",
+      "trust_seed": 84.46,
+      "rating_count_seed": 5
+    },
+    {
+      "service_key": "svc_structured_extraction_006",
+      "category": "structured_extraction",
+      "profile_name": "平衡实用型",
+      "trust_seed": 84.77,
+      "rating_count_seed": 8
+    },
+    {
+      "service_key": "svc_structured_extraction_007",
+      "category": "structured_extraction",
+      "profile_name": "平衡实用型",
+      "trust_seed": 84.39,
+      "rating_count_seed": 6
+    },
+    {
+      "service_key": "svc_structured_extraction_008",
+      "category": "structured_extraction",
+      "profile_name": "平衡实用型",
+      "trust_seed": 84.76,
+      "rating_count_seed": 6
+    },
+    {
+      "service_key": "svc_structured_extraction_009",
+      "category": "structured_extraction",
+      "profile_name": "平衡实用型",
+      "trust_seed": 84.34,
+      "rating_count_seed": 7
+    },
+    {
+      "service_key": "svc_structured_extraction_010",
+      "category": "structured_extraction",
+      "profile_name": "平衡实用型",
+      "trust_seed": 84.39,
+      "rating_count_seed": 8
+    },
+    {
+      "service_key": "svc_structured_extraction_011",
+      "category": "structured_extraction",
+      "profile_name": "领域专精型",
+      "trust_seed": 86.35,
+      "rating_count_seed": 5
+    },
+    {
+      "service_key": "svc_structured_extraction_012",
+      "category": "structured_extraction",
+      "profile_name": "领域专精型",
+      "trust_seed": 87.37,
+      "rating_count_seed": 8
+    },
+    {
+      "service_key": "svc_structured_extraction_013",
+      "category": "structured_extraction",
+      "profile_name": "领域专精型",
+      "trust_seed": 87.4,
+      "rating_count_seed": 5
+    },
+    {
+      "service_key": "svc_structured_extraction_014",
+      "category": "structured_extraction",
+      "profile_name": "领域专精型",
+      "trust_seed": 87.15,
+      "rating_count_seed": 6
+    },
+    {
+      "service_key": "svc_structured_extraction_015",
+      "category": "structured_extraction",
+      "profile_name": "领域专精型",
+      "trust_seed": 86.29,
+      "rating_count_seed": 8
+    },
+    {
+      "service_key": "svc_structured_extraction_016",
+      "category": "structured_extraction",
+      "profile_name": "领域专精型",
+      "trust_seed": 87.08,
+      "rating_count_seed": 6
+    },
+    {
+      "service_key": "svc_structured_extraction_017",
+      "category": "structured_extraction",
+      "profile_name": "领域专精型",
+      "trust_seed": 87.15,
+      "rating_count_seed": 6
+    },
+    {
+      "service_key": "svc_structured_extraction_018",
+      "category": "structured_extraction",
+      "profile_name": "领域专精型",
+      "trust_seed": 87.22,
+      "rating_count_seed": 8
+    },
+    {
+      "service_key": "svc_structured_extraction_019",
+      "category": "structured_extraction",
+      "profile_name": "领域专精型",
+      "trust_seed": 86.13,
+      "rating_count_seed": 8
+    },
+    {
+      "service_key": "svc_structured_extraction_020",
+      "category": "structured_extraction",
+      "profile_name": "领域专精型",
+      "trust_seed": 87.09,
+      "rating_count_seed": 5
+    },
+    {
+      "service_key": "svc_structured_extraction_021",
+      "category": "structured_extraction",
+      "profile_name": "漂移波动型",
+      "trust_seed": 86.13,
+      "rating_count_seed": 1
+    },
+    {
+      "service_key": "svc_structured_extraction_022",
+      "category": "structured_extraction",
+      "profile_name": "漂移波动型",
+      "trust_seed": 87.76,
+      "rating_count_seed": 2
+    },
+    {
+      "service_key": "svc_structured_extraction_023",
+      "category": "structured_extraction",
+      "profile_name": "漂移波动型",
+      "trust_seed": 86.7,
+      "rating_count_seed": 1
+    },
+    {
+      "service_key": "svc_structured_extraction_024",
+      "category": "structured_extraction",
+      "profile_name": "漂移波动型",
+      "trust_seed": 87.82,
+      "rating_count_seed": 1
+    },
+    {
+      "service_key": "svc_structured_extraction_025",
+      "category": "structured_extraction",
+      "profile_name": "漂移波动型",
+      "trust_seed": 87.01,
+      "rating_count_seed": 2
+    },
+    {
+      "service_key": "svc_structured_extraction_026",
+      "category": "structured_extraction",
+      "profile_name": "漂移波动型",
+      "trust_seed": 86.79,
+      "rating_count_seed": 2
+    },
+    {
+      "service_key": "svc_structured_extraction_027",
+      "category": "structured_extraction",
+      "profile_name": "漂移波动型",
+      "trust_seed": 86.11,
+      "rating_count_seed": 1
+    },
+    {
+      "service_key": "svc_structured_extraction_028",
+      "category": "structured_extraction",
+      "profile_name": "漂移波动型",
+      "trust_seed": 87.9,
+      "rating_count_seed": 2
+    },
+    {
+      "service_key": "svc_structured_extraction_029",
+      "category": "structured_extraction",
+      "profile_name": "漂移波动型",
+      "trust_seed": 86.59,
+      "rating_count_seed": 1
+    },
+    {
+      "service_key": "svc_structured_extraction_030",
+      "category": "structured_extraction",
+      "profile_name": "漂移波动型",
+      "trust_seed": 86.02,
+      "rating_count_seed": 1
+    },
+    {
+      "service_key": "svc_routing_classification_001",
+      "category": "routing_classification",
+      "profile_name": "平衡实用型",
+      "trust_seed": 84.75,
+      "rating_count_seed": 6
+    },
+    {
+      "service_key": "svc_routing_classification_002",
+      "category": "routing_classification",
+      "profile_name": "平衡实用型",
+      "trust_seed": 85.19,
+      "rating_count_seed": 5
+    },
+    {
+      "service_key": "svc_routing_classification_003",
+      "category": "routing_classification",
+      "profile_name": "平衡实用型",
+      "trust_seed": 85.8,
+      "rating_count_seed": 7
+    },
+    {
+      "service_key": "svc_routing_classification_004",
+      "category": "routing_classification",
+      "profile_name": "平衡实用型",
+      "trust_seed": 84.55,
+      "rating_count_seed": 8
+    },
+    {
+      "service_key": "svc_routing_classification_005",
+      "category": "routing_classification",
+      "profile_name": "平衡实用型",
+      "trust_seed": 84.62,
+      "rating_count_seed": 6
+    },
+    {
+      "service_key": "svc_routing_classification_006",
+      "category": "routing_classification",
+      "profile_name": "领域专精型",
+      "trust_seed": 86.19,
+      "rating_count_seed": 5
+    },
+    {
+      "service_key": "svc_routing_classification_007",
+      "category": "routing_classification",
+      "profile_name": "领域专精型",
+      "trust_seed": 87.29,
+      "rating_count_seed": 6
+    },
+    {
+      "service_key": "svc_routing_classification_008",
+      "category": "routing_classification",
+      "profile_name": "领域专精型",
+      "trust_seed": 87.12,
+      "rating_count_seed": 5
+    },
+    {
+      "service_key": "svc_routing_classification_009",
+      "category": "routing_classification",
+      "profile_name": "领域专精型",
+      "trust_seed": 86.91,
+      "rating_count_seed": 7
+    },
+    {
+      "service_key": "svc_routing_classification_010",
+      "category": "routing_classification",
+      "profile_name": "领域专精型",
+      "trust_seed": 87.94,
+      "rating_count_seed": 6
+    }
+  ]
+}

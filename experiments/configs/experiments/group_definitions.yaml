@@ -1,0 +1,56 @@
+version: 1
+groups:
+  - group_id: direct_general_service
+    group_name: 直接通用服务组
+    uses_vector_retrieval: false
+    uses_reranking: false
+    uses_trust_feedback: false
+    supports_multi_step: false
+    supports_nested_calling: false
+    is_external_baseline: true
+    description: 不经过解析系统，直接调用通用服务完成任务。
+  - group_id: simple_rule_routing
+    group_name: 简单规则路由组
+    uses_vector_retrieval: false
+    uses_reranking: false
+    uses_trust_feedback: false
+    supports_multi_step: false
+    supports_nested_calling: false
+    is_external_baseline: true
+    description: 使用简单规则指定服务类别或服务族，不使用完整解析链。
+  - group_id: basic_resolution
+    group_name: 基础解析组
+    uses_vector_retrieval: false
+    uses_reranking: false
+    uses_trust_feedback: false
+    supports_multi_step: true
+    supports_nested_calling: false
+    is_external_baseline: false
+    description: 支持基本发现与调用闭环，但不启用增强机制。
+  - group_id: vector_enhanced
+    group_name: 向量召回增强组
+    uses_vector_retrieval: true
+    uses_reranking: false
+    uses_trust_feedback: false
+    supports_multi_step: true
+    supports_nested_calling: false
+    is_external_baseline: false
+    description: 在基础解析上加入向量召回。
+  - group_id: trust_feedback
+    group_name: 信任反馈闭环组
+    uses_vector_retrieval: true
+    uses_reranking: true
+    uses_trust_feedback: true
+    supports_multi_step: true
+    supports_nested_calling: false
+    is_external_baseline: false
+    description: 在召回与排序基础上加入评价—信任—再选择闭环。
+  - group_id: full_multi_step
+    group_name: 完整多步协同组
+    uses_vector_retrieval: true
+    uses_reranking: true
+    uses_trust_feedback: true
+    supports_multi_step: true
+    supports_nested_calling: true
+    is_external_baseline: false
+    description: 使用完整解析系统能力，支持复杂任务规划与多步协同。

@@ -1,0 +1,124 @@
+{
+  "tasks": [
+    {
+      "task_id": "b3p1_translation_001",
+      "scenario_family": "b3_drift",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "将这段中文翻译成英文，并保持术语一致：人工智能正在改变软件系统的设计方式。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b3p1_summary_001",
+      "scenario_family": "b3_drift",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请对以下长文本进行摘要，保留核心观点与结论。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b3p1_extract_001",
+      "scenario_family": "b3_drift",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "从文本中抽取时间、地点、人物、事件，输出为结构化字段。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b3p1_translation_002",
+      "scenario_family": "b3_drift",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "将这段英文翻译成中文：Trust-aware routing can improve service selection quality.",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b3p1_summary_002",
+      "scenario_family": "b3_drift",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请生成一段简洁摘要，突出任务目标、方法和结果。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b3p1_extract_002",
+      "scenario_family": "b3_drift",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "识别文中的组织名、金额、日期和关键动作。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b3p1_translation_003",
+      "scenario_family": "b3_drift",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "请将下列技术说明翻译为英文，并保持术语一致。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b3p1_summary_003",
+      "scenario_family": "b3_drift",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "对这段描述生成摘要，要求语言简洁、信息密度高。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b3p1_extract_003",
+      "scenario_family": "b3_drift",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "从以下段落抽取会议主题、负责人和截止日期。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    },
+    {
+      "task_id": "b3p1_translation_004",
+      "scenario_family": "b3_drift",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "将以下中文会议纪要要点翻译为英文：系统稳定性、服务发现、信任反馈。",
+      "required_service_categories": [
+        "translation"
+      ]
+    },
+    {
+      "task_id": "b3p1_summary_004",
+      "scenario_family": "b3_drift",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请把以下项目说明压缩成三句摘要。",
+      "required_service_categories": [
+        "text_summary"
+      ]
+    },
+    {
+      "task_id": "b3p1_extract_004",
+      "scenario_family": "b3_drift",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "请从文本中抽取研究对象、方法、结果和结论。",
+      "required_service_categories": [
+        "structured_extraction"
+      ]
+    }
+  ]
+}

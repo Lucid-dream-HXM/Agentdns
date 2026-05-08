@@ -1,0 +1,2 @@
+{"task_id": "task_office_study_001", "status": "success", "steps": [{"step_id": 1, "service_id": 39, "service_name": "路由不稳服务13"}, {"step_id": 2, "service_id": 27, "service_name": "摘要基础服务01"}, {"step_id": 3, "service_id": 32, "service_name": "抽取平衡服务06"}, {"step_id": 4, "service_id": 53, "service_name": "聚合经济服务27"}]}
+{"task_id": "task_office_study_002", "status": "success", "steps": [{"step_id": 1, "service_id": 39, "service_name": "路由不稳服务13"}, {"step_id": 2, "service_id": 27, "service_name": "摘要基础服务01"}, {"step_id": 3, "service_id": 53, "service_name": "聚合经济服务27"}]}

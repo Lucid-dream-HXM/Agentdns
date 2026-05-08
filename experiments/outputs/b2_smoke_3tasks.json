@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "task_id": "smoke_translation_001",
+      "scenario_family": "b2_smoke",
+      "complexity_level": "L1",
+      "task_goal": "翻译任务",
+      "task_prompt": "将这段中文翻译成英文：你好，世界。",
+      "required_service_categories": ["translation"]
+    },
+    {
+      "task_id": "smoke_summary_001",
+      "scenario_family": "b2_smoke",
+      "complexity_level": "L1",
+      "task_goal": "文本摘要",
+      "task_prompt": "请对以下文本做摘要。",
+      "required_service_categories": ["text_summary"]
+    },
+    {
+      "task_id": "smoke_extract_001",
+      "scenario_family": "b2_smoke",
+      "complexity_level": "L1",
+      "task_goal": "结构化抽取",
+      "task_prompt": "抽取时间、地点、人物。",
+      "required_service_categories": ["structured_extraction"]
+    }
+  ]
+}

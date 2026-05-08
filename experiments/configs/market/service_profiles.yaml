@@ -1,0 +1,74 @@
+version: 1
+profiles:
+  - profile_name: 旗舰通用型
+    quality_range: [0.88, 0.96]
+    latency_range_ms: [1500, 2600]
+    cost_range: [0.12, 0.22]
+    format_stability_range: [0.90, 0.97]
+    consumability_range: [0.88, 0.96]
+    failure_probability: 0.01
+    drift_probability: 0.01
+    description: 质量高、能力全、成本高、延迟偏高的通用高性能服务。
+  - profile_name: 平衡实用型
+    quality_range: [0.72, 0.84]
+    latency_range_ms: [700, 1400]
+    cost_range: [0.03, 0.08]
+    format_stability_range: [0.82, 0.93]
+    consumability_range: [0.80, 0.92]
+    failure_probability: 0.04
+    drift_probability: 0.03
+    description: 综合表现均衡的主流服务画像。
+  - profile_name: 低价基础型
+    quality_range: [0.56, 0.72]
+    latency_range_ms: [650, 1300]
+    cost_range: [0.01, 0.03]
+    format_stability_range: [0.68, 0.82]
+    consumability_range: [0.65, 0.80]
+    failure_probability: 0.08
+    drift_probability: 0.03
+    description: 成本低但质量与稳定性一般的服务画像。
+  - profile_name: 低时延响应型
+    quality_range: [0.60, 0.78]
+    latency_range_ms: [250, 700]
+    cost_range: [0.03, 0.09]
+    format_stability_range: [0.72, 0.86]
+    consumability_range: [0.70, 0.84]
+    failure_probability: 0.05
+    drift_probability: 0.02
+    description: 响应快但不一定高质量的服务画像。
+  - profile_name: 领域专精型
+    quality_range: [0.80, 0.92]
+    latency_range_ms: [800, 1700]
+    cost_range: [0.05, 0.12]
+    format_stability_range: [0.84, 0.94]
+    consumability_range: [0.83, 0.95]
+    failure_probability: 0.03
+    drift_probability: 0.02
+    description: 在特定任务类别上表现突出的专精服务画像。
+  - profile_name: 漂移波动型
+    quality_range: [0.55, 0.90]
+    latency_range_ms: [600, 1800]
+    cost_range: [0.02, 0.10]
+    format_stability_range: [0.60, 0.90]
+    consumability_range: [0.55, 0.88]
+    failure_probability: 0.08
+    drift_probability: 0.18
+    description: 表现波动较大、可能随时间漂移的服务画像。
+  - profile_name: 故障脆弱型
+    quality_range: [0.45, 0.75]
+    latency_range_ms: [500, 1600]
+    cost_range: [0.02, 0.08]
+    format_stability_range: [0.45, 0.78]
+    consumability_range: [0.45, 0.76]
+    failure_probability: 0.18
+    drift_probability: 0.05
+    description: 易失败、易输出坏格式或超时的服务画像。
+  - profile_name: 诱骗失真型
+    quality_range: [0.50, 0.78]
+    latency_range_ms: [350, 900]
+    cost_range: [0.01, 0.04]
+    format_stability_range: [0.52, 0.80]
+    consumability_range: [0.42, 0.72]
+    failure_probability: 0.10
+    drift_probability: 0.08
+    description: 表面便宜快，但可消费性和真实效果较差的诱骗型服务画像。

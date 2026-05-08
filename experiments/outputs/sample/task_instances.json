@@ -1,0 +1,465 @@
+{
+  "version": 1,
+  "seed": 20260419,
+  "task_count": 16,
+  "tasks": [
+    {
+      "task_id": "task_office_study_001",
+      "template_id": "office_summary_001",
+      "template_name": "长文整理并生成结构化摘要",
+      "scenario_family": "office_study",
+      "complexity_level": "L2",
+      "task_prompt": "请把会议讨论内容整理成纪要，并提取关键行动项。",
+      "task_goal": "对给定长文进行摘要并抽取关键要点，最终输出为表格。",
+      "step_chain": [
+        "分类路由判断类",
+        "文本摘要类",
+        "结构化抽取类",
+        "聚合最终生成类"
+      ],
+      "required_service_categories": [
+        "routing_classification",
+        "text_summary",
+        "structured_extraction",
+        "aggregation"
+      ],
+      "constraints": [
+        "输出需结构化",
+        "保持信息完整"
+      ],
+      "source_material_refs": [
+        "office_study_material_001"
+      ]
+    },
+    {
+      "task_id": "task_office_study_002",
+      "template_id": "office_summary_001",
+      "template_name": "长文整理并生成结构化摘要",
+      "scenario_family": "office_study",
+      "complexity_level": "L2",
+      "task_prompt": "请把会议讨论内容整理成纪要，并提取关键行动项。",
+      "task_goal": "对给定长文进行摘要并抽取关键要点，最终输出为表格。",
+      "step_chain": [
+        "分类路由判断类",
+        "文本摘要类",
+        "结构化抽取类",
+        "聚合最终生成类"
+      ],
+      "required_service_categories": [
+        "routing_classification",
+        "text_summary",
+        "structured_extraction",
+        "aggregation"
+      ],
+      "constraints": [
+        "输出需结构化",
+        "保持信息完整"
+      ],
+      "source_material_refs": [
+        "office_study_material_002"
+      ]
+    },
+    {
+      "task_id": "task_office_study_003",
+      "template_id": "office_notes_002",
+      "template_name": "多段材料整理为会议纪要",
+      "scenario_family": "office_study",
+      "complexity_level": "L2",
+      "task_prompt": "请把会议讨论内容整理成纪要，并提取关键行动项。",
+      "task_goal": "对多段材料进行整合、归纳并输出纪要。",
+      "step_chain": [
+        "分类路由判断类",
+        "文本摘要类",
+        "聚合最终生成类"
+      ],
+      "required_service_categories": [
+        "routing_classification",
+        "text_summary",
+        "aggregation"
+      ],
+      "constraints": [
+        "语言简洁",
+        "结构清晰"
+      ],
+      "source_material_refs": [
+        "office_study_material_003"
+      ]
+    },
+    {
+      "task_id": "task_office_study_004",
+      "template_id": "office_notes_002",
+      "template_name": "多段材料整理为会议纪要",
+      "scenario_family": "office_study",
+      "complexity_level": "L2",
+      "task_prompt": "请整理以下课程资料，抽取重点概念并生成结构化摘要。",
+      "task_goal": "对多段材料进行整合、归纳并输出纪要。",
+      "step_chain": [
+        "分类路由判断类",
+        "文本摘要类",
+        "聚合最终生成类"
+      ],
+      "required_service_categories": [
+        "routing_classification",
+        "text_summary",
+        "aggregation"
+      ],
+      "constraints": [
+        "语言简洁",
+        "结构清晰"
+      ],
+      "source_material_refs": [
+        "office_study_material_004"
+      ]
+    },
+    {
+      "task_id": "task_information_processing_005",
+      "template_id": "info_extract_003",
+      "template_name": "长文本事件抽取并输出 JSON",
+      "scenario_family": "information_processing",
+      "complexity_level": "L2",
+      "task_prompt": "从以下报道中抽取事件时间、地点、人物和结果，并输出 JSON。",
+      "task_goal": "从文本中抽取事件要素并输出为 JSON。",
+      "step_chain": [
+        "分类路由判断类",
+        "结构化抽取类",
+        "格式转换类",
+        "校验纠错类"
+      ],
+      "required_service_categories": [
+        "routing_classification",
+        "structured_extraction",
+        "format_conversion",
+        "validation_correction"
+      ],
+      "constraints": [
+        "必须输出合法 JSON"
+      ],
+      "source_material_refs": [
+        "information_processing_material_005"
+      ]
+    },
+    {
+      "task_id": "task_information_processing_006",
+      "template_id": "info_extract_003",
+      "template_name": "长文本事件抽取并输出 JSON",
+      "scenario_family": "information_processing",
+      "complexity_level": "L2",
+      "task_prompt": "请把原始材料转换为统一模板并校验字段完整性。",
+      "task_goal": "从文本中抽取事件要素并输出为 JSON。",
+      "step_chain": [
+        "分类路由判断类",
+        "结构化抽取类",
+        "格式转换类",
+        "校验纠错类"
+      ],
+      "required_service_categories": [
+        "routing_classification",
+        "structured_extraction",
+        "format_conversion",
+        "validation_correction"
+      ],
+      "constraints": [
+        "必须输出合法 JSON"
+      ],
+      "source_material_refs": [
+        "information_processing_material_006"
+      ]
+    },
+    {
+      "task_id": "task_information_processing_007",
+      "template_id": "info_merge_004",
+      "template_name": "多来源文本合并并结构化输出",
+      "scenario_family": "information_processing",
+      "complexity_level": "L3",
+      "task_prompt": "请把多段文本中的重复信息合并后进行结构化输出。",
+      "task_goal": "对多个来源文本进行信息抽取、去重并汇总输出。",
+      "step_chain": [
+        "检索信息获取类",
+        "结构化抽取类",
+        "格式转换类",
+        "校验纠错类",
+        "聚合最终生成类"
+      ],
+      "required_service_categories": [
+        "retrieval",
+        "structured_extraction",
+        "format_conversion",
+        "validation_correction",
+        "aggregation"
+      ],
+      "constraints": [
+        "去重",
+        "结构统一"
+      ],
+      "source_material_refs": [
+        "information_processing_material_007"
+      ]
+    },
+    {
+      "task_id": "task_information_processing_008",
+      "template_id": "info_merge_004",
+      "template_name": "多来源文本合并并结构化输出",
+      "scenario_family": "information_processing",
+      "complexity_level": "L3",
+      "task_prompt": "从以下报道中抽取事件时间、地点、人物和结果，并输出 JSON。",
+      "task_goal": "对多个来源文本进行信息抽取、去重并汇总输出。",
+      "step_chain": [
+        "检索信息获取类",
+        "结构化抽取类",
+        "格式转换类",
+        "校验纠错类",
+        "聚合最终生成类"
+      ],
+      "required_service_categories": [
+        "retrieval",
+        "structured_extraction",
+        "format_conversion",
+        "validation_correction",
+        "aggregation"
+      ],
+      "constraints": [
+        "去重",
+        "结构统一"
+      ],
+      "source_material_refs": [
+        "information_processing_material_008"
+      ]
+    },
+    {
+      "task_id": "task_complex_agent_009",
+      "template_id": "agent_plan_005",
+      "template_name": "复杂任务拆分后多步执行",
+      "scenario_family": "complex_agent",
+      "complexity_level": "L3",
+      "task_prompt": "请先规划处理流程，再完成多文档整合与最终结论生成。",
+      "task_goal": "先规划步骤，再调用多个服务完成复杂任务并汇总结果。",
+      "step_chain": [
+        "规划拆分类",
+        "分类路由判断类",
+        "检索信息获取类",
+        "结构化抽取类",
+        "文本摘要类",
+        "聚合最终生成类"
+      ],
+      "required_service_categories": [
+        "planning",
+        "routing_classification",
+        "retrieval",
+        "structured_extraction",
+        "text_summary",
+        "aggregation"
+      ],
+      "constraints": [
+        "步骤逻辑合理",
+        "最终输出可执行"
+      ],
+      "source_material_refs": [
+        "complex_agent_material_009"
+      ]
+    },
+    {
+      "task_id": "task_complex_agent_010",
+      "template_id": "agent_plan_005",
+      "template_name": "复杂任务拆分后多步执行",
+      "scenario_family": "complex_agent",
+      "complexity_level": "L3",
+      "task_prompt": "给定复杂任务描述，请拆分子任务并调用合适服务完成。",
+      "task_goal": "先规划步骤，再调用多个服务完成复杂任务并汇总结果。",
+      "step_chain": [
+        "规划拆分类",
+        "分类路由判断类",
+        "检索信息获取类",
+        "结构化抽取类",
+        "文本摘要类",
+        "聚合最终生成类"
+      ],
+      "required_service_categories": [
+        "planning",
+        "routing_classification",
+        "retrieval",
+        "structured_extraction",
+        "text_summary",
+        "aggregation"
+      ],
+      "constraints": [
+        "步骤逻辑合理",
+        "最终输出可执行"
+      ],
+      "source_material_refs": [
+        "complex_agent_material_010"
+      ]
+    },
+    {
+      "task_id": "task_complex_agent_011",
+      "template_id": "agent_multidoc_006",
+      "template_name": "多文档处理后生成综合结论",
+      "scenario_family": "complex_agent",
+      "complexity_level": "L3",
+      "task_prompt": "给定复杂任务描述，请拆分子任务并调用合适服务完成。",
+      "task_goal": "处理多文档内容后给出综合结论与建议。",
+      "step_chain": [
+        "规划拆分类",
+        "检索信息获取类",
+        "文本摘要类",
+        "聚合最终生成类",
+        "校验纠错类"
+      ],
+      "required_service_categories": [
+        "planning",
+        "retrieval",
+        "text_summary",
+        "aggregation",
+        "validation_correction"
+      ],
+      "constraints": [
+        "结论完整",
+        "逻辑一致"
+      ],
+      "source_material_refs": [
+        "complex_agent_material_011"
+      ]
+    },
+    {
+      "task_id": "task_complex_agent_012",
+      "template_id": "agent_multidoc_006",
+      "template_name": "多文档处理后生成综合结论",
+      "scenario_family": "complex_agent",
+      "complexity_level": "L3",
+      "task_prompt": "给定复杂任务描述，请拆分子任务并调用合适服务完成。",
+      "task_goal": "处理多文档内容后给出综合结论与建议。",
+      "step_chain": [
+        "规划拆分类",
+        "检索信息获取类",
+        "文本摘要类",
+        "聚合最终生成类",
+        "校验纠错类"
+      ],
+      "required_service_categories": [
+        "planning",
+        "retrieval",
+        "text_summary",
+        "aggregation",
+        "validation_correction"
+      ],
+      "constraints": [
+        "结论完整",
+        "逻辑一致"
+      ],
+      "source_material_refs": [
+        "complex_agent_material_012"
+      ]
+    },
+    {
+      "task_id": "task_constrained_tasks_013",
+      "template_id": "constrained_json_007",
+      "template_name": "在预算约束下完成结构化输出",
+      "scenario_family": "constrained_tasks",
+      "complexity_level": "L2",
+      "task_prompt": "在时延受限条件下完成摘要与信息提取。",
+      "task_goal": "在成本受限条件下完成信息抽取并输出结构化结果。",
+      "step_chain": [
+        "分类路由判断类",
+        "结构化抽取类",
+        "格式转换类",
+        "校验纠错类"
+      ],
+      "required_service_categories": [
+        "routing_classification",
+        "structured_extraction",
+        "format_conversion",
+        "validation_correction"
+      ],
+      "constraints": [
+        "预算受限",
+        "JSON 输出"
+      ],
+      "source_material_refs": [
+        "constrained_tasks_material_013"
+      ]
+    },
+    {
+      "task_id": "task_constrained_tasks_014",
+      "template_id": "constrained_json_007",
+      "template_name": "在预算约束下完成结构化输出",
+      "scenario_family": "constrained_tasks",
+      "complexity_level": "L2",
+      "task_prompt": "在时延受限条件下完成摘要与信息提取。",
+      "task_goal": "在成本受限条件下完成信息抽取并输出结构化结果。",
+      "step_chain": [
+        "分类路由判断类",
+        "结构化抽取类",
+        "格式转换类",
+        "校验纠错类"
+      ],
+      "required_service_categories": [
+        "routing_classification",
+        "structured_extraction",
+        "format_conversion",
+        "validation_correction"
+      ],
+      "constraints": [
+        "预算受限",
+        "JSON 输出"
+      ],
+      "source_material_refs": [
+        "constrained_tasks_material_014"
+      ]
+    },
+    {
+      "task_id": "task_constrained_tasks_015",
+      "template_id": "constrained_latency_008",
+      "template_name": "在时延约束下完成多步整理任务",
+      "scenario_family": "constrained_tasks",
+      "complexity_level": "L3",
+      "task_prompt": "请在低成本条件下输出格式正确、内容可消费的结果。",
+      "task_goal": "在响应时间约束下完成摘要、抽取和最终聚合。",
+      "step_chain": [
+        "分类路由判断类",
+        "文本摘要类",
+        "结构化抽取类",
+        "聚合最终生成类"
+      ],
+      "required_service_categories": [
+        "routing_classification",
+        "text_summary",
+        "structured_extraction",
+        "aggregation"
+      ],
+      "constraints": [
+        "低时延",
+        "输出结构清晰"
+      ],
+      "source_material_refs": [
+        "constrained_tasks_material_015"
+      ]
+    },
+    {
+      "task_id": "task_constrained_tasks_016",
+      "template_id": "constrained_latency_008",
+      "template_name": "在时延约束下完成多步整理任务",
+      "scenario_family": "constrained_tasks",
+      "complexity_level": "L3",
+      "task_prompt": "请在低成本条件下输出格式正确、内容可消费的结果。",
+      "task_goal": "在响应时间约束下完成摘要、抽取和最终聚合。",
+      "step_chain": [
+        "分类路由判断类",
+        "文本摘要类",
+        "结构化抽取类",
+        "聚合最终生成类"
+      ],
+      "required_service_categories": [
+        "routing_classification",
+        "text_summary",
+        "structured_extraction",
+        "aggregation"
+      ],
+      "constraints": [
+        "低时延",
+        "输出结构清晰"
+      ],
+      "source_material_refs": [
+        "constrained_tasks_material_016"
+      ]
+    }
+  ]
+}

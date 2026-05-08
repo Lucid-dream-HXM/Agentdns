@@ -1,0 +1,5 @@
+group_name,round_index,phase_name,task_count,task_success_rate,avg_oracle_utility,avg_total_cost
+完整多步协同组,1,冷启动,8,1.0,0.8171,0.511
+完整多步协同组,2,短期预热,8,0.875,0.8092,0.4679
+完整多步协同组,3,中期运行,8,1.0,0.8164,0.5023
+完整多步协同组,4,持续运行,8,0.875,0.8103,0.4692

@@ -1,0 +1,5910 @@
+{
+  "market_name": "b2_hard_inclass_deception_market_v1",
+  "service_count": 100,
+  "services": [
+    {
+      "service_id": 43,
+      "service_key": "svc_translation_001",
+      "service_name": "翻译实用服务43",
+      "category": "translation",
+      "category_name": "翻译类",
+      "profile_name": "平衡实用型",
+      "price": 0.0744,
+      "base_latency_ms": 1155,
+      "latency_jitter_ms": 173,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.9136,
+      "consumability": 0.865,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "translation类",
+        "平衡实用型",
+        "中译英",
+        "中英互译",
+        "英译中",
+        "术语一致"
+      ],
+      "description": "翻译实用服务1，支持中译英、英译中、多语转换，兼顾质量与成本，适合常规文档翻译。重点适配中译英场景。",
+      "name": "翻译平衡服务1",
+      "capabilities": {
+        "service_key": "svc_translation_001",
+        "profile_name": "平衡实用型",
+        "features": [
+          "translation类",
+          "平衡实用型",
+          "中译英",
+          "中英互译",
+          "英译中",
+          "术语一致"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 900,
+          "latency_jitter_ms": 82,
+          "quality_range": [
+            0.844,
+            0.899
+          ],
+          "format_stability": 0.8649,
+          "consumability": 0.9033,
+          "failure_probability": 0.03,
+          "drift_probability": 0.0169
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 42,
+      "service_key": "svc_translation_002",
+      "service_name": "翻译实用服务42",
+      "category": "translation",
+      "category_name": "翻译类",
+      "profile_name": "平衡实用型",
+      "price": 0.0703,
+      "base_latency_ms": 1200,
+      "latency_jitter_ms": 180,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.879,
+      "consumability": 0.8632,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "translation类",
+        "平衡实用型",
+        "英译中",
+        "中英互译",
+        "术语一致"
+      ],
+      "description": "翻译实用服务2，支持中译英、英译中、多语转换，兼顾质量与成本，适合常规文档翻译。重点适配英译中场景。",
+      "name": "翻译平衡服务2",
+      "capabilities": {
+        "service_key": "svc_translation_002",
+        "profile_name": "平衡实用型",
+        "features": [
+          "translation类",
+          "平衡实用型",
+          "英译中",
+          "中英互译",
+          "术语一致"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 890,
+          "latency_jitter_ms": 82,
+          "quality_range": [
+            0.852,
+            0.911
+          ],
+          "format_stability": 0.8847,
+          "consumability": 0.908,
+          "failure_probability": 0.0316,
+          "drift_probability": 0.0252
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 42,
+      "service_key": "svc_translation_003",
+      "service_name": "翻译实用服务42",
+      "category": "translation",
+      "category_name": "翻译类",
+      "profile_name": "平衡实用型",
+      "price": 0.0741,
+      "base_latency_ms": 1200,
+      "latency_jitter_ms": 180,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.879,
+      "consumability": 0.8632,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "translation类",
+        "平衡实用型",
+        "术语一致",
+        "中英互译",
+        "英译中"
+      ],
+      "description": "翻译平衡服务3，擅长中英互译、会议纪要翻译、技术术语保持，输出稳定，适合通用翻译任务。重点适配术语一致场景。",
+      "name": "翻译平衡服务3",
+      "capabilities": {
+        "service_key": "svc_translation_003",
+        "profile_name": "平衡实用型",
+        "features": [
+          "translation类",
+          "平衡实用型",
+          "术语一致",
+          "中英互译",
+          "英译中"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 725,
+          "latency_jitter_ms": 138,
+          "quality_range": [
+            0.876,
+            0.906
+          ],
+          "format_stability": 0.9113,
+          "consumability": 0.8663,
+          "failure_probability": 0.0204,
+          "drift_probability": 0.0165
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 41,
+      "service_key": "svc_translation_004",
+      "service_name": "翻译平衡服务41",
+      "category": "translation",
+      "category_name": "翻译类",
+      "profile_name": "平衡实用型",
+      "price": 0.06,
+      "base_latency_ms": 961,
+      "latency_jitter_ms": 144,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.8445,
+      "consumability": 0.9068,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "translation类",
+        "平衡实用型",
+        "会议纪要翻译",
+        "中英互译",
+        "英译中",
+        "术语一致"
+      ],
+      "description": "翻译平衡服务4，擅长中英互译、会议纪要翻译、技术术语保持，输出稳定，适合通用翻译任务。重点适配会议纪要翻译场景。",
+      "name": "翻译平衡服务4",
+      "capabilities": {
+        "service_key": "svc_translation_004",
+        "profile_name": "平衡实用型",
+        "features": [
+          "translation类",
+          "平衡实用型",
+          "会议纪要翻译",
+          "中英互译",
+          "英译中",
+          "术语一致"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 747,
+          "latency_jitter_ms": 89,
+          "quality_range": [
+            0.869,
+            0.907
+          ],
+          "format_stability": 0.8947,
+          "consumability": 0.8833,
+          "failure_probability": 0.0107,
+          "drift_probability": 0.0161
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 42,
+      "service_key": "svc_translation_005",
+      "service_name": "翻译实用服务42",
+      "category": "translation",
+      "category_name": "翻译类",
+      "profile_name": "平衡实用型",
+      "price": 0.0641,
+      "base_latency_ms": 1200,
+      "latency_jitter_ms": 180,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.879,
+      "consumability": 0.8632,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "translation类",
+        "平衡实用型",
+        "产品说明翻译",
+        "中英互译",
+        "英译中",
+        "术语一致"
+      ],
+      "description": "翻译平衡服务5，擅长中英互译、会议纪要翻译、技术术语保持，输出稳定，适合通用翻译任务。重点适配产品说明翻译场景。",
+      "name": "翻译平衡服务5",
+      "capabilities": {
+        "service_key": "svc_translation_005",
+        "profile_name": "平衡实用型",
+        "features": [
+          "translation类",
+          "平衡实用型",
+          "产品说明翻译",
+          "中英互译",
+          "英译中",
+          "术语一致"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 734,
+          "latency_jitter_ms": 129,
+          "quality_range": [
+            0.855,
+            0.89
+          ],
+          "format_stability": 0.8969,
+          "consumability": 0.9087,
+          "failure_probability": 0.019,
+          "drift_probability": 0.0218
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 41,
+      "service_key": "svc_translation_006",
+      "service_name": "翻译平衡服务41",
+      "category": "translation",
+      "category_name": "翻译类",
+      "profile_name": "平衡实用型",
+      "price": 0.0684,
+      "base_latency_ms": 961,
+      "latency_jitter_ms": 144,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.8445,
+      "consumability": 0.9068,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "translation类",
+        "平衡实用型",
+        "技术文档翻译",
+        "中英互译",
+        "英译中",
+        "术语一致"
+      ],
+      "description": "翻译平衡服务6，擅长中英互译、会议纪要翻译、技术术语保持，输出稳定，适合通用翻译任务。重点适配技术文档翻译场景。",
+      "name": "翻译平衡服务6",
+      "capabilities": {
+        "service_key": "svc_translation_006",
+        "profile_name": "平衡实用型",
+        "features": [
+          "translation类",
+          "平衡实用型",
+          "技术文档翻译",
+          "中英互译",
+          "英译中",
+          "术语一致"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 841,
+          "latency_jitter_ms": 153,
+          "quality_range": [
+            0.854,
+            0.929
+          ],
+          "format_stability": 0.9104,
+          "consumability": 0.9136,
+          "failure_probability": 0.0293,
+          "drift_probability": 0.0194
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 44,
+      "service_key": "svc_translation_007",
+      "service_name": "翻译实用服务44",
+      "category": "translation",
+      "category_name": "翻译类",
+      "profile_name": "平衡实用型",
+      "price": 0.0756,
+      "base_latency_ms": 926,
+      "latency_jitter_ms": 138,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.8975,
+      "consumability": 0.844,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "translation类",
+        "平衡实用型",
+        "中译英",
+        "中英互译",
+        "英译中",
+        "术语一致"
+      ],
+      "description": "翻译实用服务7，支持中译英、英译中、多语转换，兼顾质量与成本，适合常规文档翻译。重点适配中译英场景。",
+      "name": "翻译平衡服务7",
+      "capabilities": {
+        "service_key": "svc_translation_007",
+        "profile_name": "平衡实用型",
+        "features": [
+          "translation类",
+          "平衡实用型",
+          "中译英",
+          "中英互译",
+          "英译中",
+          "术语一致"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 761,
+          "latency_jitter_ms": 159,
+          "quality_range": [
+            0.88,
+            0.917
+          ],
+          "format_stability": 0.9039,
+          "consumability": 0.8952,
+          "failure_probability": 0.0271,
+          "drift_probability": 0.0285
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 43,
+      "service_key": "svc_translation_008",
+      "service_name": "翻译实用服务43",
+      "category": "translation",
+      "category_name": "翻译类",
+      "profile_name": "平衡实用型",
+      "price": 0.0699,
+      "base_latency_ms": 1155,
+      "latency_jitter_ms": 173,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.9136,
+      "consumability": 0.865,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "translation类",
+        "平衡实用型",
+        "英译中",
+        "中英互译",
+        "术语一致"
+      ],
+      "description": "翻译实用服务8，支持中译英、英译中、多语转换，兼顾质量与成本，适合常规文档翻译。重点适配英译中场景。",
+      "name": "翻译平衡服务8",
+      "capabilities": {
+        "service_key": "svc_translation_008",
+        "profile_name": "平衡实用型",
+        "features": [
+          "translation类",
+          "平衡实用型",
+          "英译中",
+          "中英互译",
+          "术语一致"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 905,
+          "latency_jitter_ms": 107,
+          "quality_range": [
+            0.855,
+            0.901
+          ],
+          "format_stability": 0.9042,
+          "consumability": 0.9124,
+          "failure_probability": 0.0243,
+          "drift_probability": 0.0253
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 48,
+      "service_key": "svc_translation_009",
+      "service_name": "翻译领域服务48",
+      "category": "translation",
+      "category_name": "翻译类",
+      "profile_name": "领域专精型",
+      "price": 0.0756,
+      "base_latency_ms": 978,
+      "latency_jitter_ms": 146,
+      "quality_range": [
+        0.8,
+        0.92
+      ],
+      "format_stability": 0.9009,
+      "consumability": 0.8458,
+      "failure_probability": 0.03,
+      "drift_probability": 0.02,
+      "tags": [
+        "translation类",
+        "领域专精型",
+        "术语一致",
+        "中英互译",
+        "英译中"
+      ],
+      "description": "术语翻译服务9，强化术语保持、技术说明翻译与产品描述转换，适合专业英文写作。重点适配术语一致场景。",
+      "name": "翻译专精服务9",
+      "capabilities": {
+        "service_key": "svc_translation_009",
+        "profile_name": "领域专精型",
+        "features": [
+          "translation类",
+          "领域专精型",
+          "术语一致",
+          "中英互译",
+          "英译中"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 848,
+          "latency_jitter_ms": 71,
+          "quality_range": [
+            0.885,
+            0.916
+          ],
+          "format_stability": 0.9365,
+          "consumability": 0.8703,
+          "failure_probability": 0.0105,
+          "drift_probability": 0.0182
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 48,
+      "service_key": "svc_translation_010",
+      "service_name": "翻译领域服务48",
+      "category": "translation",
+      "category_name": "翻译类",
+      "profile_name": "领域专精型",
+      "price": 0.0832,
+      "base_latency_ms": 978,
+      "latency_jitter_ms": 146,
+      "quality_range": [
+        0.8,
+        0.92
+      ],
+      "format_stability": 0.9009,
+      "consumability": 0.8458,
+      "failure_probability": 0.03,
+      "drift_probability": 0.02,
+      "tags": [
+        "translation类",
+        "领域专精型",
+        "会议纪要翻译",
+        "中英互译",
+        "英译中",
+        "术语一致"
+      ],
+      "description": "翻译专精服务10，专注技术文档翻译、术语一致性与研发说明翻译，适合专业文本场景。重点适配会议纪要翻译场景。",
+      "name": "翻译专精服务10",
+      "capabilities": {
+        "service_key": "svc_translation_010",
+        "profile_name": "领域专精型",
+        "features": [
+          "translation类",
+          "领域专精型",
+          "会议纪要翻译",
+          "中英互译",
+          "英译中",
+          "术语一致"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 1199,
+          "latency_jitter_ms": 107,
+          "quality_range": [
+            0.894,
+            0.926
+          ],
+          "format_stability": 0.8803,
+          "consumability": 0.8903,
+          "failure_probability": 0.0241,
+          "drift_probability": 0.0123
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 48,
+      "service_key": "svc_translation_011",
+      "service_name": "翻译领域服务48",
+      "category": "translation",
+      "category_name": "翻译类",
+      "profile_name": "领域专精型",
+      "price": 0.0884,
+      "base_latency_ms": 978,
+      "latency_jitter_ms": 146,
+      "quality_range": [
+        0.8,
+        0.92
+      ],
+      "format_stability": 0.9009,
+      "consumability": 0.8458,
+      "failure_probability": 0.03,
+      "drift_probability": 0.02,
+      "tags": [
+        "translation类",
+        "领域专精型",
+        "产品说明翻译",
+        "中英互译",
+        "英译中",
+        "术语一致"
+      ],
+      "description": "术语翻译服务11，强化术语保持、技术说明翻译与产品描述转换，适合专业英文写作。重点适配产品说明翻译场景。",
+      "name": "翻译专精服务11",
+      "capabilities": {
+        "service_key": "svc_translation_011",
+        "profile_name": "领域专精型",
+        "features": [
+          "translation类",
+          "领域专精型",
+          "产品说明翻译",
+          "中英互译",
+          "英译中",
+          "术语一致"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 1223,
+          "latency_jitter_ms": 171,
+          "quality_range": [
+            0.861,
+            0.933
+          ],
+          "format_stability": 0.9496,
+          "consumability": 0.9404,
+          "failure_probability": 0.0136,
+          "drift_probability": 0.0208
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 45,
+      "service_key": "svc_translation_012",
+      "service_name": "翻译专家服务45",
+      "category": "translation",
+      "category_name": "翻译类",
+      "profile_name": "领域专精型",
+      "price": 0.0721,
+      "base_latency_ms": 878,
+      "latency_jitter_ms": 131,
+      "quality_range": [
+        0.8,
+        0.92
+      ],
+      "format_stability": 0.8651,
+      "consumability": 0.8627,
+      "failure_probability": 0.03,
+      "drift_probability": 0.02,
+      "tags": [
+        "translation类",
+        "领域专精型",
+        "技术文档翻译",
+        "中英互译",
+        "英译中",
+        "术语一致"
+      ],
+      "description": "术语翻译服务12，强化术语保持、技术说明翻译与产品描述转换，适合专业英文写作。重点适配技术文档翻译场景。",
+      "name": "翻译专精服务12",
+      "capabilities": {
+        "service_key": "svc_translation_012",
+        "profile_name": "领域专精型",
+        "features": [
+          "translation类",
+          "领域专精型",
+          "技术文档翻译",
+          "中英互译",
+          "英译中",
+          "术语一致"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 919,
+          "latency_jitter_ms": 105,
+          "quality_range": [
+            0.886,
+            0.936
+          ],
+          "format_stability": 0.9061,
+          "consumability": 0.9189,
+          "failure_probability": 0.0166,
+          "drift_probability": 0.0145
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 45,
+      "service_key": "svc_translation_013",
+      "service_name": "翻译专家服务45",
+      "category": "translation",
+      "category_name": "翻译类",
+      "profile_name": "领域专精型",
+      "price": 0.0945,
+      "base_latency_ms": 878,
+      "latency_jitter_ms": 131,
+      "quality_range": [
+        0.8,
+        0.92
+      ],
+      "format_stability": 0.8651,
+      "consumability": 0.8627,
+      "failure_probability": 0.03,
+      "drift_probability": 0.02,
+      "tags": [
+        "translation类",
+        "领域专精型",
+        "中译英",
+        "中英互译",
+        "英译中",
+        "术语一致"
+      ],
+      "description": "术语翻译服务13，强化术语保持、技术说明翻译与产品描述转换，适合专业英文写作。重点适配中译英场景。",
+      "name": "翻译专精服务13",
+      "capabilities": {
+        "service_key": "svc_translation_013",
+        "profile_name": "领域专精型",
+        "features": [
+          "translation类",
+          "领域专精型",
+          "中译英",
+          "中英互译",
+          "英译中",
+          "术语一致"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 993,
+          "latency_jitter_ms": 142,
+          "quality_range": [
+            0.874,
+            0.913
+          ],
+          "format_stability": 0.9019,
+          "consumability": 0.8913,
+          "failure_probability": 0.0275,
+          "drift_probability": 0.0173
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 48,
+      "service_key": "svc_translation_014",
+      "service_name": "翻译领域服务48",
+      "category": "translation",
+      "category_name": "翻译类",
+      "profile_name": "领域专精型",
+      "price": 0.083,
+      "base_latency_ms": 978,
+      "latency_jitter_ms": 146,
+      "quality_range": [
+        0.8,
+        0.92
+      ],
+      "format_stability": 0.9009,
+      "consumability": 0.8458,
+      "failure_probability": 0.03,
+      "drift_probability": 0.02,
+      "tags": [
+        "translation类",
+        "领域专精型",
+        "英译中",
+        "中英互译",
+        "术语一致"
+      ],
+      "description": "翻译专精服务14，专注技术文档翻译、术语一致性与研发说明翻译，适合专业文本场景。重点适配英译中场景。",
+      "name": "翻译专精服务14",
+      "capabilities": {
+        "service_key": "svc_translation_014",
+        "profile_name": "领域专精型",
+        "features": [
+          "translation类",
+          "领域专精型",
+          "英译中",
+          "中英互译",
+          "术语一致"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 1129,
+          "latency_jitter_ms": 73,
+          "quality_range": [
+            0.903,
+            0.941
+          ],
+          "format_stability": 0.9007,
+          "consumability": 0.9135,
+          "failure_probability": 0.025,
+          "drift_probability": 0.0293
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 47,
+      "service_key": "svc_translation_015",
+      "service_name": "翻译不稳服务47",
+      "category": "translation",
+      "category_name": "翻译类",
+      "profile_name": "低价基础型",
+      "price": 0.0293,
+      "base_latency_ms": 795,
+      "latency_jitter_ms": 119,
+      "quality_range": [
+        0.55,
+        0.9
+      ],
+      "format_stability": 0.7988,
+      "consumability": 0.5577,
+      "failure_probability": 0.08,
+      "drift_probability": 0.18,
+      "tags": [
+        "translation类",
+        "低价基础型",
+        "术语一致",
+        "中英互译",
+        "英译中"
+      ],
+      "description": "经济翻译服务15，适合常规中英互译和基础文本转换，成本低，适合预算敏感场景。重点适配术语一致场景。",
+      "name": "翻译经济服务15",
+      "capabilities": {
+        "service_key": "svc_translation_015",
+        "profile_name": "低价基础型",
+        "features": [
+          "translation类",
+          "低价基础型",
+          "术语一致",
+          "中英互译",
+          "英译中"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 928,
+          "latency_jitter_ms": 154,
+          "quality_range": [
+            0.739,
+            0.796
+          ],
+          "format_stability": 0.8175,
+          "consumability": 0.7936,
+          "failure_probability": 0.0505,
+          "drift_probability": 0.0271
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 48,
+      "service_key": "svc_translation_016",
+      "service_name": "翻译领域服务48",
+      "category": "translation",
+      "category_name": "翻译类",
+      "profile_name": "低价基础型",
+      "price": 0.025,
+      "base_latency_ms": 978,
+      "latency_jitter_ms": 146,
+      "quality_range": [
+        0.8,
+        0.92
+      ],
+      "format_stability": 0.9009,
+      "consumability": 0.8458,
+      "failure_probability": 0.03,
+      "drift_probability": 0.02,
+      "tags": [
+        "translation类",
+        "低价基础型",
+        "会议纪要翻译",
+        "中英互译",
+        "英译中",
+        "术语一致"
+      ],
+      "description": "经济翻译服务16，适合常规中英互译和基础文本转换，成本低，适合预算敏感场景。重点适配会议纪要翻译场景。",
+      "name": "翻译经济服务16",
+      "capabilities": {
+        "service_key": "svc_translation_016",
+        "profile_name": "低价基础型",
+        "features": [
+          "translation类",
+          "低价基础型",
+          "会议纪要翻译",
+          "中英互译",
+          "英译中",
+          "术语一致"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 602,
+          "latency_jitter_ms": 102,
+          "quality_range": [
+            0.746,
+            0.773
+          ],
+          "format_stability": 0.8302,
+          "consumability": 0.7995,
+          "failure_probability": 0.0333,
+          "drift_probability": 0.0476
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 45,
+      "service_key": "svc_translation_017",
+      "service_name": "翻译专家服务45",
+      "category": "translation",
+      "category_name": "翻译类",
+      "profile_name": "低价基础型",
+      "price": 0.0267,
+      "base_latency_ms": 878,
+      "latency_jitter_ms": 131,
+      "quality_range": [
+        0.8,
+        0.92
+      ],
+      "format_stability": 0.8651,
+      "consumability": 0.8627,
+      "failure_probability": 0.03,
+      "drift_probability": 0.02,
+      "tags": [
+        "translation类",
+        "低价基础型",
+        "产品说明翻译",
+        "中英互译",
+        "英译中",
+        "术语一致"
+      ],
+      "description": "经济翻译服务17，适合常规中英互译和基础文本转换，成本低，适合预算敏感场景。重点适配产品说明翻译场景。",
+      "name": "翻译经济服务17",
+      "capabilities": {
+        "service_key": "svc_translation_017",
+        "profile_name": "低价基础型",
+        "features": [
+          "translation类",
+          "低价基础型",
+          "产品说明翻译",
+          "中英互译",
+          "英译中",
+          "术语一致"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 931,
+          "latency_jitter_ms": 78,
+          "quality_range": [
+            0.739,
+            0.791
+          ],
+          "format_stability": 0.7844,
+          "consumability": 0.8444,
+          "failure_probability": 0.0684,
+          "drift_probability": 0.0496
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 46,
+      "service_key": "svc_translation_018",
+      "service_name": "翻译不稳服务46",
+      "category": "translation",
+      "category_name": "翻译类",
+      "profile_name": "低价基础型",
+      "price": 0.022,
+      "base_latency_ms": 983,
+      "latency_jitter_ms": 147,
+      "quality_range": [
+        0.55,
+        0.9
+      ],
+      "format_stability": 0.6587,
+      "consumability": 0.5556,
+      "failure_probability": 0.08,
+      "drift_probability": 0.18,
+      "tags": [
+        "translation类",
+        "低价基础型",
+        "技术文档翻译",
+        "中英互译",
+        "英译中",
+        "术语一致"
+      ],
+      "description": "经济翻译服务18，适合常规中英互译和基础文本转换，成本低，适合预算敏感场景。重点适配技术文档翻译场景。",
+      "name": "翻译经济服务18",
+      "capabilities": {
+        "service_key": "svc_translation_018",
+        "profile_name": "低价基础型",
+        "features": [
+          "translation类",
+          "低价基础型",
+          "技术文档翻译",
+          "中英互译",
+          "英译中",
+          "术语一致"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 900,
+          "latency_jitter_ms": 135,
+          "quality_range": [
+            0.732,
+            0.8
+          ],
+          "format_stability": 0.8401,
+          "consumability": 0.7895,
+          "failure_probability": 0.058,
+          "drift_probability": 0.0205
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 45,
+      "service_key": "svc_translation_019",
+      "service_name": "翻译专家服务45",
+      "category": "translation",
+      "category_name": "翻译类",
+      "profile_name": "低时延响应型",
+      "price": 0.0382,
+      "base_latency_ms": 878,
+      "latency_jitter_ms": 131,
+      "quality_range": [
+        0.8,
+        0.92
+      ],
+      "format_stability": 0.8651,
+      "consumability": 0.8627,
+      "failure_probability": 0.03,
+      "drift_probability": 0.02,
+      "tags": [
+        "translation类",
+        "低时延响应型",
+        "中译英",
+        "中英互译",
+        "英译中",
+        "术语一致"
+      ],
+      "description": "快速翻译服务19，响应迅速，适合短句翻译、即时中英转换和轻量文本处理。重点适配中译英场景。",
+      "name": "翻译快速服务19",
+      "capabilities": {
+        "service_key": "svc_translation_019",
+        "profile_name": "低时延响应型",
+        "features": [
+          "translation类",
+          "低时延响应型",
+          "中译英",
+          "中英互译",
+          "英译中",
+          "术语一致"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 464,
+          "latency_jitter_ms": 128,
+          "quality_range": [
+            0.779,
+            0.811
+          ],
+          "format_stability": 0.8579,
+          "consumability": 0.828,
+          "failure_probability": 0.0474,
+          "drift_probability": 0.0545
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 41,
+      "service_key": "svc_translation_020",
+      "service_name": "翻译平衡服务41",
+      "category": "translation",
+      "category_name": "翻译类",
+      "profile_name": "低时延响应型",
+      "price": 0.0381,
+      "base_latency_ms": 961,
+      "latency_jitter_ms": 144,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.8445,
+      "consumability": 0.9068,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "translation类",
+        "低时延响应型",
+        "英译中",
+        "中英互译",
+        "术语一致"
+      ],
+      "description": "快速翻译服务20，响应迅速，适合短句翻译、即时中英转换和轻量文本处理。重点适配英译中场景。",
+      "name": "翻译快速服务20",
+      "capabilities": {
+        "service_key": "svc_translation_020",
+        "profile_name": "低时延响应型",
+        "features": [
+          "translation类",
+          "低时延响应型",
+          "英译中",
+          "中英互译",
+          "术语一致"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 504,
+          "latency_jitter_ms": 140,
+          "quality_range": [
+            0.756,
+            0.826
+          ],
+          "format_stability": 0.8188,
+          "consumability": 0.8411,
+          "failure_probability": 0.0547,
+          "drift_probability": 0.0376
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 41,
+      "service_key": "svc_translation_021",
+      "service_name": "翻译平衡服务41",
+      "category": "translation",
+      "category_name": "翻译类",
+      "profile_name": "诱骗失真型",
+      "price": 0.047,
+      "base_latency_ms": 961,
+      "latency_jitter_ms": 144,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.8445,
+      "consumability": 0.9068,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "translation类",
+        "诱骗失真型",
+        "术语一致",
+        "中英互译",
+        "英译中",
+        "技术文档翻译"
+      ],
+      "description": "增强翻译服务21，强调术语一致，自然流畅与多场景适配，价格友好，适合技术文档与产品文案翻译。重点适配术语一致场景。",
+      "name": "翻译增强服务21",
+      "capabilities": {
+        "service_key": "svc_translation_021",
+        "profile_name": "诱骗失真型",
+        "features": [
+          "translation类",
+          "诱骗失真型",
+          "术语一致",
+          "中英互译",
+          "英译中",
+          "技术文档翻译"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 620,
+          "latency_jitter_ms": 92,
+          "quality_range": [
+            0.793,
+            0.813
+          ],
+          "format_stability": 0.7846,
+          "consumability": 0.8098,
+          "failure_probability": 0.0356,
+          "drift_probability": 0.057
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 44,
+      "service_key": "svc_translation_022",
+      "service_name": "翻译实用服务44",
+      "category": "translation",
+      "category_name": "翻译类",
+      "profile_name": "诱骗失真型",
+      "price": 0.0448,
+      "base_latency_ms": 926,
+      "latency_jitter_ms": 138,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.8975,
+      "consumability": 0.844,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "translation类",
+        "诱骗失真型",
+        "会议纪要翻译",
+        "中英互译",
+        "英译中",
+        "术语一致",
+        "技术文档翻译"
+      ],
+      "description": "翻译专家服务22，主打技术术语保持、会议纪要翻译和多语兼容，适合高频翻译请求。重点适配会议纪要翻译场景。",
+      "name": "翻译增强服务22",
+      "capabilities": {
+        "service_key": "svc_translation_022",
+        "profile_name": "诱骗失真型",
+        "features": [
+          "translation类",
+          "诱骗失真型",
+          "会议纪要翻译",
+          "中英互译",
+          "英译中",
+          "术语一致",
+          "技术文档翻译"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 846,
+          "latency_jitter_ms": 97,
+          "quality_range": [
+            0.779,
+            0.837
+          ],
+          "format_stability": 0.8103,
+          "consumability": 0.7774,
+          "failure_probability": 0.0686,
+          "drift_probability": 0.0411
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 42,
+      "service_key": "svc_translation_023",
+      "service_name": "翻译实用服务42",
+      "category": "translation",
+      "category_name": "翻译类",
+      "profile_name": "诱骗失真型",
+      "price": 0.0463,
+      "base_latency_ms": 1200,
+      "latency_jitter_ms": 180,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.879,
+      "consumability": 0.8632,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "translation类",
+        "诱骗失真型",
+        "产品说明翻译",
+        "中英互译",
+        "英译中",
+        "术语一致",
+        "技术文档翻译"
+      ],
+      "description": "增强翻译服务23，强调术语一致，自然流畅与多场景适配，价格友好，适合技术文档与产品文案翻译。重点适配产品说明翻译场景。",
+      "name": "翻译增强服务23",
+      "capabilities": {
+        "service_key": "svc_translation_023",
+        "profile_name": "诱骗失真型",
+        "features": [
+          "translation类",
+          "诱骗失真型",
+          "产品说明翻译",
+          "中英互译",
+          "英译中",
+          "术语一致",
+          "技术文档翻译"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 501,
+          "latency_jitter_ms": 66,
+          "quality_range": [
+            0.796,
+            0.818
+          ],
+          "format_stability": 0.7766,
+          "consumability": 0.7844,
+          "failure_probability": 0.0599,
+          "drift_probability": 0.0625
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 42,
+      "service_key": "svc_translation_024",
+      "service_name": "翻译实用服务42",
+      "category": "translation",
+      "category_name": "翻译类",
+      "profile_name": "诱骗失真型",
+      "price": 0.0279,
+      "base_latency_ms": 1200,
+      "latency_jitter_ms": 180,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.879,
+      "consumability": 0.8632,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "translation类",
+        "诱骗失真型",
+        "技术文档翻译",
+        "中英互译",
+        "英译中",
+        "术语一致"
+      ],
+      "description": "翻译专家服务24，主打技术术语保持、会议纪要翻译和多语兼容，适合高频翻译请求。重点适配技术文档翻译场景。",
+      "name": "翻译增强服务24",
+      "capabilities": {
+        "service_key": "svc_translation_024",
+        "profile_name": "诱骗失真型",
+        "features": [
+          "translation类",
+          "诱骗失真型",
+          "技术文档翻译",
+          "中英互译",
+          "英译中",
+          "术语一致"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 528,
+          "latency_jitter_ms": 174,
+          "quality_range": [
+            0.776,
+            0.81
+          ],
+          "format_stability": 0.8034,
+          "consumability": 0.7767,
+          "failure_probability": 0.0686,
+          "drift_probability": 0.0654
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 47,
+      "service_key": "svc_translation_025",
+      "service_name": "翻译不稳服务47",
+      "category": "translation",
+      "category_name": "翻译类",
+      "profile_name": "诱骗失真型",
+      "price": 0.0455,
+      "base_latency_ms": 795,
+      "latency_jitter_ms": 119,
+      "quality_range": [
+        0.55,
+        0.9
+      ],
+      "format_stability": 0.7988,
+      "consumability": 0.5577,
+      "failure_probability": 0.08,
+      "drift_probability": 0.18,
+      "tags": [
+        "translation类",
+        "诱骗失真型",
+        "中译英",
+        "中英互译",
+        "英译中",
+        "术语一致",
+        "技术文档翻译"
+      ],
+      "description": "翻译专家服务25，主打技术术语保持、会议纪要翻译和多语兼容，适合高频翻译请求。重点适配中译英场景。",
+      "name": "翻译增强服务25",
+      "capabilities": {
+        "service_key": "svc_translation_025",
+        "profile_name": "诱骗失真型",
+        "features": [
+          "translation类",
+          "诱骗失真型",
+          "中译英",
+          "中英互译",
+          "英译中",
+          "术语一致",
+          "技术文档翻译"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 891,
+          "latency_jitter_ms": 179,
+          "quality_range": [
+            0.768,
+            0.825
+          ],
+          "format_stability": 0.7688,
+          "consumability": 0.8007,
+          "failure_probability": 0.0398,
+          "drift_probability": 0.0309
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 43,
+      "service_key": "svc_translation_026",
+      "service_name": "翻译实用服务43",
+      "category": "translation",
+      "category_name": "翻译类",
+      "profile_name": "诱骗失真型",
+      "price": 0.0426,
+      "base_latency_ms": 1155,
+      "latency_jitter_ms": 173,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.9136,
+      "consumability": 0.865,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "translation类",
+        "诱骗失真型",
+        "英译中",
+        "中英互译",
+        "术语一致",
+        "技术文档翻译"
+      ],
+      "description": "翻译专家服务26，主打技术术语保持、会议纪要翻译和多语兼容，适合高频翻译请求。重点适配英译中场景。",
+      "name": "翻译增强服务26",
+      "capabilities": {
+        "service_key": "svc_translation_026",
+        "profile_name": "诱骗失真型",
+        "features": [
+          "translation类",
+          "诱骗失真型",
+          "英译中",
+          "中英互译",
+          "术语一致",
+          "技术文档翻译"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 431,
+          "latency_jitter_ms": 61,
+          "quality_range": [
+            0.805,
+            0.853
+          ],
+          "format_stability": 0.7581,
+          "consumability": 0.7598,
+          "failure_probability": 0.0486,
+          "drift_probability": 0.0605
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 46,
+      "service_key": "svc_translation_027",
+      "service_name": "翻译不稳服务46",
+      "category": "translation",
+      "category_name": "翻译类",
+      "profile_name": "诱骗失真型",
+      "price": 0.0303,
+      "base_latency_ms": 983,
+      "latency_jitter_ms": 147,
+      "quality_range": [
+        0.55,
+        0.9
+      ],
+      "format_stability": 0.6587,
+      "consumability": 0.5556,
+      "failure_probability": 0.08,
+      "drift_probability": 0.18,
+      "tags": [
+        "translation类",
+        "诱骗失真型",
+        "术语一致",
+        "中英互译",
+        "英译中",
+        "技术文档翻译"
+      ],
+      "description": "增强翻译服务27，强调术语一致，自然流畅与多场景适配，价格友好，适合技术文档与产品文案翻译。重点适配术语一致场景。",
+      "name": "翻译增强服务27",
+      "capabilities": {
+        "service_key": "svc_translation_027",
+        "profile_name": "诱骗失真型",
+        "features": [
+          "translation类",
+          "诱骗失真型",
+          "术语一致",
+          "中英互译",
+          "英译中",
+          "技术文档翻译"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 719,
+          "latency_jitter_ms": 112,
+          "quality_range": [
+            0.762,
+            0.817
+          ],
+          "format_stability": 0.8109,
+          "consumability": 0.7655,
+          "failure_probability": 0.0457,
+          "drift_probability": 0.074
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 44,
+      "service_key": "svc_translation_028",
+      "service_name": "翻译实用服务44",
+      "category": "translation",
+      "category_name": "翻译类",
+      "profile_name": "诱骗失真型",
+      "price": 0.0418,
+      "base_latency_ms": 926,
+      "latency_jitter_ms": 138,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.8975,
+      "consumability": 0.844,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "translation类",
+        "诱骗失真型",
+        "会议纪要翻译",
+        "中英互译",
+        "英译中",
+        "术语一致",
+        "技术文档翻译"
+      ],
+      "description": "翻译专家服务28，主打技术术语保持、会议纪要翻译和多语兼容，适合高频翻译请求。重点适配会议纪要翻译场景。",
+      "name": "翻译增强服务28",
+      "capabilities": {
+        "service_key": "svc_translation_028",
+        "profile_name": "诱骗失真型",
+        "features": [
+          "translation类",
+          "诱骗失真型",
+          "会议纪要翻译",
+          "中英互译",
+          "英译中",
+          "术语一致",
+          "技术文档翻译"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 529,
+          "latency_jitter_ms": 106,
+          "quality_range": [
+            0.772,
+            0.812
+          ],
+          "format_stability": 0.7554,
+          "consumability": 0.801,
+          "failure_probability": 0.0309,
+          "drift_probability": 0.0729
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 46,
+      "service_key": "svc_translation_029",
+      "service_name": "翻译不稳服务46",
+      "category": "translation",
+      "category_name": "翻译类",
+      "profile_name": "漂移波动型",
+      "price": 0.0613,
+      "base_latency_ms": 983,
+      "latency_jitter_ms": 147,
+      "quality_range": [
+        0.55,
+        0.9
+      ],
+      "format_stability": 0.6587,
+      "consumability": 0.5556,
+      "failure_probability": 0.08,
+      "drift_probability": 0.18,
+      "tags": [
+        "translation类",
+        "漂移波动型",
+        "产品说明翻译",
+        "中英互译",
+        "英译中",
+        "术语一致"
+      ],
+      "description": "translation类服务29，画像为漂移波动型，面向产品说明翻译场景。",
+      "name": "翻译波动服务29",
+      "capabilities": {
+        "service_key": "svc_translation_029",
+        "profile_name": "漂移波动型",
+        "features": [
+          "translation类",
+          "漂移波动型",
+          "产品说明翻译",
+          "中英互译",
+          "英译中",
+          "术语一致"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 879,
+          "latency_jitter_ms": 156,
+          "quality_range": [
+            0.835,
+            0.85
+          ],
+          "format_stability": 0.8131,
+          "consumability": 0.8365,
+          "failure_probability": 0.0551,
+          "drift_probability": 0.1799
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 47,
+      "service_key": "svc_translation_030",
+      "service_name": "翻译不稳服务47",
+      "category": "translation",
+      "category_name": "翻译类",
+      "profile_name": "故障脆弱型",
+      "price": 0.0518,
+      "base_latency_ms": 795,
+      "latency_jitter_ms": 119,
+      "quality_range": [
+        0.55,
+        0.9
+      ],
+      "format_stability": 0.7988,
+      "consumability": 0.5577,
+      "failure_probability": 0.08,
+      "drift_probability": 0.18,
+      "tags": [
+        "translation类",
+        "故障脆弱型",
+        "技术文档翻译",
+        "中英互译",
+        "英译中",
+        "术语一致"
+      ],
+      "description": "translation类服务30，画像为故障脆弱型，面向技术文档翻译场景。",
+      "name": "翻译脆弱服务30",
+      "capabilities": {
+        "service_key": "svc_translation_030",
+        "profile_name": "故障脆弱型",
+        "features": [
+          "translation类",
+          "故障脆弱型",
+          "技术文档翻译",
+          "中英互译",
+          "英译中",
+          "术语一致"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 648,
+          "latency_jitter_ms": 73,
+          "quality_range": [
+            0.769,
+            0.803
+          ],
+          "format_stability": 0.7078,
+          "consumability": 0.8007,
+          "failure_probability": 0.1481,
+          "drift_probability": 0.0384
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 1,
+      "service_key": "svc_text_summary_001",
+      "service_name": "摘要实用服务01",
+      "category": "text_summary",
+      "category_name": "文本摘要类",
+      "profile_name": "平衡实用型",
+      "price": 0.0686,
+      "base_latency_ms": 1234,
+      "latency_jitter_ms": 185,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.8447,
+      "consumability": 0.8227,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "text_summary类",
+        "平衡实用型",
+        "短摘要",
+        "文本摘要",
+        "结论压缩",
+        "研究摘要"
+      ],
+      "description": "摘要平衡服务1，支持长文本压缩、项目摘要、研究摘要和高信息密度总结，输出稳定。重点适配短摘要场景。",
+      "name": "摘要平衡服务1",
+      "capabilities": {
+        "service_key": "svc_text_summary_001",
+        "profile_name": "平衡实用型",
+        "features": [
+          "text_summary类",
+          "平衡实用型",
+          "短摘要",
+          "文本摘要",
+          "结论压缩",
+          "研究摘要"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 839,
+          "latency_jitter_ms": 113,
+          "quality_range": [
+            0.878,
+            0.893
+          ],
+          "format_stability": 0.9201,
+          "consumability": 0.8844,
+          "failure_probability": 0.013,
+          "drift_probability": 0.0118
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 1,
+      "service_key": "svc_text_summary_002",
+      "service_name": "摘要实用服务01",
+      "category": "text_summary",
+      "category_name": "文本摘要类",
+      "profile_name": "平衡实用型",
+      "price": 0.0671,
+      "base_latency_ms": 1234,
+      "latency_jitter_ms": 185,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.8447,
+      "consumability": 0.8227,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "text_summary类",
+        "平衡实用型",
+        "结论导向摘要",
+        "文本摘要",
+        "结论压缩",
+        "研究摘要"
+      ],
+      "description": "摘要平衡服务2，支持长文本压缩、项目摘要、研究摘要和高信息密度总结，输出稳定。重点适配结论导向摘要场景。",
+      "name": "摘要平衡服务2",
+      "capabilities": {
+        "service_key": "svc_text_summary_002",
+        "profile_name": "平衡实用型",
+        "features": [
+          "text_summary类",
+          "平衡实用型",
+          "结论导向摘要",
+          "文本摘要",
+          "结论压缩",
+          "研究摘要"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 755,
+          "latency_jitter_ms": 163,
+          "quality_range": [
+            0.873,
+            0.902
+          ],
+          "format_stability": 0.9052,
+          "consumability": 0.8725,
+          "failure_probability": 0.0172,
+          "drift_probability": 0.0136
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 1,
+      "service_key": "svc_text_summary_003",
+      "service_name": "摘要实用服务01",
+      "category": "text_summary",
+      "category_name": "文本摘要类",
+      "profile_name": "平衡实用型",
+      "price": 0.078,
+      "base_latency_ms": 1234,
+      "latency_jitter_ms": 185,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.8447,
+      "consumability": 0.8227,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "text_summary类",
+        "平衡实用型",
+        "项目过程摘要",
+        "文本摘要",
+        "结论压缩",
+        "研究摘要"
+      ],
+      "description": "摘要平衡服务3，支持长文本压缩、项目摘要、研究摘要和高信息密度总结，输出稳定。重点适配项目过程摘要场景。",
+      "name": "摘要平衡服务3",
+      "capabilities": {
+        "service_key": "svc_text_summary_003",
+        "profile_name": "平衡实用型",
+        "features": [
+          "text_summary类",
+          "平衡实用型",
+          "项目过程摘要",
+          "文本摘要",
+          "结论压缩",
+          "研究摘要"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 1045,
+          "latency_jitter_ms": 109,
+          "quality_range": [
+            0.846,
+            0.887
+          ],
+          "format_stability": 0.8669,
+          "consumability": 0.8905,
+          "failure_probability": 0.0381,
+          "drift_probability": 0.0153
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 1,
+      "service_key": "svc_text_summary_004",
+      "service_name": "摘要实用服务01",
+      "category": "text_summary",
+      "category_name": "文本摘要类",
+      "profile_name": "平衡实用型",
+      "price": 0.0666,
+      "base_latency_ms": 1234,
+      "latency_jitter_ms": 185,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.8447,
+      "consumability": 0.8227,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "text_summary类",
+        "平衡实用型",
+        "高信息密度摘要",
+        "文本摘要",
+        "结论压缩",
+        "研究摘要"
+      ],
+      "description": "摘要平衡服务4，支持长文本压缩、项目摘要、研究摘要和高信息密度总结，输出稳定。重点适配高信息密度摘要场景。",
+      "name": "摘要平衡服务4",
+      "capabilities": {
+        "service_key": "svc_text_summary_004",
+        "profile_name": "平衡实用型",
+        "features": [
+          "text_summary类",
+          "平衡实用型",
+          "高信息密度摘要",
+          "文本摘要",
+          "结论压缩",
+          "研究摘要"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 1069,
+          "latency_jitter_ms": 124,
+          "quality_range": [
+            0.855,
+            0.928
+          ],
+          "format_stability": 0.876,
+          "consumability": 0.8695,
+          "failure_probability": 0.0124,
+          "drift_probability": 0.0253
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 1,
+      "service_key": "svc_text_summary_005",
+      "service_name": "摘要实用服务01",
+      "category": "text_summary",
+      "category_name": "文本摘要类",
+      "profile_name": "平衡实用型",
+      "price": 0.076,
+      "base_latency_ms": 1234,
+      "latency_jitter_ms": 185,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.8447,
+      "consumability": 0.8227,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "text_summary类",
+        "平衡实用型",
+        "研究摘要",
+        "文本摘要",
+        "结论压缩"
+      ],
+      "description": "摘要平衡服务5，支持长文本压缩、项目摘要、研究摘要和高信息密度总结，输出稳定。重点适配研究摘要场景。",
+      "name": "摘要平衡服务5",
+      "capabilities": {
+        "service_key": "svc_text_summary_005",
+        "profile_name": "平衡实用型",
+        "features": [
+          "text_summary类",
+          "平衡实用型",
+          "研究摘要",
+          "文本摘要",
+          "结论压缩"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 1033,
+          "latency_jitter_ms": 161,
+          "quality_range": [
+            0.872,
+            0.918
+          ],
+          "format_stability": 0.9263,
+          "consumability": 0.8972,
+          "failure_probability": 0.0144,
+          "drift_probability": 0.014
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 1,
+      "service_key": "svc_text_summary_006",
+      "service_name": "摘要实用服务01",
+      "category": "text_summary",
+      "category_name": "文本摘要类",
+      "profile_name": "平衡实用型",
+      "price": 0.0649,
+      "base_latency_ms": 1234,
+      "latency_jitter_ms": 185,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.8447,
+      "consumability": 0.8227,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "text_summary类",
+        "平衡实用型",
+        "服务说明摘要",
+        "文本摘要",
+        "结论压缩",
+        "研究摘要"
+      ],
+      "description": "摘要平衡服务6，支持长文本压缩、项目摘要、研究摘要和高信息密度总结，输出稳定。重点适配服务说明摘要场景。",
+      "name": "摘要平衡服务6",
+      "capabilities": {
+        "service_key": "svc_text_summary_006",
+        "profile_name": "平衡实用型",
+        "features": [
+          "text_summary类",
+          "平衡实用型",
+          "服务说明摘要",
+          "文本摘要",
+          "结论压缩",
+          "研究摘要"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 952,
+          "latency_jitter_ms": 131,
+          "quality_range": [
+            0.851,
+            0.928
+          ],
+          "format_stability": 0.9288,
+          "consumability": 0.8916,
+          "failure_probability": 0.0318,
+          "drift_probability": 0.0243
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 1,
+      "service_key": "svc_text_summary_007",
+      "service_name": "摘要实用服务01",
+      "category": "text_summary",
+      "category_name": "文本摘要类",
+      "profile_name": "平衡实用型",
+      "price": 0.0637,
+      "base_latency_ms": 1234,
+      "latency_jitter_ms": 185,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.8447,
+      "consumability": 0.8227,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "text_summary类",
+        "平衡实用型",
+        "短摘要",
+        "文本摘要",
+        "结论压缩",
+        "研究摘要"
+      ],
+      "description": "摘要平衡服务7，支持长文本压缩、项目摘要、研究摘要和高信息密度总结，输出稳定。重点适配短摘要场景。",
+      "name": "摘要平衡服务7",
+      "capabilities": {
+        "service_key": "svc_text_summary_007",
+        "profile_name": "平衡实用型",
+        "features": [
+          "text_summary类",
+          "平衡实用型",
+          "短摘要",
+          "文本摘要",
+          "结论压缩",
+          "研究摘要"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 772,
+          "latency_jitter_ms": 87,
+          "quality_range": [
+            0.884,
+            0.915
+          ],
+          "format_stability": 0.8664,
+          "consumability": 0.8987,
+          "failure_probability": 0.0373,
+          "drift_probability": 0.0297
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 1,
+      "service_key": "svc_text_summary_008",
+      "service_name": "摘要实用服务01",
+      "category": "text_summary",
+      "category_name": "文本摘要类",
+      "profile_name": "平衡实用型",
+      "price": 0.0699,
+      "base_latency_ms": 1234,
+      "latency_jitter_ms": 185,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.8447,
+      "consumability": 0.8227,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "text_summary类",
+        "平衡实用型",
+        "结论导向摘要",
+        "文本摘要",
+        "结论压缩",
+        "研究摘要"
+      ],
+      "description": "摘要平衡服务8，支持长文本压缩、项目摘要、研究摘要和高信息密度总结，输出稳定。重点适配结论导向摘要场景。",
+      "name": "摘要平衡服务8",
+      "capabilities": {
+        "service_key": "svc_text_summary_008",
+        "profile_name": "平衡实用型",
+        "features": [
+          "text_summary类",
+          "平衡实用型",
+          "结论导向摘要",
+          "文本摘要",
+          "结论压缩",
+          "研究摘要"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 744,
+          "latency_jitter_ms": 135,
+          "quality_range": [
+            0.854,
+            0.888
+          ],
+          "format_stability": 0.8954,
+          "consumability": 0.8976,
+          "failure_probability": 0.028,
+          "drift_probability": 0.0276
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 7,
+      "service_key": "svc_text_summary_009",
+      "service_name": "摘要专精服务07",
+      "category": "text_summary",
+      "category_name": "文本摘要类",
+      "profile_name": "领域专精型",
+      "price": 0.0857,
+      "base_latency_ms": 1242,
+      "latency_jitter_ms": 186,
+      "quality_range": [
+        0.8,
+        0.92
+      ],
+      "format_stability": 0.8691,
+      "consumability": 0.8327,
+      "failure_probability": 0.03,
+      "drift_probability": 0.02,
+      "tags": [
+        "text_summary类",
+        "领域专精型",
+        "项目过程摘要",
+        "文本摘要",
+        "结论压缩",
+        "研究摘要"
+      ],
+      "description": "摘要专精服务9，强化结论抽取、结构化压缩和技术材料摘要，适合研究与项目材料。重点适配项目过程摘要场景。",
+      "name": "摘要专精服务9",
+      "capabilities": {
+        "service_key": "svc_text_summary_009",
+        "profile_name": "领域专精型",
+        "features": [
+          "text_summary类",
+          "领域专精型",
+          "项目过程摘要",
+          "文本摘要",
+          "结论压缩",
+          "研究摘要"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 874,
+          "latency_jitter_ms": 91,
+          "quality_range": [
+            0.879,
+            0.93
+          ],
+          "format_stability": 0.9184,
+          "consumability": 0.8764,
+          "failure_probability": 0.0243,
+          "drift_probability": 0.0202
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 7,
+      "service_key": "svc_text_summary_010",
+      "service_name": "摘要专精服务07",
+      "category": "text_summary",
+      "category_name": "文本摘要类",
+      "profile_name": "领域专精型",
+      "price": 0.0749,
+      "base_latency_ms": 1242,
+      "latency_jitter_ms": 186,
+      "quality_range": [
+        0.8,
+        0.92
+      ],
+      "format_stability": 0.8691,
+      "consumability": 0.8327,
+      "failure_probability": 0.03,
+      "drift_probability": 0.02,
+      "tags": [
+        "text_summary类",
+        "领域专精型",
+        "高信息密度摘要",
+        "文本摘要",
+        "结论压缩",
+        "研究摘要"
+      ],
+      "description": "摘要专精服务10，强化结论抽取、结构化压缩和技术材料摘要，适合研究与项目材料。重点适配高信息密度摘要场景。",
+      "name": "摘要专精服务10",
+      "capabilities": {
+        "service_key": "svc_text_summary_010",
+        "profile_name": "领域专精型",
+        "features": [
+          "text_summary类",
+          "领域专精型",
+          "高信息密度摘要",
+          "文本摘要",
+          "结论压缩",
+          "研究摘要"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 1200,
+          "latency_jitter_ms": 90,
+          "quality_range": [
+            0.894,
+            0.929
+          ],
+          "format_stability": 0.949,
+          "consumability": 0.8923,
+          "failure_probability": 0.0247,
+          "drift_probability": 0.0162
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 7,
+      "service_key": "svc_text_summary_011",
+      "service_name": "摘要专精服务07",
+      "category": "text_summary",
+      "category_name": "文本摘要类",
+      "profile_name": "领域专精型",
+      "price": 0.0807,
+      "base_latency_ms": 1242,
+      "latency_jitter_ms": 186,
+      "quality_range": [
+        0.8,
+        0.92
+      ],
+      "format_stability": 0.8691,
+      "consumability": 0.8327,
+      "failure_probability": 0.03,
+      "drift_probability": 0.02,
+      "tags": [
+        "text_summary类",
+        "领域专精型",
+        "研究摘要",
+        "文本摘要",
+        "结论压缩"
+      ],
+      "description": "摘要专精服务11，强化结论抽取、结构化压缩和技术材料摘要，适合研究与项目材料。重点适配研究摘要场景。",
+      "name": "摘要专精服务11",
+      "capabilities": {
+        "service_key": "svc_text_summary_011",
+        "profile_name": "领域专精型",
+        "features": [
+          "text_summary类",
+          "领域专精型",
+          "研究摘要",
+          "文本摘要",
+          "结论压缩"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 1174,
+          "latency_jitter_ms": 163,
+          "quality_range": [
+            0.888,
+            0.922
+          ],
+          "format_stability": 0.9006,
+          "consumability": 0.9133,
+          "failure_probability": 0.0236,
+          "drift_probability": 0.0289
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 7,
+      "service_key": "svc_text_summary_012",
+      "service_name": "摘要专精服务07",
+      "category": "text_summary",
+      "category_name": "文本摘要类",
+      "profile_name": "领域专精型",
+      "price": 0.0849,
+      "base_latency_ms": 1242,
+      "latency_jitter_ms": 186,
+      "quality_range": [
+        0.8,
+        0.92
+      ],
+      "format_stability": 0.8691,
+      "consumability": 0.8327,
+      "failure_probability": 0.03,
+      "drift_probability": 0.02,
+      "tags": [
+        "text_summary类",
+        "领域专精型",
+        "服务说明摘要",
+        "文本摘要",
+        "结论压缩",
+        "研究摘要"
+      ],
+      "description": "摘要专精服务12，强化结论抽取、结构化压缩和技术材料摘要，适合研究与项目材料。重点适配服务说明摘要场景。",
+      "name": "摘要专精服务12",
+      "capabilities": {
+        "service_key": "svc_text_summary_012",
+        "profile_name": "领域专精型",
+        "features": [
+          "text_summary类",
+          "领域专精型",
+          "服务说明摘要",
+          "文本摘要",
+          "结论压缩",
+          "研究摘要"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 880,
+          "latency_jitter_ms": 137,
+          "quality_range": [
+            0.9,
+            0.926
+          ],
+          "format_stability": 0.9385,
+          "consumability": 0.9048,
+          "failure_probability": 0.0122,
+          "drift_probability": 0.0284
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 7,
+      "service_key": "svc_text_summary_013",
+      "service_name": "摘要专精服务07",
+      "category": "text_summary",
+      "category_name": "文本摘要类",
+      "profile_name": "领域专精型",
+      "price": 0.0856,
+      "base_latency_ms": 1242,
+      "latency_jitter_ms": 186,
+      "quality_range": [
+        0.8,
+        0.92
+      ],
+      "format_stability": 0.8691,
+      "consumability": 0.8327,
+      "failure_probability": 0.03,
+      "drift_probability": 0.02,
+      "tags": [
+        "text_summary类",
+        "领域专精型",
+        "短摘要",
+        "文本摘要",
+        "结论压缩",
+        "研究摘要"
+      ],
+      "description": "摘要专精服务13，强化结论抽取、结构化压缩和技术材料摘要，适合研究与项目材料。重点适配短摘要场景。",
+      "name": "摘要专精服务13",
+      "capabilities": {
+        "service_key": "svc_text_summary_013",
+        "profile_name": "领域专精型",
+        "features": [
+          "text_summary类",
+          "领域专精型",
+          "短摘要",
+          "文本摘要",
+          "结论压缩",
+          "研究摘要"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 828,
+          "latency_jitter_ms": 110,
+          "quality_range": [
+            0.868,
+            0.919
+          ],
+          "format_stability": 0.9213,
+          "consumability": 0.8756,
+          "failure_probability": 0.0225,
+          "drift_probability": 0.0269
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 7,
+      "service_key": "svc_text_summary_014",
+      "service_name": "摘要专精服务07",
+      "category": "text_summary",
+      "category_name": "文本摘要类",
+      "profile_name": "领域专精型",
+      "price": 0.0758,
+      "base_latency_ms": 1242,
+      "latency_jitter_ms": 186,
+      "quality_range": [
+        0.8,
+        0.92
+      ],
+      "format_stability": 0.8691,
+      "consumability": 0.8327,
+      "failure_probability": 0.03,
+      "drift_probability": 0.02,
+      "tags": [
+        "text_summary类",
+        "领域专精型",
+        "结论导向摘要",
+        "文本摘要",
+        "结论压缩",
+        "研究摘要"
+      ],
+      "description": "摘要专精服务14，强化结论抽取、结构化压缩和技术材料摘要，适合研究与项目材料。重点适配结论导向摘要场景。",
+      "name": "摘要专精服务14",
+      "capabilities": {
+        "service_key": "svc_text_summary_014",
+        "profile_name": "领域专精型",
+        "features": [
+          "text_summary类",
+          "领域专精型",
+          "结论导向摘要",
+          "文本摘要",
+          "结论压缩",
+          "研究摘要"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 1022,
+          "latency_jitter_ms": 151,
+          "quality_range": [
+            0.878,
+            0.912
+          ],
+          "format_stability": 0.9181,
+          "consumability": 0.9472,
+          "failure_probability": 0.0163,
+          "drift_probability": 0.0208
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 9,
+      "service_key": "svc_text_summary_015",
+      "service_name": "摘要经济服务09",
+      "category": "text_summary",
+      "category_name": "文本摘要类",
+      "profile_name": "低价基础型",
+      "price": 0.0216,
+      "base_latency_ms": 1094,
+      "latency_jitter_ms": 164,
+      "quality_range": [
+        0.56,
+        0.72
+      ],
+      "format_stability": 0.7028,
+      "consumability": 0.758,
+      "failure_probability": 0.08,
+      "drift_probability": 0.03,
+      "tags": [
+        "text_summary类",
+        "低价基础型",
+        "项目过程摘要",
+        "文本摘要",
+        "结论压缩",
+        "研究摘要"
+      ],
+      "description": "经济摘要服务15，适合基础文本压缩、简要摘要与通用信息提炼，成本较低。重点适配项目过程摘要场景。",
+      "name": "摘要经济服务15",
+      "capabilities": {
+        "service_key": "svc_text_summary_015",
+        "profile_name": "低价基础型",
+        "features": [
+          "text_summary类",
+          "低价基础型",
+          "项目过程摘要",
+          "文本摘要",
+          "结论压缩",
+          "研究摘要"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 650,
+          "latency_jitter_ms": 112,
+          "quality_range": [
+            0.762,
+            0.779
+          ],
+          "format_stability": 0.7995,
+          "consumability": 0.7936,
+          "failure_probability": 0.059,
+          "drift_probability": 0.0411
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 9,
+      "service_key": "svc_text_summary_016",
+      "service_name": "摘要经济服务09",
+      "category": "text_summary",
+      "category_name": "文本摘要类",
+      "profile_name": "低价基础型",
+      "price": 0.0284,
+      "base_latency_ms": 1094,
+      "latency_jitter_ms": 164,
+      "quality_range": [
+        0.56,
+        0.72
+      ],
+      "format_stability": 0.7028,
+      "consumability": 0.758,
+      "failure_probability": 0.08,
+      "drift_probability": 0.03,
+      "tags": [
+        "text_summary类",
+        "低价基础型",
+        "高信息密度摘要",
+        "文本摘要",
+        "结论压缩",
+        "研究摘要"
+      ],
+      "description": "经济摘要服务16，适合基础文本压缩、简要摘要与通用信息提炼，成本较低。重点适配高信息密度摘要场景。",
+      "name": "摘要经济服务16",
+      "capabilities": {
+        "service_key": "svc_text_summary_016",
+        "profile_name": "低价基础型",
+        "features": [
+          "text_summary类",
+          "低价基础型",
+          "高信息密度摘要",
+          "文本摘要",
+          "结论压缩",
+          "研究摘要"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 933,
+          "latency_jitter_ms": 152,
+          "quality_range": [
+            0.761,
+            0.799
+          ],
+          "format_stability": 0.8346,
+          "consumability": 0.8544,
+          "failure_probability": 0.0317,
+          "drift_probability": 0.0296
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 9,
+      "service_key": "svc_text_summary_017",
+      "service_name": "摘要经济服务09",
+      "category": "text_summary",
+      "category_name": "文本摘要类",
+      "profile_name": "低价基础型",
+      "price": 0.029,
+      "base_latency_ms": 1094,
+      "latency_jitter_ms": 164,
+      "quality_range": [
+        0.56,
+        0.72
+      ],
+      "format_stability": 0.7028,
+      "consumability": 0.758,
+      "failure_probability": 0.08,
+      "drift_probability": 0.03,
+      "tags": [
+        "text_summary类",
+        "低价基础型",
+        "研究摘要",
+        "文本摘要",
+        "结论压缩"
+      ],
+      "description": "经济摘要服务17，适合基础文本压缩、简要摘要与通用信息提炼，成本较低。重点适配研究摘要场景。",
+      "name": "摘要经济服务17",
+      "capabilities": {
+        "service_key": "svc_text_summary_017",
+        "profile_name": "低价基础型",
+        "features": [
+          "text_summary类",
+          "低价基础型",
+          "研究摘要",
+          "文本摘要",
+          "结论压缩"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 845,
+          "latency_jitter_ms": 168,
+          "quality_range": [
+            0.765,
+            0.799
+          ],
+          "format_stability": 0.7999,
+          "consumability": 0.8367,
+          "failure_probability": 0.0552,
+          "drift_probability": 0.0274
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 9,
+      "service_key": "svc_text_summary_018",
+      "service_name": "摘要经济服务09",
+      "category": "text_summary",
+      "category_name": "文本摘要类",
+      "profile_name": "低价基础型",
+      "price": 0.0284,
+      "base_latency_ms": 1094,
+      "latency_jitter_ms": 164,
+      "quality_range": [
+        0.56,
+        0.72
+      ],
+      "format_stability": 0.7028,
+      "consumability": 0.758,
+      "failure_probability": 0.08,
+      "drift_probability": 0.03,
+      "tags": [
+        "text_summary类",
+        "低价基础型",
+        "服务说明摘要",
+        "文本摘要",
+        "结论压缩",
+        "研究摘要"
+      ],
+      "description": "经济摘要服务18，适合基础文本压缩、简要摘要与通用信息提炼，成本较低。重点适配服务说明摘要场景。",
+      "name": "摘要经济服务18",
+      "capabilities": {
+        "service_key": "svc_text_summary_018",
+        "profile_name": "低价基础型",
+        "features": [
+          "text_summary类",
+          "低价基础型",
+          "服务说明摘要",
+          "文本摘要",
+          "结论压缩",
+          "研究摘要"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 694,
+          "latency_jitter_ms": 161,
+          "quality_range": [
+            0.725,
+            0.81
+          ],
+          "format_stability": 0.8286,
+          "consumability": 0.8262,
+          "failure_probability": 0.0358,
+          "drift_probability": 0.0275
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 1,
+      "service_key": "svc_text_summary_019",
+      "service_name": "摘要实用服务01",
+      "category": "text_summary",
+      "category_name": "文本摘要类",
+      "profile_name": "低时延响应型",
+      "price": 0.0345,
+      "base_latency_ms": 1234,
+      "latency_jitter_ms": 185,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.8447,
+      "consumability": 0.8227,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "text_summary类",
+        "低时延响应型",
+        "短摘要",
+        "文本摘要",
+        "结论压缩",
+        "研究摘要"
+      ],
+      "description": "快速摘要服务19，擅长短文本即时摘要、三句摘要和要点快速压缩。重点适配短摘要场景。",
+      "name": "摘要快速服务19",
+      "capabilities": {
+        "service_key": "svc_text_summary_019",
+        "profile_name": "低时延响应型",
+        "features": [
+          "text_summary类",
+          "低时延响应型",
+          "短摘要",
+          "文本摘要",
+          "结论压缩",
+          "研究摘要"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 295,
+          "latency_jitter_ms": 148,
+          "quality_range": [
+            0.74,
+            0.797
+          ],
+          "format_stability": 0.8575,
+          "consumability": 0.7933,
+          "failure_probability": 0.0339,
+          "drift_probability": 0.0384
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 4,
+      "service_key": "svc_text_summary_020",
+      "service_name": "摘要表面优服务04",
+      "category": "text_summary",
+      "category_name": "文本摘要类",
+      "profile_name": "低时延响应型",
+      "price": 0.0415,
+      "base_latency_ms": 765,
+      "latency_jitter_ms": 114,
+      "quality_range": [
+        0.5,
+        0.78
+      ],
+      "format_stability": 0.6647,
+      "consumability": 0.6543,
+      "failure_probability": 0.1,
+      "drift_probability": 0.08,
+      "tags": [
+        "text_summary类",
+        "低时延响应型",
+        "结论导向摘要",
+        "文本摘要",
+        "结论压缩",
+        "研究摘要"
+      ],
+      "description": "快速摘要服务20，擅长短文本即时摘要、三句摘要和要点快速压缩。重点适配结论导向摘要场景。",
+      "name": "摘要快速服务20",
+      "capabilities": {
+        "service_key": "svc_text_summary_020",
+        "profile_name": "低时延响应型",
+        "features": [
+          "text_summary类",
+          "低时延响应型",
+          "结论导向摘要",
+          "文本摘要",
+          "结论压缩",
+          "研究摘要"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 327,
+          "latency_jitter_ms": 170,
+          "quality_range": [
+            0.77,
+            0.816
+          ],
+          "format_stability": 0.8472,
+          "consumability": 0.8404,
+          "failure_probability": 0.0523,
+          "drift_probability": 0.0321
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 3,
+      "service_key": "svc_text_summary_021",
+      "service_name": "摘要诱骗服务03",
+      "category": "text_summary",
+      "category_name": "文本摘要类",
+      "profile_name": "诱骗失真型",
+      "price": 0.0357,
+      "base_latency_ms": 608,
+      "latency_jitter_ms": 91,
+      "quality_range": [
+        0.5,
+        0.78
+      ],
+      "format_stability": 0.6832,
+      "consumability": 0.5126,
+      "failure_probability": 0.1,
+      "drift_probability": 0.08,
+      "tags": [
+        "text_summary类",
+        "诱骗失真型",
+        "项目过程摘要",
+        "文本摘要",
+        "结论压缩",
+        "研究摘要",
+        "高密度摘要"
+      ],
+      "description": "摘要专家服务21，强调结论突出、结构清晰和项目材料摘要，适合报告与说明文档。重点适配项目过程摘要场景。",
+      "name": "摘要增强服务21",
+      "capabilities": {
+        "service_key": "svc_text_summary_021",
+        "profile_name": "诱骗失真型",
+        "features": [
+          "text_summary类",
+          "诱骗失真型",
+          "项目过程摘要",
+          "文本摘要",
+          "结论压缩",
+          "研究摘要",
+          "高密度摘要"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 698,
+          "latency_jitter_ms": 110,
+          "quality_range": [
+            0.795,
+            0.827
+          ],
+          "format_stability": 0.802,
+          "consumability": 0.8061,
+          "failure_probability": 0.0484,
+          "drift_probability": 0.0702
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 10,
+      "service_key": "svc_text_summary_022",
+      "service_name": "摘要表面优服务10",
+      "category": "text_summary",
+      "category_name": "文本摘要类",
+      "profile_name": "诱骗失真型",
+      "price": 0.0301,
+      "base_latency_ms": 372,
+      "latency_jitter_ms": 55,
+      "quality_range": [
+        0.5,
+        0.78
+      ],
+      "format_stability": 0.5879,
+      "consumability": 0.5731,
+      "failure_probability": 0.1,
+      "drift_probability": 0.08,
+      "tags": [
+        "text_summary类",
+        "诱骗失真型",
+        "高信息密度摘要",
+        "文本摘要",
+        "结论压缩",
+        "研究摘要",
+        "高密度摘要"
+      ],
+      "description": "摘要专家服务22，强调结论突出、结构清晰和项目材料摘要，适合报告与说明文档。重点适配高信息密度摘要场景。",
+      "name": "摘要增强服务22",
+      "capabilities": {
+        "service_key": "svc_text_summary_022",
+        "profile_name": "诱骗失真型",
+        "features": [
+          "text_summary类",
+          "诱骗失真型",
+          "高信息密度摘要",
+          "文本摘要",
+          "结论压缩",
+          "研究摘要",
+          "高密度摘要"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 604,
+          "latency_jitter_ms": 106,
+          "quality_range": [
+            0.805,
+            0.82
+          ],
+          "format_stability": 0.7709,
+          "consumability": 0.7779,
+          "failure_probability": 0.0318,
+          "drift_probability": 0.0483
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 13,
+      "service_key": "svc_text_summary_023",
+      "service_name": "摘要表面优服务13",
+      "category": "text_summary",
+      "category_name": "文本摘要类",
+      "profile_name": "诱骗失真型",
+      "price": 0.045,
+      "base_latency_ms": 398,
+      "latency_jitter_ms": 59,
+      "quality_range": [
+        0.5,
+        0.78
+      ],
+      "format_stability": 0.725,
+      "consumability": 0.6031,
+      "failure_probability": 0.1,
+      "drift_probability": 0.08,
+      "tags": [
+        "text_summary类",
+        "诱骗失真型",
+        "研究摘要",
+        "文本摘要",
+        "结论压缩",
+        "高密度摘要"
+      ],
+      "description": "摘要专家服务23，强调结论突出、结构清晰和项目材料摘要，适合报告与说明文档。重点适配研究摘要场景。",
+      "name": "摘要增强服务23",
+      "capabilities": {
+        "service_key": "svc_text_summary_023",
+        "profile_name": "诱骗失真型",
+        "features": [
+          "text_summary类",
+          "诱骗失真型",
+          "研究摘要",
+          "文本摘要",
+          "结论压缩",
+          "高密度摘要"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 833,
+          "latency_jitter_ms": 162,
+          "quality_range": [
+            0.78,
+            0.835
+          ],
+          "format_stability": 0.8038,
+          "consumability": 0.795,
+          "failure_probability": 0.0428,
+          "drift_probability": 0.0672
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 16,
+      "service_key": "svc_text_summary_024",
+      "service_name": "摘要诱骗服务16",
+      "category": "text_summary",
+      "category_name": "文本摘要类",
+      "profile_name": "诱骗失真型",
+      "price": 0.0357,
+      "base_latency_ms": 718,
+      "latency_jitter_ms": 107,
+      "quality_range": [
+        0.5,
+        0.78
+      ],
+      "format_stability": 0.673,
+      "consumability": 0.4958,
+      "failure_probability": 0.1,
+      "drift_probability": 0.08,
+      "tags": [
+        "text_summary类",
+        "诱骗失真型",
+        "服务说明摘要",
+        "文本摘要",
+        "结论压缩",
+        "研究摘要",
+        "高密度摘要"
+      ],
+      "description": "增强摘要服务24，主打高信息密度压缩、研究摘要和服务说明提炼，价格友好，适合高频摘要请求。重点适配服务说明摘要场景。",
+      "name": "摘要增强服务24",
+      "capabilities": {
+        "service_key": "svc_text_summary_024",
+        "profile_name": "诱骗失真型",
+        "features": [
+          "text_summary类",
+          "诱骗失真型",
+          "服务说明摘要",
+          "文本摘要",
+          "结论压缩",
+          "研究摘要",
+          "高密度摘要"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 831,
+          "latency_jitter_ms": 139,
+          "quality_range": [
+            0.77,
+            0.837
+          ],
+          "format_stability": 0.7776,
+          "consumability": 0.7422,
+          "failure_probability": 0.0782,
+          "drift_probability": 0.0362
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 2,
+      "service_key": "svc_text_summary_025",
+      "service_name": "摘要表面优服务02",
+      "category": "text_summary",
+      "category_name": "文本摘要类",
+      "profile_name": "诱骗失真型",
+      "price": 0.029,
+      "base_latency_ms": 539,
+      "latency_jitter_ms": 80,
+      "quality_range": [
+        0.5,
+        0.78
+      ],
+      "format_stability": 0.7769,
+      "consumability": 0.6018,
+      "failure_probability": 0.1,
+      "drift_probability": 0.08,
+      "tags": [
+        "text_summary类",
+        "诱骗失真型",
+        "短摘要",
+        "文本摘要",
+        "结论压缩",
+        "研究摘要",
+        "高密度摘要"
+      ],
+      "description": "摘要专家服务25，强调结论突出、结构清晰和项目材料摘要，适合报告与说明文档。重点适配短摘要场景。",
+      "name": "摘要增强服务25",
+      "capabilities": {
+        "service_key": "svc_text_summary_025",
+        "profile_name": "诱骗失真型",
+        "features": [
+          "text_summary类",
+          "诱骗失真型",
+          "短摘要",
+          "文本摘要",
+          "结论压缩",
+          "研究摘要",
+          "高密度摘要"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 483,
+          "latency_jitter_ms": 156,
+          "quality_range": [
+            0.761,
+            0.83
+          ],
+          "format_stability": 0.7708,
+          "consumability": 0.7741,
+          "failure_probability": 0.0672,
+          "drift_probability": 0.055
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 15,
+      "service_key": "svc_text_summary_026",
+      "service_name": "摘要低价快响服务15",
+      "category": "text_summary",
+      "category_name": "文本摘要类",
+      "profile_name": "诱骗失真型",
+      "price": 0.0296,
+      "base_latency_ms": 771,
+      "latency_jitter_ms": 115,
+      "quality_range": [
+        0.5,
+        0.78
+      ],
+      "format_stability": 0.7892,
+      "consumability": 0.6572,
+      "failure_probability": 0.1,
+      "drift_probability": 0.08,
+      "tags": [
+        "text_summary类",
+        "诱骗失真型",
+        "结论导向摘要",
+        "文本摘要",
+        "结论压缩",
+        "研究摘要",
+        "高密度摘要"
+      ],
+      "description": "增强摘要服务26，主打高信息密度压缩、研究摘要和服务说明提炼，价格友好，适合高频摘要请求。重点适配结论导向摘要场景。",
+      "name": "摘要增强服务26",
+      "capabilities": {
+        "service_key": "svc_text_summary_026",
+        "profile_name": "诱骗失真型",
+        "features": [
+          "text_summary类",
+          "诱骗失真型",
+          "结论导向摘要",
+          "文本摘要",
+          "结论压缩",
+          "研究摘要",
+          "高密度摘要"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 471,
+          "latency_jitter_ms": 123,
+          "quality_range": [
+            0.778,
+            0.813
+          ],
+          "format_stability": 0.7535,
+          "consumability": 0.8043,
+          "failure_probability": 0.0787,
+          "drift_probability": 0.058
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 2,
+      "service_key": "svc_text_summary_027",
+      "service_name": "摘要表面优服务02",
+      "category": "text_summary",
+      "category_name": "文本摘要类",
+      "profile_name": "诱骗失真型",
+      "price": 0.0328,
+      "base_latency_ms": 539,
+      "latency_jitter_ms": 80,
+      "quality_range": [
+        0.5,
+        0.78
+      ],
+      "format_stability": 0.7769,
+      "consumability": 0.6018,
+      "failure_probability": 0.1,
+      "drift_probability": 0.08,
+      "tags": [
+        "text_summary类",
+        "诱骗失真型",
+        "项目过程摘要",
+        "文本摘要",
+        "结论压缩",
+        "研究摘要",
+        "高密度摘要"
+      ],
+      "description": "摘要专家服务27，强调结论突出、结构清晰和项目材料摘要，适合报告与说明文档。重点适配项目过程摘要场景。",
+      "name": "摘要增强服务27",
+      "capabilities": {
+        "service_key": "svc_text_summary_027",
+        "profile_name": "诱骗失真型",
+        "features": [
+          "text_summary类",
+          "诱骗失真型",
+          "项目过程摘要",
+          "文本摘要",
+          "结论压缩",
+          "研究摘要",
+          "高密度摘要"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 617,
+          "latency_jitter_ms": 73,
+          "quality_range": [
+            0.76,
+            0.846
+          ],
+          "format_stability": 0.7637,
+          "consumability": 0.8259,
+          "failure_probability": 0.0635,
+          "drift_probability": 0.0652
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 16,
+      "service_key": "svc_text_summary_028",
+      "service_name": "摘要诱骗服务16",
+      "category": "text_summary",
+      "category_name": "文本摘要类",
+      "profile_name": "诱骗失真型",
+      "price": 0.0355,
+      "base_latency_ms": 718,
+      "latency_jitter_ms": 107,
+      "quality_range": [
+        0.5,
+        0.78
+      ],
+      "format_stability": 0.673,
+      "consumability": 0.4958,
+      "failure_probability": 0.1,
+      "drift_probability": 0.08,
+      "tags": [
+        "text_summary类",
+        "诱骗失真型",
+        "高信息密度摘要",
+        "文本摘要",
+        "结论压缩",
+        "研究摘要",
+        "高密度摘要"
+      ],
+      "description": "增强摘要服务28，主打高信息密度压缩、研究摘要和服务说明提炼，价格友好，适合高频摘要请求。重点适配高信息密度摘要场景。",
+      "name": "摘要增强服务28",
+      "capabilities": {
+        "service_key": "svc_text_summary_028",
+        "profile_name": "诱骗失真型",
+        "features": [
+          "text_summary类",
+          "诱骗失真型",
+          "高信息密度摘要",
+          "文本摘要",
+          "结论压缩",
+          "研究摘要",
+          "高密度摘要"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 475,
+          "latency_jitter_ms": 174,
+          "quality_range": [
+            0.802,
+            0.835
+          ],
+          "format_stability": 0.7473,
+          "consumability": 0.8042,
+          "failure_probability": 0.0723,
+          "drift_probability": 0.0328
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 12,
+      "service_key": "svc_text_summary_029",
+      "service_name": "摘要不稳服务12",
+      "category": "text_summary",
+      "category_name": "文本摘要类",
+      "profile_name": "漂移波动型",
+      "price": 0.0699,
+      "base_latency_ms": 1214,
+      "latency_jitter_ms": 182,
+      "quality_range": [
+        0.55,
+        0.9
+      ],
+      "format_stability": 0.7608,
+      "consumability": 0.8061,
+      "failure_probability": 0.08,
+      "drift_probability": 0.18,
+      "tags": [
+        "text_summary类",
+        "漂移波动型",
+        "研究摘要",
+        "文本摘要",
+        "结论压缩"
+      ],
+      "description": "text_summary类服务29，画像为漂移波动型，面向研究摘要场景。",
+      "name": "摘要波动服务29",
+      "capabilities": {
+        "service_key": "svc_text_summary_029",
+        "profile_name": "漂移波动型",
+        "features": [
+          "text_summary类",
+          "漂移波动型",
+          "研究摘要",
+          "文本摘要",
+          "结论压缩"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 836,
+          "latency_jitter_ms": 179,
+          "quality_range": [
+            0.813,
+            0.893
+          ],
+          "format_stability": 0.7851,
+          "consumability": 0.843,
+          "failure_probability": 0.0552,
+          "drift_probability": 0.1186
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 13,
+      "service_key": "svc_text_summary_030",
+      "service_name": "摘要表面优服务13",
+      "category": "text_summary",
+      "category_name": "文本摘要类",
+      "profile_name": "故障脆弱型",
+      "price": 0.0525,
+      "base_latency_ms": 398,
+      "latency_jitter_ms": 59,
+      "quality_range": [
+        0.5,
+        0.78
+      ],
+      "format_stability": 0.725,
+      "consumability": 0.6031,
+      "failure_probability": 0.1,
+      "drift_probability": 0.08,
+      "tags": [
+        "text_summary类",
+        "故障脆弱型",
+        "服务说明摘要",
+        "文本摘要",
+        "结论压缩",
+        "研究摘要"
+      ],
+      "description": "text_summary类服务30，画像为故障脆弱型，面向服务说明摘要场景。",
+      "name": "摘要脆弱服务30",
+      "capabilities": {
+        "service_key": "svc_text_summary_030",
+        "profile_name": "故障脆弱型",
+        "features": [
+          "text_summary类",
+          "故障脆弱型",
+          "服务说明摘要",
+          "文本摘要",
+          "结论压缩",
+          "研究摘要"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 1065,
+          "latency_jitter_ms": 102,
+          "quality_range": [
+            0.726,
+            0.794
+          ],
+          "format_stability": 0.7898,
+          "consumability": 0.7918,
+          "failure_probability": 0.1067,
+          "drift_probability": 0.0562
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 27,
+      "service_key": "svc_structured_extraction_001",
+      "service_name": "抽取通用服务27",
+      "category": "structured_extraction",
+      "category_name": "结构化抽取类",
+      "profile_name": "平衡实用型",
+      "price": 0.0701,
+      "base_latency_ms": 702,
+      "latency_jitter_ms": 105,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.8424,
+      "consumability": 0.8878,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "structured_extraction类",
+        "平衡实用型",
+        "实体抽取",
+        "结构化抽取",
+        "会议字段"
+      ],
+      "description": "抽取平衡服务1，支持实体抽取、会议字段抽取、实验字段提取和工单信息抽取，输出稳定。重点适配实体抽取场景。",
+      "name": "抽取平衡服务1",
+      "capabilities": {
+        "service_key": "svc_structured_extraction_001",
+        "profile_name": "平衡实用型",
+        "features": [
+          "structured_extraction类",
+          "平衡实用型",
+          "实体抽取",
+          "结构化抽取",
+          "会议字段"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 1051,
+          "latency_jitter_ms": 141,
+          "quality_range": [
+            0.883,
+            0.929
+          ],
+          "format_stability": 0.8721,
+          "consumability": 0.868,
+          "failure_probability": 0.0196,
+          "drift_probability": 0.0209
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 21,
+      "service_key": "svc_structured_extraction_002",
+      "service_name": "抽取实用服务21",
+      "category": "structured_extraction",
+      "category_name": "结构化抽取类",
+      "profile_name": "平衡实用型",
+      "price": 0.0683,
+      "base_latency_ms": 1316,
+      "latency_jitter_ms": 197,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.8792,
+      "consumability": 0.8586,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "structured_extraction类",
+        "平衡实用型",
+        "会议字段抽取",
+        "结构化抽取",
+        "实体抽取",
+        "会议字段"
+      ],
+      "description": "抽取平衡服务2，支持实体抽取、会议字段抽取、实验字段提取和工单信息抽取，输出稳定。重点适配会议字段抽取场景。",
+      "name": "抽取平衡服务2",
+      "capabilities": {
+        "service_key": "svc_structured_extraction_002",
+        "profile_name": "平衡实用型",
+        "features": [
+          "structured_extraction类",
+          "平衡实用型",
+          "会议字段抽取",
+          "结构化抽取",
+          "实体抽取",
+          "会议字段"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 881,
+          "latency_jitter_ms": 93,
+          "quality_range": [
+            0.85,
+            0.915
+          ],
+          "format_stability": 0.9387,
+          "consumability": 0.8969,
+          "failure_probability": 0.0131,
+          "drift_probability": 0.0228
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 25,
+      "service_key": "svc_structured_extraction_003",
+      "service_name": "抽取通用服务25",
+      "category": "structured_extraction",
+      "category_name": "结构化抽取类",
+      "profile_name": "平衡实用型",
+      "price": 0.0602,
+      "base_latency_ms": 954,
+      "latency_jitter_ms": 143,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.8628,
+      "consumability": 0.8408,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "structured_extraction类",
+        "平衡实用型",
+        "实验字段抽取",
+        "结构化抽取",
+        "实体抽取",
+        "会议字段"
+      ],
+      "description": "抽取平衡服务3，支持实体抽取、会议字段抽取、实验字段提取和工单信息抽取，输出稳定。重点适配实验字段抽取场景。",
+      "name": "抽取平衡服务3",
+      "capabilities": {
+        "service_key": "svc_structured_extraction_003",
+        "profile_name": "平衡实用型",
+        "features": [
+          "structured_extraction类",
+          "平衡实用型",
+          "实验字段抽取",
+          "结构化抽取",
+          "实体抽取",
+          "会议字段"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 788,
+          "latency_jitter_ms": 91,
+          "quality_range": [
+            0.878,
+            0.885
+          ],
+          "format_stability": 0.8801,
+          "consumability": 0.8896,
+          "failure_probability": 0.0111,
+          "drift_probability": 0.0138
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 25,
+      "service_key": "svc_structured_extraction_004",
+      "service_name": "抽取通用服务25",
+      "category": "structured_extraction",
+      "category_name": "结构化抽取类",
+      "profile_name": "平衡实用型",
+      "price": 0.0648,
+      "base_latency_ms": 954,
+      "latency_jitter_ms": 143,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.8628,
+      "consumability": 0.8408,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "structured_extraction类",
+        "平衡实用型",
+        "工单字段抽取",
+        "结构化抽取",
+        "实体抽取",
+        "会议字段"
+      ],
+      "description": "抽取平衡服务4，支持实体抽取、会议字段抽取、实验字段提取和工单信息抽取，输出稳定。重点适配工单字段抽取场景。",
+      "name": "抽取平衡服务4",
+      "capabilities": {
+        "service_key": "svc_structured_extraction_004",
+        "profile_name": "平衡实用型",
+        "features": [
+          "structured_extraction类",
+          "平衡实用型",
+          "工单字段抽取",
+          "结构化抽取",
+          "实体抽取",
+          "会议字段"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 1046,
+          "latency_jitter_ms": 142,
+          "quality_range": [
+            0.847,
+            0.927
+          ],
+          "format_stability": 0.8885,
+          "consumability": 0.888,
+          "failure_probability": 0.0226,
+          "drift_probability": 0.0271
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 21,
+      "service_key": "svc_structured_extraction_005",
+      "service_name": "抽取实用服务21",
+      "category": "structured_extraction",
+      "category_name": "结构化抽取类",
+      "profile_name": "平衡实用型",
+      "price": 0.06,
+      "base_latency_ms": 1316,
+      "latency_jitter_ms": 197,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.8792,
+      "consumability": 0.8586,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "structured_extraction类",
+        "平衡实用型",
+        "项目周报抽取",
+        "结构化抽取",
+        "实体抽取",
+        "会议字段"
+      ],
+      "description": "抽取平衡服务5，支持实体抽取、会议字段抽取、实验字段提取和工单信息抽取，输出稳定。重点适配项目周报抽取场景。",
+      "name": "抽取平衡服务5",
+      "capabilities": {
+        "service_key": "svc_structured_extraction_005",
+        "profile_name": "平衡实用型",
+        "features": [
+          "structured_extraction类",
+          "平衡实用型",
+          "项目周报抽取",
+          "结构化抽取",
+          "实体抽取",
+          "会议字段"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 836,
+          "latency_jitter_ms": 146,
+          "quality_range": [
+            0.866,
+            0.922
+          ],
+          "format_stability": 0.9393,
+          "consumability": 0.88,
+          "failure_probability": 0.0203,
+          "drift_probability": 0.0216
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 25,
+      "service_key": "svc_structured_extraction_006",
+      "service_name": "抽取通用服务25",
+      "category": "structured_extraction",
+      "category_name": "结构化抽取类",
+      "profile_name": "平衡实用型",
+      "price": 0.0763,
+      "base_latency_ms": 954,
+      "latency_jitter_ms": 143,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.8628,
+      "consumability": 0.8408,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "structured_extraction类",
+        "平衡实用型",
+        "研究要素抽取",
+        "结构化抽取",
+        "实体抽取",
+        "会议字段"
+      ],
+      "description": "抽取平衡服务6，支持实体抽取、会议字段抽取、实验字段提取和工单信息抽取，输出稳定。重点适配研究要素抽取场景。",
+      "name": "抽取平衡服务6",
+      "capabilities": {
+        "service_key": "svc_structured_extraction_006",
+        "profile_name": "平衡实用型",
+        "features": [
+          "structured_extraction类",
+          "平衡实用型",
+          "研究要素抽取",
+          "结构化抽取",
+          "实体抽取",
+          "会议字段"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 981,
+          "latency_jitter_ms": 168,
+          "quality_range": [
+            0.861,
+            0.907
+          ],
+          "format_stability": 0.8973,
+          "consumability": 0.8668,
+          "failure_probability": 0.0279,
+          "drift_probability": 0.0296
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 27,
+      "service_key": "svc_structured_extraction_007",
+      "service_name": "抽取通用服务27",
+      "category": "structured_extraction",
+      "category_name": "结构化抽取类",
+      "profile_name": "平衡实用型",
+      "price": 0.0638,
+      "base_latency_ms": 702,
+      "latency_jitter_ms": 105,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.8424,
+      "consumability": 0.8878,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "structured_extraction类",
+        "平衡实用型",
+        "实体抽取",
+        "结构化抽取",
+        "会议字段"
+      ],
+      "description": "抽取平衡服务7，支持实体抽取、会议字段抽取、实验字段提取和工单信息抽取，输出稳定。重点适配实体抽取场景。",
+      "name": "抽取平衡服务7",
+      "capabilities": {
+        "service_key": "svc_structured_extraction_007",
+        "profile_name": "平衡实用型",
+        "features": [
+          "structured_extraction类",
+          "平衡实用型",
+          "实体抽取",
+          "结构化抽取",
+          "会议字段"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 997,
+          "latency_jitter_ms": 116,
+          "quality_range": [
+            0.881,
+            0.923
+          ],
+          "format_stability": 0.9068,
+          "consumability": 0.8737,
+          "failure_probability": 0.0358,
+          "drift_probability": 0.0292
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 25,
+      "service_key": "svc_structured_extraction_008",
+      "service_name": "抽取通用服务25",
+      "category": "structured_extraction",
+      "category_name": "结构化抽取类",
+      "profile_name": "平衡实用型",
+      "price": 0.0703,
+      "base_latency_ms": 954,
+      "latency_jitter_ms": 143,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.8628,
+      "consumability": 0.8408,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "structured_extraction类",
+        "平衡实用型",
+        "会议字段抽取",
+        "结构化抽取",
+        "实体抽取",
+        "会议字段"
+      ],
+      "description": "抽取平衡服务8，支持实体抽取、会议字段抽取、实验字段提取和工单信息抽取，输出稳定。重点适配会议字段抽取场景。",
+      "name": "抽取平衡服务8",
+      "capabilities": {
+        "service_key": "svc_structured_extraction_008",
+        "profile_name": "平衡实用型",
+        "features": [
+          "structured_extraction类",
+          "平衡实用型",
+          "会议字段抽取",
+          "结构化抽取",
+          "实体抽取",
+          "会议字段"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 895,
+          "latency_jitter_ms": 172,
+          "quality_range": [
+            0.862,
+            0.927
+          ],
+          "format_stability": 0.8662,
+          "consumability": 0.9306,
+          "failure_probability": 0.0189,
+          "drift_probability": 0.0117
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 26,
+      "service_key": "svc_structured_extraction_009",
+      "service_name": "抽取领域服务26",
+      "category": "structured_extraction",
+      "category_name": "结构化抽取类",
+      "profile_name": "领域专精型",
+      "price": 0.0869,
+      "base_latency_ms": 1188,
+      "latency_jitter_ms": 178,
+      "quality_range": [
+        0.8,
+        0.92
+      ],
+      "format_stability": 0.8602,
+      "consumability": 0.8452,
+      "failure_probability": 0.03,
+      "drift_probability": 0.02,
+      "tags": [
+        "structured_extraction类",
+        "领域专精型",
+        "实验字段抽取",
+        "结构化抽取",
+        "实体抽取",
+        "会议字段"
+      ],
+      "description": "抽取专精服务9，强化实体识别、字段映射和研究/实验要素提取，适合结构化处理场景。重点适配实验字段抽取场景。",
+      "name": "抽取专精服务9",
+      "capabilities": {
+        "service_key": "svc_structured_extraction_009",
+        "profile_name": "领域专精型",
+        "features": [
+          "structured_extraction类",
+          "领域专精型",
+          "实验字段抽取",
+          "结构化抽取",
+          "实体抽取",
+          "会议字段"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 791,
+          "latency_jitter_ms": 124,
+          "quality_range": [
+            0.899,
+            0.927
+          ],
+          "format_stability": 0.8945,
+          "consumability": 0.907,
+          "failure_probability": 0.0248,
+          "drift_probability": 0.0212
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 26,
+      "service_key": "svc_structured_extraction_010",
+      "service_name": "抽取领域服务26",
+      "category": "structured_extraction",
+      "category_name": "结构化抽取类",
+      "profile_name": "领域专精型",
+      "price": 0.0777,
+      "base_latency_ms": 1188,
+      "latency_jitter_ms": 178,
+      "quality_range": [
+        0.8,
+        0.92
+      ],
+      "format_stability": 0.8602,
+      "consumability": 0.8452,
+      "failure_probability": 0.03,
+      "drift_probability": 0.02,
+      "tags": [
+        "structured_extraction类",
+        "领域专精型",
+        "工单字段抽取",
+        "结构化抽取",
+        "实体抽取",
+        "会议字段"
+      ],
+      "description": "抽取专精服务10，强化实体识别、字段映射和研究/实验要素提取，适合结构化处理场景。重点适配工单字段抽取场景。",
+      "name": "抽取专精服务10",
+      "capabilities": {
+        "service_key": "svc_structured_extraction_010",
+        "profile_name": "领域专精型",
+        "features": [
+          "structured_extraction类",
+          "领域专精型",
+          "工单字段抽取",
+          "结构化抽取",
+          "实体抽取",
+          "会议字段"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 963,
+          "latency_jitter_ms": 86,
+          "quality_range": [
+            0.87,
+            0.907
+          ],
+          "format_stability": 0.9242,
+          "consumability": 0.9199,
+          "failure_probability": 0.0287,
+          "drift_probability": 0.0248
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 26,
+      "service_key": "svc_structured_extraction_011",
+      "service_name": "抽取领域服务26",
+      "category": "structured_extraction",
+      "category_name": "结构化抽取类",
+      "profile_name": "领域专精型",
+      "price": 0.0848,
+      "base_latency_ms": 1188,
+      "latency_jitter_ms": 178,
+      "quality_range": [
+        0.8,
+        0.92
+      ],
+      "format_stability": 0.8602,
+      "consumability": 0.8452,
+      "failure_probability": 0.03,
+      "drift_probability": 0.02,
+      "tags": [
+        "structured_extraction类",
+        "领域专精型",
+        "项目周报抽取",
+        "结构化抽取",
+        "实体抽取",
+        "会议字段"
+      ],
+      "description": "抽取专精服务11，强化实体识别、字段映射和研究/实验要素提取，适合结构化处理场景。重点适配项目周报抽取场景。",
+      "name": "抽取专精服务11",
+      "capabilities": {
+        "service_key": "svc_structured_extraction_011",
+        "profile_name": "领域专精型",
+        "features": [
+          "structured_extraction类",
+          "领域专精型",
+          "项目周报抽取",
+          "结构化抽取",
+          "实体抽取",
+          "会议字段"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 1076,
+          "latency_jitter_ms": 73,
+          "quality_range": [
+            0.898,
+            0.944
+          ],
+          "format_stability": 0.9236,
+          "consumability": 0.9099,
+          "failure_probability": 0.0232,
+          "drift_probability": 0.0293
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 26,
+      "service_key": "svc_structured_extraction_012",
+      "service_name": "抽取领域服务26",
+      "category": "structured_extraction",
+      "category_name": "结构化抽取类",
+      "profile_name": "领域专精型",
+      "price": 0.0911,
+      "base_latency_ms": 1188,
+      "latency_jitter_ms": 178,
+      "quality_range": [
+        0.8,
+        0.92
+      ],
+      "format_stability": 0.8602,
+      "consumability": 0.8452,
+      "failure_probability": 0.03,
+      "drift_probability": 0.02,
+      "tags": [
+        "structured_extraction类",
+        "领域专精型",
+        "研究要素抽取",
+        "结构化抽取",
+        "实体抽取",
+        "会议字段"
+      ],
+      "description": "抽取专精服务12，强化实体识别、字段映射和研究/实验要素提取，适合结构化处理场景。重点适配研究要素抽取场景。",
+      "name": "抽取专精服务12",
+      "capabilities": {
+        "service_key": "svc_structured_extraction_012",
+        "profile_name": "领域专精型",
+        "features": [
+          "structured_extraction类",
+          "领域专精型",
+          "研究要素抽取",
+          "结构化抽取",
+          "实体抽取",
+          "会议字段"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 1214,
+          "latency_jitter_ms": 96,
+          "quality_range": [
+            0.899,
+            0.943
+          ],
+          "format_stability": 0.9289,
+          "consumability": 0.9128,
+          "failure_probability": 0.0201,
+          "drift_probability": 0.0116
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 22,
+      "service_key": "svc_structured_extraction_013",
+      "service_name": "抽取专精服务22",
+      "category": "structured_extraction",
+      "category_name": "结构化抽取类",
+      "profile_name": "领域专精型",
+      "price": 0.0808,
+      "base_latency_ms": 1527,
+      "latency_jitter_ms": 229,
+      "quality_range": [
+        0.8,
+        0.92
+      ],
+      "format_stability": 0.8406,
+      "consumability": 0.8534,
+      "failure_probability": 0.03,
+      "drift_probability": 0.02,
+      "tags": [
+        "structured_extraction类",
+        "领域专精型",
+        "实体抽取",
+        "结构化抽取",
+        "会议字段"
+      ],
+      "description": "抽取专精服务13，强化实体识别、字段映射和研究/实验要素提取，适合结构化处理场景。重点适配实体抽取场景。",
+      "name": "抽取专精服务13",
+      "capabilities": {
+        "service_key": "svc_structured_extraction_013",
+        "profile_name": "领域专精型",
+        "features": [
+          "structured_extraction类",
+          "领域专精型",
+          "实体抽取",
+          "结构化抽取",
+          "会议字段"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 1111,
+          "latency_jitter_ms": 104,
+          "quality_range": [
+            0.887,
+            0.932
+          ],
+          "format_stability": 0.9087,
+          "consumability": 0.9071,
+          "failure_probability": 0.0163,
+          "drift_probability": 0.0148
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 22,
+      "service_key": "svc_structured_extraction_014",
+      "service_name": "抽取专精服务22",
+      "category": "structured_extraction",
+      "category_name": "结构化抽取类",
+      "profile_name": "领域专精型",
+      "price": 0.0822,
+      "base_latency_ms": 1527,
+      "latency_jitter_ms": 229,
+      "quality_range": [
+        0.8,
+        0.92
+      ],
+      "format_stability": 0.8406,
+      "consumability": 0.8534,
+      "failure_probability": 0.03,
+      "drift_probability": 0.02,
+      "tags": [
+        "structured_extraction类",
+        "领域专精型",
+        "会议字段抽取",
+        "结构化抽取",
+        "实体抽取",
+        "会议字段"
+      ],
+      "description": "抽取专精服务14，强化实体识别、字段映射和研究/实验要素提取，适合结构化处理场景。重点适配会议字段抽取场景。",
+      "name": "抽取专精服务14",
+      "capabilities": {
+        "service_key": "svc_structured_extraction_014",
+        "profile_name": "领域专精型",
+        "features": [
+          "structured_extraction类",
+          "领域专精型",
+          "会议字段抽取",
+          "结构化抽取",
+          "实体抽取",
+          "会议字段"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 873,
+          "latency_jitter_ms": 123,
+          "quality_range": [
+            0.899,
+            0.936
+          ],
+          "format_stability": 0.9082,
+          "consumability": 0.8759,
+          "failure_probability": 0.0136,
+          "drift_probability": 0.0193
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 29,
+      "service_key": "svc_structured_extraction_015",
+      "service_name": "抽取轻量服务29",
+      "category": "structured_extraction",
+      "category_name": "结构化抽取类",
+      "profile_name": "低价基础型",
+      "price": 0.0274,
+      "base_latency_ms": 988,
+      "latency_jitter_ms": 148,
+      "quality_range": [
+        0.56,
+        0.72
+      ],
+      "format_stability": 0.7454,
+      "consumability": 0.6507,
+      "failure_probability": 0.08,
+      "drift_probability": 0.03,
+      "tags": [
+        "structured_extraction类",
+        "低价基础型",
+        "实验字段抽取",
+        "结构化抽取",
+        "实体抽取",
+        "会议字段"
+      ],
+      "description": "经济抽取服务15，适合基础字段抽取、实体识别和轻量结构化处理，成本较低。重点适配实验字段抽取场景。",
+      "name": "抽取经济服务15",
+      "capabilities": {
+        "service_key": "svc_structured_extraction_015",
+        "profile_name": "低价基础型",
+        "features": [
+          "structured_extraction类",
+          "低价基础型",
+          "实验字段抽取",
+          "结构化抽取",
+          "实体抽取",
+          "会议字段"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 622,
+          "latency_jitter_ms": 169,
+          "quality_range": [
+            0.729,
+            0.809
+          ],
+          "format_stability": 0.8468,
+          "consumability": 0.8426,
+          "failure_probability": 0.0585,
+          "drift_probability": 0.0291
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 29,
+      "service_key": "svc_structured_extraction_016",
+      "service_name": "抽取轻量服务29",
+      "category": "structured_extraction",
+      "category_name": "结构化抽取类",
+      "profile_name": "低价基础型",
+      "price": 0.0313,
+      "base_latency_ms": 988,
+      "latency_jitter_ms": 148,
+      "quality_range": [
+        0.56,
+        0.72
+      ],
+      "format_stability": 0.7454,
+      "consumability": 0.6507,
+      "failure_probability": 0.08,
+      "drift_probability": 0.03,
+      "tags": [
+        "structured_extraction类",
+        "低价基础型",
+        "工单字段抽取",
+        "结构化抽取",
+        "实体抽取",
+        "会议字段"
+      ],
+      "description": "经济抽取服务16，适合基础字段抽取、实体识别和轻量结构化处理，成本较低。重点适配工单字段抽取场景。",
+      "name": "抽取经济服务16",
+      "capabilities": {
+        "service_key": "svc_structured_extraction_016",
+        "profile_name": "低价基础型",
+        "features": [
+          "structured_extraction类",
+          "低价基础型",
+          "工单字段抽取",
+          "结构化抽取",
+          "实体抽取",
+          "会议字段"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 775,
+          "latency_jitter_ms": 135,
+          "quality_range": [
+            0.736,
+            0.778
+          ],
+          "format_stability": 0.802,
+          "consumability": 0.8303,
+          "failure_probability": 0.0434,
+          "drift_probability": 0.0247
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 29,
+      "service_key": "svc_structured_extraction_017",
+      "service_name": "抽取轻量服务29",
+      "category": "structured_extraction",
+      "category_name": "结构化抽取类",
+      "profile_name": "低价基础型",
+      "price": 0.0188,
+      "base_latency_ms": 988,
+      "latency_jitter_ms": 148,
+      "quality_range": [
+        0.56,
+        0.72
+      ],
+      "format_stability": 0.7454,
+      "consumability": 0.6507,
+      "failure_probability": 0.08,
+      "drift_probability": 0.03,
+      "tags": [
+        "structured_extraction类",
+        "低价基础型",
+        "项目周报抽取",
+        "结构化抽取",
+        "实体抽取",
+        "会议字段"
+      ],
+      "description": "经济抽取服务17，适合基础字段抽取、实体识别和轻量结构化处理，成本较低。重点适配项目周报抽取场景。",
+      "name": "抽取经济服务17",
+      "capabilities": {
+        "service_key": "svc_structured_extraction_017",
+        "profile_name": "低价基础型",
+        "features": [
+          "structured_extraction类",
+          "低价基础型",
+          "项目周报抽取",
+          "结构化抽取",
+          "实体抽取",
+          "会议字段"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 749,
+          "latency_jitter_ms": 75,
+          "quality_range": [
+            0.764,
+            0.799
+          ],
+          "format_stability": 0.7933,
+          "consumability": 0.8057,
+          "failure_probability": 0.058,
+          "drift_probability": 0.0459
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 29,
+      "service_key": "svc_structured_extraction_018",
+      "service_name": "抽取轻量服务29",
+      "category": "structured_extraction",
+      "category_name": "结构化抽取类",
+      "profile_name": "低价基础型",
+      "price": 0.0316,
+      "base_latency_ms": 988,
+      "latency_jitter_ms": 148,
+      "quality_range": [
+        0.56,
+        0.72
+      ],
+      "format_stability": 0.7454,
+      "consumability": 0.6507,
+      "failure_probability": 0.08,
+      "drift_probability": 0.03,
+      "tags": [
+        "structured_extraction类",
+        "低价基础型",
+        "研究要素抽取",
+        "结构化抽取",
+        "实体抽取",
+        "会议字段"
+      ],
+      "description": "经济抽取服务18，适合基础字段抽取、实体识别和轻量结构化处理，成本较低。重点适配研究要素抽取场景。",
+      "name": "抽取经济服务18",
+      "capabilities": {
+        "service_key": "svc_structured_extraction_018",
+        "profile_name": "低价基础型",
+        "features": [
+          "structured_extraction类",
+          "低价基础型",
+          "研究要素抽取",
+          "结构化抽取",
+          "实体抽取",
+          "会议字段"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 859,
+          "latency_jitter_ms": 131,
+          "quality_range": [
+            0.758,
+            0.777
+          ],
+          "format_stability": 0.7887,
+          "consumability": 0.8202,
+          "failure_probability": 0.0509,
+          "drift_probability": 0.0225
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 19,
+      "service_key": "svc_structured_extraction_019",
+      "service_name": "抽取全能服务19",
+      "category": "structured_extraction",
+      "category_name": "结构化抽取类",
+      "profile_name": "低时延响应型",
+      "price": 0.0351,
+      "base_latency_ms": 1627,
+      "latency_jitter_ms": 244,
+      "quality_range": [
+        0.88,
+        0.96
+      ],
+      "format_stability": 0.9514,
+      "consumability": 0.9575,
+      "failure_probability": 0.01,
+      "drift_probability": 0.01,
+      "tags": [
+        "structured_extraction类",
+        "低时延响应型",
+        "实体抽取",
+        "结构化抽取",
+        "会议字段"
+      ],
+      "description": "快速抽取服务19，适合会议要素提取、实体抽取和轻量字段识别，响应较快。重点适配实体抽取场景。",
+      "name": "抽取快速服务19",
+      "capabilities": {
+        "service_key": "svc_structured_extraction_019",
+        "profile_name": "低时延响应型",
+        "features": [
+          "structured_extraction类",
+          "低时延响应型",
+          "实体抽取",
+          "结构化抽取",
+          "会议字段"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 321,
+          "latency_jitter_ms": 155,
+          "quality_range": [
+            0.767,
+            0.804
+          ],
+          "format_stability": 0.7903,
+          "consumability": 0.812,
+          "failure_probability": 0.0698,
+          "drift_probability": 0.0369
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 27,
+      "service_key": "svc_structured_extraction_020",
+      "service_name": "抽取通用服务27",
+      "category": "structured_extraction",
+      "category_name": "结构化抽取类",
+      "profile_name": "低时延响应型",
+      "price": 0.0327,
+      "base_latency_ms": 702,
+      "latency_jitter_ms": 105,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.8424,
+      "consumability": 0.8878,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "structured_extraction类",
+        "低时延响应型",
+        "会议字段抽取",
+        "结构化抽取",
+        "实体抽取",
+        "会议字段"
+      ],
+      "description": "快速抽取服务20，适合会议要素提取、实体抽取和轻量字段识别，响应较快。重点适配会议字段抽取场景。",
+      "name": "抽取快速服务20",
+      "capabilities": {
+        "service_key": "svc_structured_extraction_020",
+        "profile_name": "低时延响应型",
+        "features": [
+          "structured_extraction类",
+          "低时延响应型",
+          "会议字段抽取",
+          "结构化抽取",
+          "实体抽取",
+          "会议字段"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 415,
+          "latency_jitter_ms": 178,
+          "quality_range": [
+            0.752,
+            0.833
+          ],
+          "format_stability": 0.8312,
+          "consumability": 0.8075,
+          "failure_probability": 0.0369,
+          "drift_probability": 0.0513
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 17,
+      "service_key": "svc_structured_extraction_021",
+      "service_name": "抽取低价快响服务17",
+      "category": "structured_extraction",
+      "category_name": "结构化抽取类",
+      "profile_name": "诱骗失真型",
+      "price": 0.0478,
+      "base_latency_ms": 770,
+      "latency_jitter_ms": 115,
+      "quality_range": [
+        0.5,
+        0.78
+      ],
+      "format_stability": 0.7231,
+      "consumability": 0.6242,
+      "failure_probability": 0.1,
+      "drift_probability": 0.08,
+      "tags": [
+        "structured_extraction类",
+        "诱骗失真型",
+        "实验字段抽取",
+        "结构化抽取",
+        "实体抽取",
+        "会议字段",
+        "字段完整"
+      ],
+      "description": "增强抽取服务21，强调字段完整、实体识别准确和项目要素提取，价格友好，适合高频结构化任务。重点适配实验字段抽取场景。",
+      "name": "抽取增强服务21",
+      "capabilities": {
+        "service_key": "svc_structured_extraction_021",
+        "profile_name": "诱骗失真型",
+        "features": [
+          "structured_extraction类",
+          "诱骗失真型",
+          "实验字段抽取",
+          "结构化抽取",
+          "实体抽取",
+          "会议字段",
+          "字段完整"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 423,
+          "latency_jitter_ms": 119,
+          "quality_range": [
+            0.791,
+            0.839
+          ],
+          "format_stability": 0.7672,
+          "consumability": 0.8301,
+          "failure_probability": 0.0363,
+          "drift_probability": 0.0315
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 18,
+      "service_key": "svc_structured_extraction_022",
+      "service_name": "抽取表面优服务18",
+      "category": "structured_extraction",
+      "category_name": "结构化抽取类",
+      "profile_name": "诱骗失真型",
+      "price": 0.0311,
+      "base_latency_ms": 751,
+      "latency_jitter_ms": 112,
+      "quality_range": [
+        0.5,
+        0.78
+      ],
+      "format_stability": 0.629,
+      "consumability": 0.4416,
+      "failure_probability": 0.1,
+      "drift_probability": 0.08,
+      "tags": [
+        "structured_extraction类",
+        "诱骗失真型",
+        "工单字段抽取",
+        "结构化抽取",
+        "实体抽取",
+        "会议字段",
+        "字段完整"
+      ],
+      "description": "增强抽取服务22，强调字段完整、实体识别准确和项目要素提取，价格友好，适合高频结构化任务。重点适配工单字段抽取场景。",
+      "name": "抽取增强服务22",
+      "capabilities": {
+        "service_key": "svc_structured_extraction_022",
+        "profile_name": "诱骗失真型",
+        "features": [
+          "structured_extraction类",
+          "诱骗失真型",
+          "工单字段抽取",
+          "结构化抽取",
+          "实体抽取",
+          "会议字段",
+          "字段完整"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 842,
+          "latency_jitter_ms": 143,
+          "quality_range": [
+            0.773,
+            0.814
+          ],
+          "format_stability": 0.77,
+          "consumability": 0.7478,
+          "failure_probability": 0.0694,
+          "drift_probability": 0.0575
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 17,
+      "service_key": "svc_structured_extraction_023",
+      "service_name": "抽取低价快响服务17",
+      "category": "structured_extraction",
+      "category_name": "结构化抽取类",
+      "profile_name": "诱骗失真型",
+      "price": 0.0445,
+      "base_latency_ms": 770,
+      "latency_jitter_ms": 115,
+      "quality_range": [
+        0.5,
+        0.78
+      ],
+      "format_stability": 0.7231,
+      "consumability": 0.6242,
+      "failure_probability": 0.1,
+      "drift_probability": 0.08,
+      "tags": [
+        "structured_extraction类",
+        "诱骗失真型",
+        "项目周报抽取",
+        "结构化抽取",
+        "实体抽取",
+        "会议字段",
+        "字段完整"
+      ],
+      "description": "增强抽取服务23，强调字段完整、实体识别准确和项目要素提取，价格友好，适合高频结构化任务。重点适配项目周报抽取场景。",
+      "name": "抽取增强服务23",
+      "capabilities": {
+        "service_key": "svc_structured_extraction_023",
+        "profile_name": "诱骗失真型",
+        "features": [
+          "structured_extraction类",
+          "诱骗失真型",
+          "项目周报抽取",
+          "结构化抽取",
+          "实体抽取",
+          "会议字段",
+          "字段完整"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 822,
+          "latency_jitter_ms": 137,
+          "quality_range": [
+            0.789,
+            0.819
+          ],
+          "format_stability": 0.8115,
+          "consumability": 0.7779,
+          "failure_probability": 0.0668,
+          "drift_probability": 0.0761
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 28,
+      "service_key": "svc_structured_extraction_024",
+      "service_name": "抽取诱骗服务28",
+      "category": "structured_extraction",
+      "category_name": "结构化抽取类",
+      "profile_name": "诱骗失真型",
+      "price": 0.0337,
+      "base_latency_ms": 708,
+      "latency_jitter_ms": 106,
+      "quality_range": [
+        0.5,
+        0.78
+      ],
+      "format_stability": 0.6407,
+      "consumability": 0.6056,
+      "failure_probability": 0.1,
+      "drift_probability": 0.08,
+      "tags": [
+        "structured_extraction类",
+        "诱骗失真型",
+        "研究要素抽取",
+        "结构化抽取",
+        "实体抽取",
+        "会议字段",
+        "字段完整"
+      ],
+      "description": "增强抽取服务24，强调字段完整、实体识别准确和项目要素提取，价格友好，适合高频结构化任务。重点适配研究要素抽取场景。",
+      "name": "抽取增强服务24",
+      "capabilities": {
+        "service_key": "svc_structured_extraction_024",
+        "profile_name": "诱骗失真型",
+        "features": [
+          "structured_extraction类",
+          "诱骗失真型",
+          "研究要素抽取",
+          "结构化抽取",
+          "实体抽取",
+          "会议字段",
+          "字段完整"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 776,
+          "latency_jitter_ms": 70,
+          "quality_range": [
+            0.765,
+            0.85
+          ],
+          "format_stability": 0.7582,
+          "consumability": 0.7746,
+          "failure_probability": 0.0575,
+          "drift_probability": 0.0315
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 17,
+      "service_key": "svc_structured_extraction_025",
+      "service_name": "抽取低价快响服务17",
+      "category": "structured_extraction",
+      "category_name": "结构化抽取类",
+      "profile_name": "诱骗失真型",
+      "price": 0.0421,
+      "base_latency_ms": 770,
+      "latency_jitter_ms": 115,
+      "quality_range": [
+        0.5,
+        0.78
+      ],
+      "format_stability": 0.7231,
+      "consumability": 0.6242,
+      "failure_probability": 0.1,
+      "drift_probability": 0.08,
+      "tags": [
+        "structured_extraction类",
+        "诱骗失真型",
+        "实体抽取",
+        "结构化抽取",
+        "会议字段",
+        "字段完整"
+      ],
+      "description": "抽取专家服务25，主打会议字段、实验字段和研究对象提取，适合复杂文段处理。重点适配实体抽取场景。",
+      "name": "抽取增强服务25",
+      "capabilities": {
+        "service_key": "svc_structured_extraction_025",
+        "profile_name": "诱骗失真型",
+        "features": [
+          "structured_extraction类",
+          "诱骗失真型",
+          "实体抽取",
+          "结构化抽取",
+          "会议字段",
+          "字段完整"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 836,
+          "latency_jitter_ms": 123,
+          "quality_range": [
+            0.808,
+            0.853
+          ],
+          "format_stability": 0.7768,
+          "consumability": 0.8292,
+          "failure_probability": 0.0444,
+          "drift_probability": 0.0487
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 20,
+      "service_key": "svc_structured_extraction_026",
+      "service_name": "抽取表面优服务20",
+      "category": "structured_extraction",
+      "category_name": "结构化抽取类",
+      "profile_name": "诱骗失真型",
+      "price": 0.0334,
+      "base_latency_ms": 845,
+      "latency_jitter_ms": 126,
+      "quality_range": [
+        0.5,
+        0.78
+      ],
+      "format_stability": 0.7868,
+      "consumability": 0.6809,
+      "failure_probability": 0.1,
+      "drift_probability": 0.08,
+      "tags": [
+        "structured_extraction类",
+        "诱骗失真型",
+        "会议字段抽取",
+        "结构化抽取",
+        "实体抽取",
+        "会议字段",
+        "字段完整"
+      ],
+      "description": "增强抽取服务26，强调字段完整、实体识别准确和项目要素提取，价格友好，适合高频结构化任务。重点适配会议字段抽取场景。",
+      "name": "抽取增强服务26",
+      "capabilities": {
+        "service_key": "svc_structured_extraction_026",
+        "profile_name": "诱骗失真型",
+        "features": [
+          "structured_extraction类",
+          "诱骗失真型",
+          "会议字段抽取",
+          "结构化抽取",
+          "实体抽取",
+          "会议字段",
+          "字段完整"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 570,
+          "latency_jitter_ms": 87,
+          "quality_range": [
+            0.806,
+            0.813
+          ],
+          "format_stability": 0.7913,
+          "consumability": 0.7811,
+          "failure_probability": 0.063,
+          "drift_probability": 0.0378
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 20,
+      "service_key": "svc_structured_extraction_027",
+      "service_name": "抽取表面优服务20",
+      "category": "structured_extraction",
+      "category_name": "结构化抽取类",
+      "profile_name": "诱骗失真型",
+      "price": 0.0457,
+      "base_latency_ms": 845,
+      "latency_jitter_ms": 126,
+      "quality_range": [
+        0.5,
+        0.78
+      ],
+      "format_stability": 0.7868,
+      "consumability": 0.6809,
+      "failure_probability": 0.1,
+      "drift_probability": 0.08,
+      "tags": [
+        "structured_extraction类",
+        "诱骗失真型",
+        "实验字段抽取",
+        "结构化抽取",
+        "实体抽取",
+        "会议字段",
+        "字段完整"
+      ],
+      "description": "增强抽取服务27，强调字段完整、实体识别准确和项目要素提取，价格友好，适合高频结构化任务。重点适配实验字段抽取场景。",
+      "name": "抽取增强服务27",
+      "capabilities": {
+        "service_key": "svc_structured_extraction_027",
+        "profile_name": "诱骗失真型",
+        "features": [
+          "structured_extraction类",
+          "诱骗失真型",
+          "实验字段抽取",
+          "结构化抽取",
+          "实体抽取",
+          "会议字段",
+          "字段完整"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 864,
+          "latency_jitter_ms": 155,
+          "quality_range": [
+            0.761,
+            0.852
+          ],
+          "format_stability": 0.8141,
+          "consumability": 0.7702,
+          "failure_probability": 0.0641,
+          "drift_probability": 0.0699
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 20,
+      "service_key": "svc_structured_extraction_028",
+      "service_name": "抽取表面优服务20",
+      "category": "structured_extraction",
+      "category_name": "结构化抽取类",
+      "profile_name": "诱骗失真型",
+      "price": 0.0455,
+      "base_latency_ms": 845,
+      "latency_jitter_ms": 126,
+      "quality_range": [
+        0.5,
+        0.78
+      ],
+      "format_stability": 0.7868,
+      "consumability": 0.6809,
+      "failure_probability": 0.1,
+      "drift_probability": 0.08,
+      "tags": [
+        "structured_extraction类",
+        "诱骗失真型",
+        "工单字段抽取",
+        "结构化抽取",
+        "实体抽取",
+        "会议字段",
+        "字段完整"
+      ],
+      "description": "抽取专家服务28，主打会议字段、实验字段和研究对象提取，适合复杂文段处理。重点适配工单字段抽取场景。",
+      "name": "抽取增强服务28",
+      "capabilities": {
+        "service_key": "svc_structured_extraction_028",
+        "profile_name": "诱骗失真型",
+        "features": [
+          "structured_extraction类",
+          "诱骗失真型",
+          "工单字段抽取",
+          "结构化抽取",
+          "实体抽取",
+          "会议字段",
+          "字段完整"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 570,
+          "latency_jitter_ms": 106,
+          "quality_range": [
+            0.803,
+            0.828
+          ],
+          "format_stability": 0.7762,
+          "consumability": 0.8277,
+          "failure_probability": 0.0731,
+          "drift_probability": 0.0665
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 30,
+      "service_key": "svc_structured_extraction_029",
+      "service_name": "抽取波动服务30",
+      "category": "structured_extraction",
+      "category_name": "结构化抽取类",
+      "profile_name": "漂移波动型",
+      "price": 0.0626,
+      "base_latency_ms": 1507,
+      "latency_jitter_ms": 226,
+      "quality_range": [
+        0.55,
+        0.9
+      ],
+      "format_stability": 0.6544,
+      "consumability": 0.6272,
+      "failure_probability": 0.08,
+      "drift_probability": 0.18,
+      "tags": [
+        "structured_extraction类",
+        "漂移波动型",
+        "项目周报抽取",
+        "结构化抽取",
+        "实体抽取",
+        "会议字段"
+      ],
+      "description": "structured_extraction类服务29，画像为漂移波动型，面向项目周报抽取场景。",
+      "name": "抽取波动服务29",
+      "capabilities": {
+        "service_key": "svc_structured_extraction_029",
+        "profile_name": "漂移波动型",
+        "features": [
+          "structured_extraction类",
+          "漂移波动型",
+          "项目周报抽取",
+          "结构化抽取",
+          "实体抽取",
+          "会议字段"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 683,
+          "latency_jitter_ms": 111,
+          "quality_range": [
+            0.811,
+            0.899
+          ],
+          "format_stability": 0.7239,
+          "consumability": 0.8688,
+          "failure_probability": 0.0324,
+          "drift_probability": 0.0937
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 23,
+      "service_key": "svc_structured_extraction_030",
+      "service_name": "抽取易错服务23",
+      "category": "structured_extraction",
+      "category_name": "结构化抽取类",
+      "profile_name": "故障脆弱型",
+      "price": 0.0566,
+      "base_latency_ms": 1389,
+      "latency_jitter_ms": 208,
+      "quality_range": [
+        0.45,
+        0.75
+      ],
+      "format_stability": 0.528,
+      "consumability": 0.6772,
+      "failure_probability": 0.18,
+      "drift_probability": 0.05,
+      "tags": [
+        "structured_extraction类",
+        "故障脆弱型",
+        "研究要素抽取",
+        "结构化抽取",
+        "实体抽取",
+        "会议字段"
+      ],
+      "description": "structured_extraction类服务30，画像为故障脆弱型，面向研究要素抽取场景。",
+      "name": "抽取脆弱服务30",
+      "capabilities": {
+        "service_key": "svc_structured_extraction_030",
+        "profile_name": "故障脆弱型",
+        "features": [
+          "structured_extraction类",
+          "故障脆弱型",
+          "研究要素抽取",
+          "结构化抽取",
+          "实体抽取",
+          "会议字段"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 774,
+          "latency_jitter_ms": 147,
+          "quality_range": [
+            0.721,
+            0.833
+          ],
+          "format_stability": 0.7837,
+          "consumability": 0.7397,
+          "failure_probability": 0.0889,
+          "drift_probability": 0.0418
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 31,
+      "service_key": "svc_routing_classification_001",
+      "service_name": "路由通用服务31",
+      "category": "routing_classification",
+      "category_name": "分类路由判断类",
+      "profile_name": "平衡实用型",
+      "price": 0.073,
+      "base_latency_ms": 1225,
+      "latency_jitter_ms": 183,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.9046,
+      "consumability": 0.8825,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "routing_classification类",
+        "平衡实用型",
+        "办公室任务分类",
+        "请求分类",
+        "工单路由",
+        "规则判别"
+      ],
+      "description": "路由平衡服务1，适合请求分类、任务归类与规则判定，适合通用路由场景。重点适配办公室任务分类场景。",
+      "name": "路由平衡服务1",
+      "capabilities": {
+        "service_key": "svc_routing_classification_001",
+        "profile_name": "平衡实用型",
+        "features": [
+          "routing_classification类",
+          "平衡实用型",
+          "办公室任务分类",
+          "请求分类",
+          "工单路由",
+          "规则判别"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 782,
+          "latency_jitter_ms": 149,
+          "quality_range": [
+            0.863,
+            0.899
+          ],
+          "format_stability": 0.9053,
+          "consumability": 0.9352,
+          "failure_probability": 0.0297,
+          "drift_probability": 0.0143
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 31,
+      "service_key": "svc_routing_classification_002",
+      "service_name": "路由通用服务31",
+      "category": "routing_classification",
+      "category_name": "分类路由判断类",
+      "profile_name": "平衡实用型",
+      "price": 0.0683,
+      "base_latency_ms": 1225,
+      "latency_jitter_ms": 183,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.9046,
+      "consumability": 0.8825,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "routing_classification类",
+        "平衡实用型",
+        "工单路由",
+        "请求分类",
+        "规则判别"
+      ],
+      "description": "路由平衡服务2，适合请求分类、任务归类与规则判定，适合通用路由场景。重点适配工单路由场景。",
+      "name": "路由平衡服务2",
+      "capabilities": {
+        "service_key": "svc_routing_classification_002",
+        "profile_name": "平衡实用型",
+        "features": [
+          "routing_classification类",
+          "平衡实用型",
+          "工单路由",
+          "请求分类",
+          "规则判别"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 659,
+          "latency_jitter_ms": 84,
+          "quality_range": [
+            0.877,
+            0.914
+          ],
+          "format_stability": 0.9331,
+          "consumability": 0.8671,
+          "failure_probability": 0.0293,
+          "drift_probability": 0.0177
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 32,
+      "service_key": "svc_routing_classification_003",
+      "service_name": "路由实用服务32",
+      "category": "routing_classification",
+      "category_name": "分类路由判断类",
+      "profile_name": "平衡实用型",
+      "price": 0.071,
+      "base_latency_ms": 1390,
+      "latency_jitter_ms": 208,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.8783,
+      "consumability": 0.8421,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "routing_classification类",
+        "平衡实用型",
+        "请求路由",
+        "请求分类",
+        "工单路由",
+        "规则判别"
+      ],
+      "description": "路由平衡服务3，适合请求分类、任务归类与规则判定，适合通用路由场景。重点适配请求路由场景。",
+      "name": "路由平衡服务3",
+      "capabilities": {
+        "service_key": "svc_routing_classification_003",
+        "profile_name": "平衡实用型",
+        "features": [
+          "routing_classification类",
+          "平衡实用型",
+          "请求路由",
+          "请求分类",
+          "工单路由",
+          "规则判别"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 709,
+          "latency_jitter_ms": 133,
+          "quality_range": [
+            0.857,
+            0.894
+          ],
+          "format_stability": 0.9337,
+          "consumability": 0.9195,
+          "failure_probability": 0.0118,
+          "drift_probability": 0.0112
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 32,
+      "service_key": "svc_routing_classification_004",
+      "service_name": "路由实用服务32",
+      "category": "routing_classification",
+      "category_name": "分类路由判断类",
+      "profile_name": "平衡实用型",
+      "price": 0.0679,
+      "base_latency_ms": 1390,
+      "latency_jitter_ms": 208,
+      "quality_range": [
+        0.72,
+        0.84
+      ],
+      "format_stability": 0.8783,
+      "consumability": 0.8421,
+      "failure_probability": 0.04,
+      "drift_probability": 0.03,
+      "tags": [
+        "routing_classification类",
+        "平衡实用型",
+        "规则判别",
+        "请求分类",
+        "工单路由"
+      ],
+      "description": "路由平衡服务4，适合请求分类、任务归类与规则判定，适合通用路由场景。重点适配规则判别场景。",
+      "name": "路由平衡服务4",
+      "capabilities": {
+        "service_key": "svc_routing_classification_004",
+        "profile_name": "平衡实用型",
+        "features": [
+          "routing_classification类",
+          "平衡实用型",
+          "规则判别",
+          "请求分类",
+          "工单路由"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 668,
+          "latency_jitter_ms": 170,
+          "quality_range": [
+            0.859,
+            0.911
+          ],
+          "format_stability": 0.9346,
+          "consumability": 0.9174,
+          "failure_probability": 0.0356,
+          "drift_probability": 0.016
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 38,
+      "service_key": "svc_routing_classification_005",
+      "service_name": "路由经济服务38",
+      "category": "routing_classification",
+      "category_name": "分类路由判断类",
+      "profile_name": "低价基础型",
+      "price": 0.0239,
+      "base_latency_ms": 652,
+      "latency_jitter_ms": 97,
+      "quality_range": [
+        0.56,
+        0.72
+      ],
+      "format_stability": 0.7763,
+      "consumability": 0.773,
+      "failure_probability": 0.08,
+      "drift_probability": 0.03,
+      "tags": [
+        "routing_classification类",
+        "低价基础型",
+        "办公室任务分类",
+        "请求分类",
+        "工单路由",
+        "规则判别"
+      ],
+      "description": "经济路由服务5，适合基础请求分类与规则路由，成本较低。重点适配办公室任务分类场景。",
+      "name": "路由经济服务5",
+      "capabilities": {
+        "service_key": "svc_routing_classification_005",
+        "profile_name": "低价基础型",
+        "features": [
+          "routing_classification类",
+          "低价基础型",
+          "办公室任务分类",
+          "请求分类",
+          "工单路由",
+          "规则判别"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 736,
+          "latency_jitter_ms": 100,
+          "quality_range": [
+            0.763,
+            0.772
+          ],
+          "format_stability": 0.7992,
+          "consumability": 0.8206,
+          "failure_probability": 0.0307,
+          "drift_probability": 0.0458
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 38,
+      "service_key": "svc_routing_classification_006",
+      "service_name": "路由经济服务38",
+      "category": "routing_classification",
+      "category_name": "分类路由判断类",
+      "profile_name": "低价基础型",
+      "price": 0.0229,
+      "base_latency_ms": 652,
+      "latency_jitter_ms": 97,
+      "quality_range": [
+        0.56,
+        0.72
+      ],
+      "format_stability": 0.7763,
+      "consumability": 0.773,
+      "failure_probability": 0.08,
+      "drift_probability": 0.03,
+      "tags": [
+        "routing_classification类",
+        "低价基础型",
+        "工单路由",
+        "请求分类",
+        "规则判别"
+      ],
+      "description": "经济路由服务6，适合基础请求分类与规则路由，成本较低。重点适配工单路由场景。",
+      "name": "路由经济服务6",
+      "capabilities": {
+        "service_key": "svc_routing_classification_006",
+        "profile_name": "低价基础型",
+        "features": [
+          "routing_classification类",
+          "低价基础型",
+          "工单路由",
+          "请求分类",
+          "规则判别"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 930,
+          "latency_jitter_ms": 62,
+          "quality_range": [
+            0.739,
+            0.786
+          ],
+          "format_stability": 0.8363,
+          "consumability": 0.8453,
+          "failure_probability": 0.0433,
+          "drift_probability": 0.0431
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 33,
+      "service_key": "svc_routing_classification_007",
+      "service_name": "路由低价快响服务33",
+      "category": "routing_classification",
+      "category_name": "分类路由判断类",
+      "profile_name": "诱骗失真型",
+      "price": 0.0355,
+      "base_latency_ms": 800,
+      "latency_jitter_ms": 120,
+      "quality_range": [
+        0.5,
+        0.78
+      ],
+      "format_stability": 0.5908,
+      "consumability": 0.4345,
+      "failure_probability": 0.1,
+      "drift_probability": 0.08,
+      "tags": [
+        "routing_classification类",
+        "诱骗失真型",
+        "请求路由",
+        "请求分类",
+        "工单路由",
+        "规则判别",
+        "智能判别",
+        "快速分流"
+      ],
+      "description": "增强路由服务7，强调智能判别、快速分流与多规则适配，适合常规任务分类。重点适配请求路由场景。",
+      "name": "路由增强服务7",
+      "capabilities": {
+        "service_key": "svc_routing_classification_007",
+        "profile_name": "诱骗失真型",
+        "features": [
+          "routing_classification类",
+          "诱骗失真型",
+          "请求路由",
+          "请求分类",
+          "工单路由",
+          "规则判别",
+          "智能判别",
+          "快速分流"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 435,
+          "latency_jitter_ms": 106,
+          "quality_range": [
+            0.785,
+            0.832
+          ],
+          "format_stability": 0.8008,
+          "consumability": 0.837,
+          "failure_probability": 0.0727,
+          "drift_probability": 0.048
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 33,
+      "service_key": "svc_routing_classification_008",
+      "service_name": "路由低价快响服务33",
+      "category": "routing_classification",
+      "category_name": "分类路由判断类",
+      "profile_name": "诱骗失真型",
+      "price": 0.0249,
+      "base_latency_ms": 800,
+      "latency_jitter_ms": 120,
+      "quality_range": [
+        0.5,
+        0.78
+      ],
+      "format_stability": 0.5908,
+      "consumability": 0.4345,
+      "failure_probability": 0.1,
+      "drift_probability": 0.08,
+      "tags": [
+        "routing_classification类",
+        "诱骗失真型",
+        "规则判别",
+        "请求分类",
+        "工单路由",
+        "智能判别",
+        "快速分流"
+      ],
+      "description": "增强路由服务8，强调智能判别、快速分流与多规则适配，适合常规任务分类。重点适配规则判别场景。",
+      "name": "路由增强服务8",
+      "capabilities": {
+        "service_key": "svc_routing_classification_008",
+        "profile_name": "诱骗失真型",
+        "features": [
+          "routing_classification类",
+          "诱骗失真型",
+          "规则判别",
+          "请求分类",
+          "工单路由",
+          "智能判别",
+          "快速分流"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 786,
+          "latency_jitter_ms": 175,
+          "quality_range": [
+            0.796,
+            0.825
+          ],
+          "format_stability": 0.8247,
+          "consumability": 0.7668,
+          "failure_probability": 0.0698,
+          "drift_probability": 0.0612
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 36,
+      "service_key": "svc_routing_classification_009",
+      "service_name": "路由专家服务36",
+      "category": "routing_classification",
+      "category_name": "分类路由判断类",
+      "profile_name": "领域专精型",
+      "price": 0.0869,
+      "base_latency_ms": 1626,
+      "latency_jitter_ms": 243,
+      "quality_range": [
+        0.8,
+        0.92
+      ],
+      "format_stability": 0.9153,
+      "consumability": 0.9008,
+      "failure_probability": 0.03,
+      "drift_probability": 0.02,
+      "tags": [
+        "routing_classification类",
+        "领域专精型",
+        "办公室任务分类",
+        "请求分类",
+        "工单路由",
+        "规则判别"
+      ],
+      "description": "路由专精服务9，强化工单分类、请求路由和流程判别，适合复杂判别任务。重点适配办公室任务分类场景。",
+      "name": "路由专精服务9",
+      "capabilities": {
+        "service_key": "svc_routing_classification_009",
+        "profile_name": "领域专精型",
+        "features": [
+          "routing_classification类",
+          "领域专精型",
+          "办公室任务分类",
+          "请求分类",
+          "工单路由",
+          "规则判别"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 1048,
+          "latency_jitter_ms": 90,
+          "quality_range": [
+            0.898,
+            0.937
+          ],
+          "format_stability": 0.8746,
+          "consumability": 0.9324,
+          "failure_probability": 0.0125,
+          "drift_probability": 0.0161
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    },
+    {
+      "service_id": 39,
+      "service_key": "svc_routing_classification_010",
+      "service_name": "路由专家服务39",
+      "category": "routing_classification",
+      "category_name": "分类路由判断类",
+      "profile_name": "领域专精型",
+      "price": 0.084,
+      "base_latency_ms": 1069,
+      "latency_jitter_ms": 160,
+      "quality_range": [
+        0.8,
+        0.92
+      ],
+      "format_stability": 0.8641,
+      "consumability": 0.8707,
+      "failure_probability": 0.03,
+      "drift_probability": 0.02,
+      "tags": [
+        "routing_classification类",
+        "领域专精型",
+        "工单路由",
+        "请求分类",
+        "规则判别"
+      ],
+      "description": "路由专精服务10，强化工单分类、请求路由和流程判别，适合复杂判别任务。重点适配工单路由场景。",
+      "name": "路由专精服务10",
+      "capabilities": {
+        "service_key": "svc_routing_classification_010",
+        "profile_name": "领域专精型",
+        "features": [
+          "routing_classification类",
+          "领域专精型",
+          "工单路由",
+          "请求分类",
+          "规则判别"
+        ],
+        "mock_behavior": {
+          "base_latency_ms": 1108,
+          "latency_jitter_ms": 162,
+          "quality_range": [
+            0.886,
+            0.908
+          ],
+          "format_stability": 0.9418,
+          "consumability": 0.8888,
+          "failure_probability": 0.0247,
+          "drift_probability": 0.0195
+        }
+      },
+      "protocol": "HTTP",
+      "supported_protocols": [
+        "HTTP"
+      ],
+      "authentication_required": false,
+      "pricing_model": "per_call"
+    }
+  ]
+}

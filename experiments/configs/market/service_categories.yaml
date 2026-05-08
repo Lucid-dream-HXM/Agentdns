@@ -1,0 +1,72 @@
+version: 1
+categories:
+  - category_id: text_summary
+    category_name: 文本摘要类
+    target_count: 16
+    description: 面向长文本摘要、会议纪要、要点压缩与资料整理任务。
+    core_use_cases: [长文摘要, 要点提取, 纪要整理]
+    allowed_profiles: [旗舰通用型, 平衡实用型, 低价基础型, 低时延响应型, 领域专精型, 漂移波动型, 故障脆弱型, 诱骗失真型]
+    priority_level: high
+  - category_id: structured_extraction
+    category_name: 结构化抽取类
+    target_count: 14
+    description: 面向字段抽取、事件抽取、实体抽取与结构化信息整理任务。
+    core_use_cases: [字段抽取, JSON输出, 表格抽取]
+    allowed_profiles: [旗舰通用型, 平衡实用型, 低价基础型, 低时延响应型, 领域专精型, 漂移波动型, 故障脆弱型, 诱骗失真型]
+    priority_level: high
+  - category_id: routing_classification
+    category_name: 分类路由判断类
+    target_count: 10
+    description: 面向任务分类、路由判断、服务类型判别等元能力任务。
+    core_use_cases: [任务分类, 路由判断, 类型识别]
+    allowed_profiles: [平衡实用型, 低价基础型, 低时延响应型, 领域专精型, 漂移波动型, 诱骗失真型]
+    priority_level: medium
+  - category_id: translation
+    category_name: 翻译类
+    target_count: 8
+    description: 面向中英互译、多语转换与跨语言预处理任务。
+    core_use_cases: [中英翻译, 多语转换]
+    allowed_profiles: [旗舰通用型, 平衡实用型, 低价基础型, 低时延响应型, 领域专精型, 漂移波动型]
+    priority_level: medium
+  - category_id: rewriting_polishing
+    category_name: 改写润色类
+    target_count: 8
+    description: 面向改写、润色、风格调整、扩写与压缩任务。
+    core_use_cases: [改写, 润色, 风格调整]
+    allowed_profiles: [平衡实用型, 低价基础型, 低时延响应型, 领域专精型, 漂移波动型, 诱骗失真型]
+    priority_level: medium
+  - category_id: format_conversion
+    category_name: 格式转换类
+    target_count: 8
+    description: 面向 Markdown、JSON、表格、模板化输出等格式转换任务。
+    core_use_cases: [Markdown转JSON, 表格化输出, 模板填充]
+    allowed_profiles: [平衡实用型, 低价基础型, 低时延响应型, 故障脆弱型, 诱骗失真型]
+    priority_level: medium
+  - category_id: validation_correction
+    category_name: 校验纠错类
+    target_count: 8
+    description: 面向格式校验、字段核验、逻辑纠错与结果修正任务。
+    core_use_cases: [格式校验, 错误修正, 字段核验]
+    allowed_profiles: [平衡实用型, 低时延响应型, 领域专精型, 漂移波动型, 故障脆弱型, 诱骗失真型]
+    priority_level: medium
+  - category_id: retrieval
+    category_name: 检索信息获取类
+    target_count: 10
+    description: 面向片段筛选、模拟检索、材料召回与信息获取任务。
+    core_use_cases: [信息筛选, 材料召回, 片段匹配]
+    allowed_profiles: [旗舰通用型, 平衡实用型, 低价基础型, 低时延响应型, 领域专精型, 漂移波动型, 故障脆弱型]
+    priority_level: high
+  - category_id: planning
+    category_name: 规划拆分类
+    target_count: 8
+    description: 面向复杂任务拆分、步骤编排与调用计划生成任务。
+    core_use_cases: [任务拆分, 步骤规划, 调用编排]
+    allowed_profiles: [旗舰通用型, 平衡实用型, 领域专精型, 漂移波动型, 故障脆弱型, 诱骗失真型]
+    priority_level: medium
+  - category_id: aggregation
+    category_name: 聚合最终生成类
+    target_count: 10
+    description: 面向多步结果汇总、结论整合与最终答案生成任务。
+    core_use_cases: [结果汇总, 最终回答, 结论整合]
+    allowed_profiles: [旗舰通用型, 平衡实用型, 低价基础型, 低时延响应型, 领域专精型, 漂移波动型, 诱骗失真型]
+    priority_level: high

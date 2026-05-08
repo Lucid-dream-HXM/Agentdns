@@ -1,0 +1,5 @@
+group_name,round_index,phase_name,task_count,task_success_rate,avg_oracle_utility,avg_total_cost
+基础解析组,1,冷启动,12,0.9167,0.8054,0.5139
+基础解析组,2,短期预热,12,0.9167,0.803,0.4876
+基础解析组,3,中期运行,12,1.0,0.8125,0.5141
+基础解析组,4,持续运行,12,0.8333,0.8046,0.4459
