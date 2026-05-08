@@ -1,0 +1,160 @@
+services:
+  # PostgreSQL数据库 - 用于存储用户、服务、组织等结构化数据
+  postgres:
+    image: postgres:15-alpine  # PostgreSQL 15 Alpine镜像
+    container_name: agentdns-postgres  # 容器名称
+    environment:  # 环境变量配置
+      POSTGRES_DB: agentdns  # 数据库名称
+      POSTGRES_USER: agentdns  # 数据库用户名
+      POSTGRES_PASSWORD: agentdns123  # 数据库密码
+    volumes:  # 数据卷挂载
+      - postgres_data:/var/lib/postgresql/data  # 持久化数据库数据
+      - ./scripts/init-db.sql:/docker-entrypoint-initdb.d/init-db.sql  # 初始化脚本
+    ports:  # 端口映射
+      - "5432:5432"  # 映射PostgreSQL默认端口
+    networks:  # 网络配置
+      - agentdns-network  # 连接到AgentDNS网络
+
+  # Redis缓存 - 用于会话存储和临时数据缓存
+  redis:
+    image: redis:7-alpine  # Redis 7 Alpine镜像
+    container_name: agentdns-redis  # 容器名称
+    command: redis-server --appendonly yes  # 启用AOF持久化
+    volumes:  # 数据卷挂载
+      - redis_data:/data  # 持久化Redis数据
+    ports:  # 端口映射
+      - "6379:6379"  # 映射Redis默认端口
+    networks:  # 网络配置
+      - agentdns-network  # 连接到AgentDNS网络
+
+  # Etcd for Milvus - 用于Milvus的分布式键值存储
+  etcd:
+    container_name: milvus-etcd  # 容器名称
+    image: quay.io/coreos/etcd:v3.5.18  # Etcd v3.5.18镜像
+    environment:  # 环境变量配置
+      - ETCD_AUTO_COMPACTION_MODE=revision  # 自动压缩模式
+      - ETCD_AUTO_COMPACTION_RETENTION=1000  # 自动压缩保留数量
+      - ETCD_QUOTA_BACKEND_BYTES=4294967296  # 后端配额（4GB）
+      - ETCD_SNAPSHOT_COUNT=50000  # 快照计数
+    volumes:  # 数据卷挂载
+      - etcd_data:/etcd  # 持久化Etcd数据
+    command: etcd -advertise-client-urls=http://etcd:2379 -listen-client-urls http://0.0.0.0:2379 --data-dir /etcd  # Etcd启动命令
+    healthcheck:  # 健康检查配置
+      test: ["CMD", "etcdctl", "endpoint", "health"]  # 健康检查命令
+      interval: 30s  # 检查间隔
+      timeout: 20s  # 超时时间
+      retries: 3  # 重试次数
+    networks:  # 网络配置
+      - agentdns-network  # 连接到AgentDNS网络
+
+  # MinIO for Milvus - 用于Milvus的对象存储
+  minio:
+    container_name: milvus-minio  # 容器名称
+    image: minio/minio:latest  # MinIO镜像
+    environment:  # 环境变量配置
+      MINIO_ACCESS_KEY: minioadmin  # 访问密钥
+      MINIO_SECRET_KEY: minioadmin  # 密钥
+    ports:  # 端口映射
+      - "9001:9001"  # MinIO控制台端口
+      - "9000:9000"  # MinIO服务端口
+    volumes:  # 数据卷挂载
+      - minio_data:/minio_data  # 持久化MinIO数据
+    command: minio server /minio_data --console-address ":9001"  # MinIO启动命令
+    healthcheck:  # 健康检查配置
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]  # 健康检查命令
+      interval: 30s  # 检查间隔
+      timeout: 20s  # 超时时间
+      retries: 3  # 重试次数
+    networks:  # 网络配置
+      - agentdns-network  # 连接到AgentDNS网络
+
+  # Milvus向量数据库 - 用于存储服务的向量嵌入，实现语义搜索功能
+  milvus:
+    container_name: agentdns-milvus  # 容器名称
+    image: milvusdb/milvus:v2.5.18  # Milvus v2.5.18镜像
+    command: ["milvus", "run", "standalone"]  # 以独立模式运行Milvus
+    security_opt:  # 安全选项
+      - seccomp:unconfined  # 禁用seccomp限制
+    environment:  # 环境变量配置
+      MINIO_REGION: us-east-1  # MinIO区域
+      ETCD_ENDPOINTS: etcd:2379  # Etcd端点
+      MINIO_ADDRESS: minio:9000  # MinIO地址
+    volumes:  # 数据卷挂载
+      - milvus_data:/var/lib/milvus  # 持久化Milvus数据
+    healthcheck:  # 健康检查配置
+      test: ["CMD-SHELL", "nc -z localhost 19530 || exit 1"]  # 健康检查命令
+      interval: 30s  # 检查间隔
+      start_period: 90s  # 启动等待期
+      timeout: 20s  # 超时时间
+      retries: 3  # 重试次数
+    ports:  # 端口映射
+      - "19530:19530"  # Milvus服务端口
+      - "9091:9091"  # Milvus监控端口
+    depends_on:  # 依赖服务
+      - "etcd"  # 依赖Etcd服务
+      - "minio"  # 依赖MinIO服务
+    networks:  # 网络配置
+      - agentdns-network  # 连接到AgentDNS网络
+
+  backend:
+    build:
+      context: ./agentdns-backend
+      dockerfile: Dockerfile
+    container_name: agentdns-backend
+    environment:
+      DATABASE_URL: postgresql://agentdns:agentdns123@postgres:5432/agentdns
+      REDIS_URL: redis://redis:6379/0
+      MILVUS_HOST: milvus
+      MILVUS_PORT: 19530
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-dummy}
+      SECRET_KEY: your_secret_key_here_make_it_very_long_and_random
+      ACCESS_TOKEN_EXPIRE_MINUTES: 30
+      DEBUG: "false"
+    depends_on:
+      - postgres
+      - redis
+      - milvus
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./agentdns-backend:/app
+    networks:
+      - agentdns-network
+    restart: unless-stopped
+
+  # 管理端前端Web应用 - 为管理员提供管理界面（前端目录不存在，注释掉）
+  # admin-frontend:
+  #   build:  # 构建配置
+  #     context: ./agentdns-frontend  # 构建上下文
+  #     dockerfile: Dockerfile  # Dockerfile路径
+  #   container_name: agentdns-admin-frontend  # 容器名称
+  #   depends_on:  # 依赖服务
+  #     - backend  # 依赖后端API服务
+  #   ports:  # 端口映射
+  #     - "3001:80"  # 映射管理端前端端口
+  #   networks:  # 网络配置
+  #     - agentdns-network  # 连接到AgentDNS网络
+
+  # 客户端前端Web应用 - 为终端用户提供服务发现界面（前端目录不存在，注释掉）
+  # customer-frontend:
+  #   build:  # 构建配置
+  #     context: ./customer-frontend  # 构建上下文
+  #     dockerfile: Dockerfile  # Dockerfile路径
+  #   container_name: agentdns-customer-frontend  # 容器名称
+  #   depends_on:  # 依赖服务
+  #     - backend  # 依赖后端API服务
+  #   ports:  # 端口映射
+  #     - "3000:3000"  # 映射客户端前端端口
+  #   networks:  # 网络配置
+  #     - agentdns-network  # 连接到AgentDNS网络
+
+volumes:  # 数据卷定义
+  postgres_data:  # PostgreSQL数据卷
+  redis_data:  # Redis数据卷
+  etcd_data:  # Etcd数据卷
+  minio_data:  # MinIO数据卷
+  milvus_data:  # Milvus数据卷
+
+networks:  # 网络定义
+  agentdns-network:  # AgentDNS专用网络
+    driver: bridge  # 使用桥接网络驱动

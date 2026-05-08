@@ -1,0 +1,53 @@
+# FastAPI框架 - 现代高性能Web框架，用于构建API
+fastapi==0.119.0
+
+# Uvicorn - ASGI服务器，用于运行FastAPI应用
+uvicorn[standard]==0.30.1
+
+# SQLAlchemy - Python SQL工具包和ORM，用于数据库操作
+sqlalchemy==2.0.42
+
+# Alembic - 数据库迁移工具，用于管理数据库模式变更
+alembic==1.14.0
+
+# Psycopg2-binary - PostgreSQL数据库适配器
+psycopg2-binary==2.9.9
+
+# Redis - Redis客户端库，用于缓存和会话存储
+redis==6.4.0
+
+# Python-JOSE - JSON Web令牌（JWT）库，用于身份验证
+python-jose[cryptography]==3.4.0
+
+# Passlib - 密码哈希库，用于安全地存储密码
+passlib[bcrypt]==1.7.2
+
+# Python-multipart - 处理multipart表单数据（如文件上传）
+python-multipart==0.0.20
+
+# Pydantic - 数据验证和设置管理库
+pydantic[email]==2.11.0
+
+# Pydantic-settings - Pydantic的设置管理扩展
+pydantic-settings==2.3.0
+
+# HTTPX - 现代异步HTTP客户端
+httpx==0.26.0
+
+# OpenAI - OpenAI API客户端库，用于调用嵌入服务
+openai==1.6.0
+
+# TikToken - OpenAI的令牌编码器，用于计算文本令牌数
+tiktoken==0.6.0
+
+# PyMilvus - Milvus向量数据库的Python客户端
+pymilvus==2.6.2
+
+# Cryptography - 密码学库，用于加密操作
+cryptography==46.0.0
+
+# gRPCio - gRPC框架的Python实现
+grpcio==1.75.1
+
+# Environs - 环境变量解析库
+environs==14.3.0
